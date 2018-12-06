@@ -1,0 +1,8 @@
+<% provide(:title, '全部评论') %>
+<h3>全部评论(<%= @comments.count %>)</h3>
+
+<ul class="comment">
+    <%= render @comments %>
+</ul>
+
+<%= will_paginate %>

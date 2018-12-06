@@ -1,0 +1,15 @@
+<% provide(:title, "个人信息") %>
+<h1><%= @user.name %></h1>
+<h2><%= @user.email %></h2>
+<div class="unav">
+    <ul>
+        <li><%= link_to "关注通知", user_path(:opt=>0) %></li>
+        <li><%= link_to "我的点评", user_path(:opt=>1) %></li>
+        <li><%= link_to "我的关注", user_path(:opt=>2) %></li>
+    </ul>
+</div>
+<%= render @pageOpt %>
+<% content_for :javascript do %>
+    <script type="text/javascript">
+    </script>
+<% end %>

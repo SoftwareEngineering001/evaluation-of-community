@@ -1,0 +1,7 @@
+<% if @user.comments.any? %>
+  <h3>评论 (<%= @user.comments.count %>)</h3>
+  <ol class="comment">
+    <%= render @ucomments %>
+  </ol>
+  <%= will_paginate @ucomments %>
+<% end %>

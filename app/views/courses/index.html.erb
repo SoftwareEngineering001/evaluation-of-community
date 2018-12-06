@@ -1,0 +1,14 @@
+<% provide(:title, '全部课程') %>
+<h3>全部课程(<%= @courses.count %>)</h3>
+<% if logged_in? && current_user.admin %>
+    <span>上传课程csv文件</span>
+    <%= form_tag({action: :upload}, multipart: true) do %>
+        <%= file_field_tag 'course_csv' %>
+        <%= submit_tag("上传") %>
+    <% end %>
+<% end %>
+<ul class="course">
+    <%= render @courses %>
+</ul>
+
+<%= will_paginate %>

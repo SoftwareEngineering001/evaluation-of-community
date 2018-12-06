@@ -1,0 +1,10 @@
+<li id="comment-<%= comment.id %>">
+ 
+  <span class="user"><%= link_to comment.user.name, comment.user %> 点评了 
+                     <%= link_to "#{comment.course.title}(#{comment.course.teacher})", comment.course %>  </span>
+  <span class="content"><%= comment.content %></span>
+  <span class="timestamp">发表于 <%= comment.created_at %>  </span>
+  <% if (current_user && current_user.admin?) || (current_user?(comment.user)) %>
+    | <%= link_to "删除", comment_path(comment,:page=>@curpage), method: :delete, data: { confirm: "确定删除吗?" } %>
+  <% end %>
+</li>

@@ -1,0 +1,17 @@
+.unav ul{
+    text-align: center;
+    //width: 100%;
+}
+.unav li{
+    display:inline-block;
+    color: #000;
+    cursor: pointer;
+}
+.unav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    //color: #dadada;
+    text-align: center;
+    line-height: 60px;
+    margin:0 20px;
+}
