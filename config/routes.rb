@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'about' => 'static_pages#about'
   get 'home' => 'static_pages#home'
   get 'rules' => 'static_pages#rules'
+  get 'setup' => 'static_pages#setup'
   get    'login'   => 'sessions#new'
   post   'login'   => 'sessions#create'
   delete 'logout'  => 'sessions#destroy'
