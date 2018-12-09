@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   root 'comments#index'
   get 'help' => 'static_pages#help'
   get 'about' => 'static_pages#about'
+  get 'home' => 'static_pages#home'
+  get 'rules' => 'static_pages#rules'
   get    'login'   => 'sessions#new'
   post   'login'   => 'sessions#create'
   delete 'logout'  => 'sessions#destroy'
