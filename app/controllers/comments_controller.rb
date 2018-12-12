@@ -32,7 +32,7 @@ class CommentsController < ApplicationController
         else
             redirect_to comments_path
         end
-     end
+    end
     private
     def comment_params
         params.require(:comment).permit(:content)

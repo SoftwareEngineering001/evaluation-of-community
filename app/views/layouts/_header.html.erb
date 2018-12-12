@@ -8,22 +8,11 @@
         <% if logged_in? && current_user.admin %>
           <li><%= link_to "用户",   users_path %></li>
         <% end %>
-        
-        <!--<li>-->
-          <ul class="nav navbar-nav">
-            <!--<div class="col-md-6 col-md-offset-3">-->
-              <%= form_tag("/search", method:"get") do%>
-                <li><%= text_field_tag(:q)%></li>
-                <li><%= button_tag "搜索课程", class: "btn btn-primary" %></li>
-              <% end %>
-            <!--</div>-->
-          </ul>
-        <!--</li>-->
-        
-        <!--<li>-->
-          
-        <!--</li>-->
       </ul>
+      <%= form_tag("/search", method:"get", class: 'navbar-form navbar-left') do%>
+        <div class="form-group"><%= text_field_tag :q, params[:q], :class=>"form-control", :placeholder=>"搜索课程、老师、用户" %></div>
+        <%= button_tag "搜索课程", class: "btn btn-default" %>
+      <% end %>
       
       <ul class="nav navbar-nav navbar-right">
         <% if logged_in? %>
