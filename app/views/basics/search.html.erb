@@ -1,0 +1,15 @@
+<% provide(:title, 'Courses Searched') %>
+<h3>搜索到的课程(<%= @searchcourses.count %>)</h3>
+<%if @searchcourses.count != 0%>
+    <ul class="course"><!--在basics.scss中定义了courses的表单形式-->
+      <% @searchcourses.each do |course| %>
+        <%= render course %>
+      <% end %>
+    </ul>
+    <%= will_paginate @searchcourses%>
+<%end if%>
+
+<%if @searchcourses.count == 0%>
+    <p>未检索到亲亲想要的课程--!🤣</p>
+<%end if%>
+

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181206074747) do
+ActiveRecord::Schema.define(version: 20181212092621) do
 
   create_table "comments", force: :cascade do |t|
     t.text     "content"
@@ -27,8 +27,9 @@ ActiveRecord::Schema.define(version: 20181206074747) do
   create_table "courses", force: :cascade do |t|
     t.text     "title"
     t.text     "teacher"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+    t.decimal  "comment_counts"
   end
 
   create_table "users", force: :cascade do |t|

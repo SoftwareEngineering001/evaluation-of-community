@@ -1,11 +1,14 @@
 Rails.application.routes.draw do
 
+
   root 'comments#index'
   get 'help' => 'static_pages#help'
   get 'about' => 'static_pages#about'
   get 'home' => 'static_pages#home'
   get 'rules' => 'static_pages#rules'
   get 'setup' => 'static_pages#setup'
+  get 'search' => 'basics#search'
+  # post 'search' => 'basics#search'
   get    'login'   => 'sessions#new'
   post   'login'   => 'sessions#create'
   delete 'logout'  => 'sessions#destroy'
