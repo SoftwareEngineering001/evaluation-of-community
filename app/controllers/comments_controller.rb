@@ -26,7 +26,7 @@ class CommentsController < ApplicationController
         flash[:success] = "评论已删除"
         page=params[:page].to_i
         if page==1
-            redirect_to user_path(current_user,:opt=>1)
+            redirect_to user_path(current_user,:opt=>0)
         elsif page==2
             redirect_to course   
         else
@@ -38,6 +38,6 @@ class CommentsController < ApplicationController
         params.require(:comment).permit(:content)
     end
     def auth_check
-        redirect_to(root_url) unless current_user && (current_user.admin || comment.user_id==current_user.id)
+        redirect_to(root_url) unless current_user && (current_user.admin || Comment.find(params[:id]).user_id==current_user.id)
     end
 end

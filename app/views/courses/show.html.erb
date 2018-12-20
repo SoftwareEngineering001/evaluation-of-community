@@ -1,13 +1,17 @@
 <% provide(:title, @course.title) %>
-<span><%= @course.title %></span>
-<small><%= @course.teacher %></small>
-<small>评论 (<%= @ccomments.count %>)</small>
+<h3><%= @course.title %></h3>
+<span><%= @course.teacher %></span>
+<span>评论 (<%= @ccomments.count %>)</span>
+<span><span id="interest_count"><%= @course.users.count %></span> 人已关注</span>
+<div id="interest_form_container">
+  <%= render 'interest_form' if logged_in? %>
+</div>
 <% if logged_in? %>
     <%= link_to "发表评论", new_comment_path(:course_id=>@course.id,:user_id=>current_user.id) %>
 <% else %>
     <%= link_to "发表评论",  new_comment_path(:course_id=>@course.id) %>
 <% end %>
-<ol class="comment">
+<ul class="comment">
     <%= render @ccomments %>
-</ol>
+</ul>
 <%= will_paginate @ccomments %>

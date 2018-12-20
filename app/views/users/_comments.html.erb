@@ -3,5 +3,7 @@
   <ol class="comment">
     <%= render @ucomments %>
   </ol>
-  <%= will_paginate @ucomments %>
+  <%= will_paginate @ucomments , :previous_label =>"上一页",:next_label=>"下一页"%>
+<% else %>
+  <h3>还没有评论哦</h3>
 <% end %>

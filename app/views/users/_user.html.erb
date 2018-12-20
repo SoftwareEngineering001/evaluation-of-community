@@ -1,5 +1,5 @@
 <li id="user-<%= user.id %>">
-  <span><%= user.email %></span>
+  <span><%= link_to user.email, user %></span>
   <span><%= user.name %>  </span>
   <% if current_user && current_user.admin? && !current_user?(user) %>
       <%= link_to "删除", user, method: :delete, data: { confirm: "确定删除吗?该用户的信息会被全部删除" } %>

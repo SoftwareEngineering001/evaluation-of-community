@@ -22,12 +22,18 @@
       
       <ul class="nav navbar-nav navbar-right">
       <% if logged_in? %>
+        <li>
+          <%= link_to '/notify' do %>
+            <span class="glyphicon glyphicon-bell"></span>
+            <span class="badge" style="background: #d7353d;"><%= session[:notify_count]==0?"":session[:notify_count] %></span>
+          <% end %>
+        </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <%= current_user.name %> <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            <li><%= link_to "个人资料", current_user %></li>
+            <li><%= link_to "个人中心", current_user %></li>
             <li><%= link_to "设置", setup_path %></li>
             <li><%= link_to "退出", logout_path, method: "delete" %></li>
           </ul>

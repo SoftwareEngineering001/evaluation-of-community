@@ -1,6 +1,7 @@
 module SessionsHelper
     def log_in(user)
         session[:user_id] = user.id
+        session[:notify_count]=user.notify_comments.count
     end
     def logged_in_user
         unless logged_in?
@@ -13,10 +14,10 @@ module SessionsHelper
         if (user_id = session[:user_id])
             @current_user ||= User.find_by(id: user_id)
         elsif (user_id = cookies.signed[:user_id])
-          user = User.find_by(id: user_id)
-          if user && user.authenticated?(cookies[:remember_token])
-            log_in user
-            @current_user = user
+            user = User.find_by(id: user_id)
+            if user && user.authenticated?(cookies[:remember_token])
+                log_in user
+                @current_user = user
             end
         end
     end
@@ -27,6 +28,7 @@ module SessionsHelper
         !current_user.nil?
     end
     def log_out
+        current_user.logout_time=DateTime.now
         forget(current_user)
         session.delete(:user_id)
         @current_user = nil
@@ -44,7 +46,7 @@ module SessionsHelper
     def redirect_back_or(default)
         redirect_to(session[:forwarding_url] || default)
         session.delete(:forwarding_url)
-      end
+    end
     def store_location
         session[:forwarding_url] = request.url if request.get?
     end

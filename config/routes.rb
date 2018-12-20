@@ -15,9 +15,12 @@ Rails.application.routes.draw do
   #get 'comments' => 'comments#index'
   #post 'comment' => 'comment#create'
   post 'upload_courses' => 'courses#upload'
+  get   'notify' => 'users#notify'
   resources :comments, only: [:new, :create, :index, :destroy]
-  resources :users
+  resources :users 
   resources :courses
+  resources :relationships,       only: [:create, :destroy]
+  resources :interest_courses,       only: [:create, :destroy]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

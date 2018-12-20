@@ -7,6 +7,13 @@ class User < ActiveRecord::Base
     validates :password, presence: true, length: { minimum: 6 }
     has_secure_password
     has_many :comments, dependent: :destroy
+    has_many :active_relationships, class_name: "Relationship",foreign_key: "follower_id", dependent: :destroy
+    has_many :passive_relationships, class_name: "Relationship",foreign_key: "followed_id",dependent: :destroy
+    has_many :followings, through: :active_relationships, source: :followed
+    has_many :followers, through: :passive_relationships, source: :follower
+    has_many :interest_courses, class_name: "InterestCourse",foreign_key: "user_id",dependent: :destroy
+    has_many :courses, through: :interest_courses, source: :course
+
     
     def User.new_token
         SecureRandom.urlsafe_base64
@@ -25,5 +32,27 @@ class User < ActiveRecord::Base
     def authenticated?(remember_token)
         return false if remember_digest.nil?
         BCrypt::Password.new(remember_digest).is_password?(remember_token)
+    end
+    
+    def follow(other_user)
+        active_relationships.create(followed_id: other_user.id)
+    end
+    def unfollow(other_user)
+        active_relationships.find_by(followed_id: other_user.id).destroy
+    end
+    def following?(other_user)
+        followings.include?(other_user)
+    end
+    def interest(course)
+        interest_courses.create(course_id: course.id)
+    end
+    def uninterest(course)
+        interest_courses.find_by(course_id: course.id).destroy
+    end
+    def interesting?(course)
+        courses.include?(course)
+    end
+    def notify_comments
+        Comment.where(user_id: followings.ids).or(course_id: courses.ids).where("created_at > ?",self.logout_time)
     end
 end

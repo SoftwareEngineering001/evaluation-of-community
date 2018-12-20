@@ -1,0 +1,10 @@
+<% provide(:title, "通知") %>
+<% if @notify_comments.any? %>
+  <h3>关注通知</h3>
+  <ul class="comment">
+    <%= render @notify_comments %>
+  </ul>
+  <%= will_paginate @notify_comments , :previous_label =>"上一页",:next_label=>"下一页"%>
+<% else %>
+  <h3>没有新通知</h3>
+<% end %>

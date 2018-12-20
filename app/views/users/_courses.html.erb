@@ -1,0 +1,5 @@
+<h3>我关注的课程 (<%= @icourses.count %>)</h3>
+<ul class="course">
+  <%= render @icourses %>
+</ul>
+<%= will_paginate @icourses ,:previous_label =>"上一页",:next_label=>"下一页" %>

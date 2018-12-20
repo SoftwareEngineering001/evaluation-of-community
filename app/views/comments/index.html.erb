@@ -5,4 +5,4 @@
     <%= render @comments %>
 </ul>
 
-<%= will_paginate %>
+<%= will_paginate @comments, :previous_label =>"上一页",:next_label=>"下一页" %>
