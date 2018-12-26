@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+#flexbox {
+  background-color: #ffffff;
+  border: 1px solid #5555ff;
+  border-radius: 20px;
+  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  width: 80%;
+}
+
+body{
+  background-color: #ccccff;
+}
+
+@media (min-width: 700px) {
+  #flexbox {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #flexbox {
+    width: 800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #flexbox {
+    width: 960px;
+  }
+}
