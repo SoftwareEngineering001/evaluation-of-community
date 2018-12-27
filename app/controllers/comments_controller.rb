@@ -10,7 +10,7 @@ class CommentsController < ApplicationController
     end
     def create
         @curcourse=Course.find(params[:course_id])
-        @comment=Comment.new(content:comment_params[:content],user_id:current_user.id,course_id:@curcourse.id)
+        @comment=Comment.new(content:comment_params[:content],user_id:current_user.id,course_id:@curcourse.id,difficulty:comment_params[:difficulty], homework:comment_params[:homework], grading:comment_params[:grading], gain:comment_params[:gain], rate:comment_params[:rate])
         
         if @comment.save
             redirect_to @curcourse
@@ -34,7 +34,7 @@ class CommentsController < ApplicationController
     end
     private
     def comment_params
-        params.require(:comment).permit(:content)
+        params.require(:comment).permit(:content, :difficulty, :homework, :gain, :grading, :rate)
     end
     def auth_check
         redirect_to(root_url) unless current_user && (current_user.admin || Comment.find(params[:id]).user_id==current_user.id)
