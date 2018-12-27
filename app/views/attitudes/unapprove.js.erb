@@ -1,0 +1,2 @@
+$("#comment-upvote-count-<%=@comment.id%>").html('<%= @comment.attitude_to_comments.count %>')
+$("#approve-form-<%=@comment.id%>").html("<%= escape_javascript(render partial: "comments/approve_form", locals: { comment: @comment }) %>")

@@ -1,0 +1,54 @@
+<%@course = Course.find(params[:id])%>
+<div class="container">
+
+  <div class="row float-element">
+    <div class="row">
+      <div class="col-md-8 inline-h3">
+        <span class="blue h3"><%=link_to @course.title, @course%></span><span class="h3 blue mobile">（<%=@course.teachers.first.name%>）</span>
+        <span class="small grey align-bottom left-pd-sm">学期：<%=@course.term%> &nbsp;课程号：未定义</span>
+        <hr>
+
+        <table class="table table-condensed no-border">
+          <tr>
+            <td><strong>学科类别：</strong><%= @course.course_major or '未知' %></td>
+            <td><strong>开课单位：</strong><%= @course.dept or '未知' %></td>
+          </tr>
+          <tr>
+            <td><strong>课程层次：</strong><%= @course.course_type or '未知' %></td>
+            <td><strong>学分：</strong><%= @course.credit or '未知' %>
+          </tr>
+          <tr>
+            <td><strong>时间：</strong> 未知</td>
+            <td><strong>地点：</strong>未知
+              <span class="float-right"><a href="http://mis.teach.ustc.edu.cn/gradkcjs.do?kcid={{ course.kcid }}" target="_blank">更多信息</a><span></td>
+          </tr>
+          <!--
+          暂时不用这些
+          <td><strong>评分制：</strong>{{ course.grading_type or '未知' }}</td>
+          <td><strong>周学时：</strong>{{ course.hours_per_week or '未知' }}</td>
+          -->
+          </tbody>
+        </table>
+        <!--<p><a href="{{ url_for('course.profile_history', course_id=course.id) }}">查看编辑历史（共 {{ course.info_history_count }} 次）</a></p>-->
+
+        <%=form_tag(action: :save_course_info)%>
+          <!--{{ form.csrf_token }}-->
+          <%=hidden_field_tag :course_id, @course.id%>
+          <div class="form-group">
+            <label class="control-label">课程主页链接</label>
+            <input class="form-control" type="text" name="homepage" value="<%= @course.homepage or '' %>">
+          </div>
+          <div class="form-group">
+            <label class="control-label">课程简介</label>
+            <p>课程简介是公共编辑的，应该是尽量客观的信息（如课程大纲、教材、考试形式等）。主观评价请写在点评里。</p>
+            <p>助教、课程QQ/微信群等信息建议注明学期，以免与往年的混淆。</p>
+            <textarea class="form-control" id="content-editor" name="introduction" rows="5"><%= @course.introduction or ''%></textarea>
+          </div>
+          <button type="submit" class="btn btn-sm btn-default">提交</button>
+        </form>
+
+      </div>
+
+    </div> <!-- row -->
+  </div>  <!-- float-element  -->
+</div>  <!-- container -->

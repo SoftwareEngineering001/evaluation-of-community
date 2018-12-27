@@ -9,7 +9,6 @@ class CommentsController < ApplicationController
         @curcourse=Course.find(params[:course_id])
     end
     def create
-        #debugger
         @curcourse=Course.find(params[:course_id])
         @comment=Comment.new(content:comment_params[:content],user_id:current_user.id,course_id:@curcourse.id)
         

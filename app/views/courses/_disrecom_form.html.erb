@@ -1,0 +1,26 @@
+<div id="follow_form">
+  <%if logged_in?%>
+      <% if current_user.attitudes.find_by(course_id: @course.id) and current_user.attitudes.find_by(course_id: @course.id).has_disrecom %>
+        <%= form_tag({action: :undisrecom, controller: :attitudes}, remote: true) do %>
+          <div><%= hidden_field_tag :course_id, @course.id %></div>
+          <%= button_tag(type: "submit", class: "btn btn-blue btn-flat btn-follow btn-undo") do %>
+            <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> 取消不推荐 <small>(<%=@course.attitudes_colcount('has_disrecom')%>)</small>       
+          <%end%>
+        <% end %>
+      <% else %>
+        <%= form_tag({action: :disrecom, controller: :attitudes}, remote: true) do %>
+          <div><%= hidden_field_tag :course_id, @course.id %></div>
+          <%= button_tag(type: "submit", class: "btn btn-blue btn-flat btn-follow btn-do") do %>
+            <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> 不推荐 <small>(<%=@course.attitudes_colcount('has_disrecom')%>)</small>
+          <%end%>
+        <% end %>
+      <% end %>
+  <%else%>
+    <%= form_tag({action: :disrecom, controller: :attitudes}, remote: true) do %>
+      <div><%= hidden_field_tag :course_id, @course.id %></div>
+      <%= button_tag(type: "submit", class: "btn btn-blue btn-flat btn-follow btn-do") do %>
+        <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> 不推荐 <small>(<%=@course.attitudes_colcount('has_disrecom')%>)</small>
+      <%end%>
+    <% end %>
+  <%end%>
+</div>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  has_follow: false
+  has_recom: false
+  has_disrecom: false
+  has_learn: false
+
+two:
+  has_follow: false
+  has_recom: false
+  has_disrecom: false
+  has_learn: false

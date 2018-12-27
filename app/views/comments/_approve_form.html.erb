@@ -1,0 +1,5 @@
+<%if current_user == nil or comment.attitude_to_comments.where(user_id: current_user.id).count == 0%>
+  <%=link_to '', approve_attitudes_path(:course_id =>comment.course.id, :comment_id => comment.id),class:"glyphicon glyphicon-thumbs-up left-pd-lg", method: :post, controller: :attitudes, :remote => true %>
+<%else%>
+  <%=link_to '', unapprove_attitudes_path(:course_id =>comment.course.id, :comment_id => comment.id),class:"glyphicon glyphicon-thumbs-up left-pd-lg", method: :post, controller: :attitudes, :remote => true %>
+<%end%>

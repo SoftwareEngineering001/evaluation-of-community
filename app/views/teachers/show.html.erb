@@ -1,0 +1,16 @@
+<% provide(:title, "教师信息") %>
+<div class="row">
+  <aside class="col-md-3">
+      <%= link_to image_tag("normal_icon.jpeg", :size => "180x180",:class => "img-responsive img-thumbnail center-block")%>
+      <h2><%= @teacher.name %></h2>
+      <% if current_user?(@teacher) || (current_user && current_user.admin?) %>
+        <h2><%= @teacher.email %></h2>
+      <% end %>
+      <!--<div id="follow_form_container">%= render 'follow_form' if logged_in? %</div>-->
+    </ul>
+  </aside>
+  <div class="col-md-9">
+    <%= render "courses" %>
+  </div>
+</div>
+

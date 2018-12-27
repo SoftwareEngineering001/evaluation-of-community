@@ -1,0 +1,2 @@
+module AttitudesHelper
+end

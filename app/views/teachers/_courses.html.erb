@@ -1,0 +1,5 @@
+<h3>课程 (<%= @tcourses.count %>)</h3>
+<ul class="course">
+  <%= render @tcourses %>
+</ul>
+<%= will_paginate @tcourses ,:previous_label =>"上一页",:next_label=>"下一页" %>
