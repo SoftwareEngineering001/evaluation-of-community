@@ -5,12 +5,25 @@ $gray-light: #777;
 .comment {
   list-style: none;
   margin: 0;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; 
+  align-content: space-between;
   li {
-    overflow: auto;
-    padding: 10px 0;
-    border-bottom: 1px solid $gray-light;
+    font-color: #e8ccff;
+    border: 3px solid #b088ff;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 0px;
+    margin:10px;
+    box-sizing: border-box;
+    width:90%;
   }
 }
+
  .user {
     margin-top: 5em;
     padding-top: 0;
@@ -28,3 +41,21 @@ $gray-light: #777;
     display: block;
     margin-left: 60px;
   }
+  
+@media (min-width: 700px) {
+  .comment li {
+  	width: 45%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .comment li {
+  	width: 220px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .comment li {
+  	width: 280px;
+  }
+}

@@ -9,6 +9,9 @@ Rails.application.routes.draw do
   get 'home' => 'static_pages#home'
   get 'rules' => 'static_pages#rules'
   get 'setup' => 'static_pages#setup'
+  ##
+  get 'update' => 'users#update'
+  ##
   get 'search' => 'basics#search'
   # post 'search' => 'basics#search'
   get    'login'   => 'sessions#new'
@@ -34,6 +37,7 @@ Rails.application.routes.draw do
   get   'notify' => 'users#notify'
   resources :comments, only: [:new, :create, :index, :destroy]
   resources :users 
+  # resources :static_pages 
   resources :courses
   resources :relationships,       only: [:create, :destroy]
   resources :interest_courses,       only: [:create, :destroy]
