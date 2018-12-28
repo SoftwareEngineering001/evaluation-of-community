@@ -3,90 +3,91 @@
 
 <%= form_for(@comment) do |f| %>
   <%= render 'layouts/error_messages', object: f.object %>
+  
   <div class="field">
     <!--<= f.select :term, [['2018秋',"2018-2"],['2019春',"2019-1"]] %>-->
     <div class="ud-pd-sm">
           <span class="right-pd-sm weight-heavy">课程难度</span>
           <div class="btn-group btn-group-inv" data-toggle="buttons">
-            
+
             <label class="btn btn-default">
                 <%= f.radio_button(:difficulty, "1") %>
                 简单
             </label>
-            
+
             <label class="btn btn-default">
                 <%= f.radio_button(:difficulty, "2") %>
                 中等
             </label>
-            
+
             <label class="btn btn-default">
                 <%= f.radio_button(:difficulty, "3") %>
                 困难
             </label>
-            
+
           </div>
         </div>        
     <div class="ud-pd-sm">
           <span class="right-pd-sm weight-heavy">作业多少</span>
           <div class="btn-group btn-group-inv" data-toggle="buttons">
-            
+
             <label class="btn btn-default">
                 <%= f.radio_button(:homework, "1") %>
                 不多
             </label>
-            
+
             <label class="btn btn-default">
                 <%= f.radio_button(:homework, "2") %>
                 中等
             </label>
-            
+
             <label class="btn btn-default">
                 <%= f.radio_button(:homework, "3") %>
                 超多
             </label>
-            
+
           </div>
         </div>    
     <div class="ud-pd-sm">
           <span class="right-pd-sm weight-heavy">给分好坏</span>
           <div class="btn-group btn-group-inv" data-toggle="buttons">
-            
+
             <label class="btn btn-default">
                 <%= f.radio_button(:grading, "1") %>
                 超好
             </label>
-            
+
             <label class="btn btn-default">
                 <%= f.radio_button(:grading, "2") %>
                 一般
             </label>
-            
+
             <label class="btn btn-default">
                 <%= f.radio_button(:grading, "3") %>
                 杀手
             </label>
-            
+
           </div>
         </div>   
     <div class="ud-pd-sm">
           <span class="right-pd-sm weight-heavy">收获多少</span>
           <div class="btn-group btn-group-inv" data-toggle="buttons">
-            
+
             <label class="btn btn-default"
                 <%= f.radio_button(:gain, "1") %>
                 很多
             </label>
-            
+
             <label class="btn btn-default">
                 <%= f.radio_button(:gain, "2") %>
                 一般
             </label>
-            
+
             <label class="btn btn-default">
                 <%= f.radio_button(:gain, "3") %>
                 没有
             </label>
-            
+
           </div>
         </div>
     <!--<div class="ud-pd-sm">-->
