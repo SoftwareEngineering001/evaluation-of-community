@@ -4,7 +4,13 @@
     <%= link_to image_tag("normal_icon.jpeg", :size => "60x60",:class => "img-thumbnail")%>
     <span class="right-pd-sm px16 user">
       <%= link_to comment.user.name, comment.user %> 点评了
-      <%= link_to "#{comment.course.title}(#{comment.course.teacher})", comment.course%>
+      <%=link_to comment.course do%>
+        <%if comment.course.teachers.first%>
+          <%=comment.course.title%><%=(comment.course.teachers.first.name)%>
+        <%else%>
+          <%=comment.course.title%>(暂无老师)
+        <%end%>
+      <%end%>
     </span>
     
     <% for star in 0..4 %>
@@ -36,7 +42,7 @@
     </a>
     <span class="pull-right">
       <% if current_user?(comment.user) %>
-        <%= link_to new_comment_path(:course_id=>@course.id,:user_id=>current_user.id) do%>
+        <%= link_to new_comment_path(:course_id=>comment.course.id,:user_id=>current_user.id) do%>
           <span class="glyphicon glyphicon-pencil grey left-pd-sm small" aria-hidden="true" ></span>
           编辑
         <%end%>

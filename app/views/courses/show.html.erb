@@ -6,8 +6,10 @@
       <div class="col-md-8 inline-h3">
         <span class="blue h3"><%= @course.title %></span>
         
-        <% if @course.teachers.first.name != ''%>
-            <span class="h3 blue mobile"><%= @course.teachers.first.name %></span>
+        <% if @course.teachers.first and @course.teachers.first.name != ''%>
+          <span class="h3 blue mobile"><%= @course.teachers.first.name %></span>
+        <%else%>
+          <span class="h3 blue mobile">暂无老师</span>
         <% end %>
         
         <!--<span class="small grey align-bottom left-pd-sm desktop">{{ course.term_ids|term_display }} &nbsp;课程号：{{ course.courseries }}</span>-->
@@ -152,7 +154,7 @@
         <% if @course.teachers.count == 0 %>
         <div class="ud-pd-md dashed">
           <%= link_to image_tag("normal_icon.jpeg", :size => "60x60",:class => "img-thumbnail")%>
-          <h3 class="blue">老师甲</h3>
+          <h3 class="blue">暂无老师</h3>
         </div>
         <% end %>
 
@@ -160,12 +162,15 @@
           <h4 class="blue">其他老师的[<%= @course.title %>]课</h4>
           <% for rel_course in @course.simcourses %>
               <div class="ud-pd-sm">
-                <%=link_to rel_course.teachers.first.name, rel_course.teachers.first%>
-                <% if rel_course.comments.count %>
-                  <span><%= rel_course.rate.average_rate %></span>
-                  <span class="grey">(<%=rel_course.comments.count %>)</span>
-                <% end %>
-                <span class="small grey align-bottom  float-right"><%= rel_course.term%></span>
+                <%if rel_course.teachers.first%>
+                  <%=link_to rel_course.teachers.first.name, rel_course.teachers.first%>
+                
+                  <% if rel_course.comments.count %>
+                    <span><%= rel_course.rate.average_rate %></span>
+                    <span class="grey">(<%=rel_course.comments.count %>)</span>
+                  <% end %>
+                  <span class="small grey align-bottom  float-right"><%= rel_course.term%></span>
+                <%end%>
               </div>
           <% end %>
         </div>
