@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181227052010) do
+ActiveRecord::Schema.define(version: 20181229115932) do
 
   create_table "attitude_to_comments", force: :cascade do |t|
     t.string   "user_id"
@@ -49,7 +49,7 @@ ActiveRecord::Schema.define(version: 20181227052010) do
     t.string   "homework"
     t.string   "grading"
     t.string   "gain"
-    t.integer  "rate"
+    t.integer  "ratescore"
     t.integer  "upvote_count"
     t.integer  "comment_count"
     t.string   "term"
@@ -95,7 +95,7 @@ ActiveRecord::Schema.define(version: 20181227052010) do
   add_index "interest_courses", ["user_id"], name: "index_interest_courses_on_user_id"
 
   create_table "rates", force: :cascade do |t|
-    t.integer  "average_rate"
+    t.float    "average_rate"
     t.string   "difficulty"
     t.string   "homework"
     t.string   "grading"

@@ -32,7 +32,7 @@
               <span class="glyphicon glyphicon-star-empty glyphicon-lg" aria-hidden="true"></span>
               <% end%>
             <% end%>
-            <span class="rl-pd-sm h4"><%= @course.rate.average_rate %></span><span class="rl-pd-sm text-muted">(<%=@ccomments.count%>人评价)</span>
+            <span class="rl-pd-sm h4"><%= format("%0.1f", @course.rate.average_rate) %></span><span class="rl-pd-sm text-muted">(<%=@ccomments.count%>人评价)</span>
           </div>
         <% else %>
           <div class="ud-pd-sm blue">
@@ -44,10 +44,10 @@
         <% end%>
         
         <ul class="text-muted list-inline list-unstyled ud-pd-sm">
-          <li class="right-mg-md">课程难度：<%=@course.rate.difficulty or '你猜'%></li>
-          <li class="right-mg-md">作业多少：<%=@course.rate.homework or '你猜'%></li>
-          <li class="right-mg-md">给分好坏：<%=@course.rate.grading or '你猜'%></li>
-          <li class="right-mg-md">收获大小：<%=@course.rate.gain or '你猜'%></li>
+          <li class="right-mg-md">课程难度：<%if @course.rate%><%=@course.rate.difficulty%><%else%><%='你猜'%><%end%></li>
+          <li class="right-mg-md">作业多少：<%if @course.rate%><%=@course.rate.homework%><%else%><%='你猜'%><%end%></li>
+          <li class="right-mg-md">给分好坏：<%if @course.rate%><%=@course.rate.grading%><%else%><%='你猜'%><%end%></li>
+          <li class="right-mg-md">收获大小：<%if @course.rate%><%=@course.rate.gain%><%else%><%='你猜'%><%end%></li>
         </ul>
 
         <table class="table table-condensed no-border">
@@ -165,7 +165,7 @@
                 <%if rel_course.teachers.first%>
                   <%=link_to rel_course.teachers.first.name, rel_course.teachers.first%>
                 
-                  <% if rel_course.comments.count %>
+                  <% if rel_course.comments.count > 0%>
                     <span><%= rel_course.rate.average_rate %></span>
                     <span class="grey">(<%=rel_course.comments.count %>)</span>
                   <% end %>
