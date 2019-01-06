@@ -1,0 +1,56 @@
+<% for teacher in @course.teachers %>
+    <div class="ud-pd-md dashed">
+      <% if current_user %>
+        <btn class="btn btn-link float-right"><%=link_to '编辑教师信息', edit_profile_teacher_path %></btn>
+      <% end %>
+      <h3 class="blue"><%=link_to teacher.name, teacher%></h3>
+      <p><%=teacher.dept %></p>
+      <p>教师主页：
+        <% if teacher.homepage and teacher.homepage != 'http://' %>
+          <a href="{{ teacher.homepage }}" target="_blank"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> 戳这里</a>
+        <% else %>暂无
+        <% end %>
+      </p>
+      <div class="ud-pd-md" style="display: none"><a>教师排行榜：23</a></div>
+    </div>
+<% end %>
+<% if @course.teachers.count == 0 %>
+    <div class="ud-pd-md dashed">
+      <h3 class="blue">暂无老师</h3>
+    </div>
+<% end %>
+
+<div class="ud-pd-md dashed">
+  <h4 class="blue">其他老师的[<%= @course.title %>]课</h4>
+  <% for rel_course in @course.simcourses %>
+      <div class="ud-pd-sm">
+        <%if rel_course.teachers.first%>
+          <%=link_to rel_course.teachers.first.name, rel_course.teachers.first%>
+        
+          <% if rel_course.comments.count > 0%>
+            <span><%= rel_course.rate.average_rate %></span>
+            <span class="grey">(<%=rel_course.comments.count %>)</span>
+          <% end %>
+          <span class="small grey align-bottom  float-right"><%= rel_course.term%></span>
+        <%end%>
+      </div>
+  <% end %>
+</div>
+
+<% for teacher in @course.teachers %>
+  <div class="ud-pd-md dashed">
+    <h4 class="blue"><%= teacher.name %>老师的其他课</h5>
+    <% for rel_course in @course.same_teacher_courses(teacher) %>
+      <%if rel_course != @course%>
+        <div class="ud-pd-sm">
+          <%=link_to rel_course.title, rel_course%>
+          <% if rel_course.comments.count %>
+            <span><%= rel_course.rate.average_rate %></span>
+            <span class="grey">(<%=rel_course.comments.count %>)</span>
+          <% end %>
+          <span class="small grey align-bottom  float-right"><%= rel_course.term%></span>
+        </div>
+      <%end%>
+    <% end %>
+  </div>
+<% end %>

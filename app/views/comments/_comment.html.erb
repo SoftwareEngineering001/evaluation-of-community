@@ -6,7 +6,7 @@
       <%= link_to comment.user.name, comment.user %> 点评了
       <%=link_to comment.course do%>
         <%if comment.course.teachers.first%>
-          <%=comment.course.title%><%=(comment.course.teachers.first.name)%>
+          <%= comment.course.title%><%=(comment.course.teachers.first.name)%>
         <%else%>
           <%=comment.course.title%>(暂无老师)
         <%end%>
@@ -22,7 +22,6 @@
       <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
       <% end %>
     <% end %>
-    
     <span class="left-pd-md"><%=comment.term%> </span>
   </div>
     
@@ -43,27 +42,16 @@
     <span class="pull-right">
       <% if current_user?(comment.user) %>
         <%= link_to new_comment_path(:course_id=>comment.course.id,:user_id=>current_user.id) do%>
-          <span class="glyphicon glyphicon-pencil grey left-pd-sm small" aria-hidden="true" ></span>
-          编辑
+          <span class="glyphicon glyphicon-pencil grey left-pd-sm small" aria-hidden="true" > </span>
         <%end%>
       <%end%>
       <%if current_user != nil%>
         <% if !@disable_delete && ((current_user && current_user.admin?) || (current_user?(comment.user))) %>
           <%= link_to comment_path(comment, :page=>@curpage), method: :delete, data: {confirm: "确定删除吗?"} do %>
-            <span class="glyphicon glyphicon-comment"></span>删除
+            <span class="glyphicon glyphicon-trash">删除</span>
           <% end %>
         <% end %>
       <%end%>
-      
-      <% if current_user != nil and current_user.admin? %>
-      <span class="glyphicon glyphicon-ban-circle grey left-pd-md" aria-hidden="true"></span>
-        <!--< if review.is_hidden %>-->
-        <!--<a href="javascript: unhide_review({{review.id}});">解除屏蔽</a>-->
-        <!--< else %>-->
-        <!--<a href="javascript: hide_review({{review.id}});">屏蔽</a>-->
-        <!--< end %>-->
-      <% end %>
     </span>
   </div>
-  <!--</div>-->
 </li>

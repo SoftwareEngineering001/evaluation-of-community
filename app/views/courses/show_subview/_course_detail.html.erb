@@ -1,0 +1,49 @@
+<%if @ccomments.count > 0%>
+  <div class="ud-pd-sm blue">
+    <% for star in 0..4 %>
+      <% if @course.rate.average_rate >= 1.5 + star * 2 %>
+        <span class="glyphicon glyphicon-star glyphicon-lg" aria-hidden="true"></span>
+      <% elsif @course.rate.average_rate >= 0.5 + star * 2 %>
+        <span class="glyphicon glyphicon-star-half glyphicon-lg" aria-hidden="true"></span>
+      <% else %>
+        <span class="glyphicon glyphicon-star-empty glyphicon-lg" aria-hidden="true"></span>
+      <% end%>
+    <% end%>
+    <span class="rl-pd-sm h4"><%= format("%0.1f", @course.rate.average_rate) %></span><span class="rl-pd-sm text-muted">(<%=@ccomments.count%>人评价)</span>
+  </div>
+<% else %>
+  <div class="ud-pd-sm blue">
+  <% for star in 0..4 %>
+    <span class="glyphicon glyphicon-star-empty glyphicon-lg" aria-hidden="true"></span>
+  <% end %>
+  <span class="rl-pd-sm h4"><span class="text-muted px12">(暂无评价)</span>
+  </div>
+<% end%>
+
+<ul class="text-muted list-inline list-unstyled ud-pd-sm">
+  <li class="right-mg-md">课程难度：<%if @course.rate%><%=@course.rate.difficulty%><%else%><%='你猜'%><%end%></li>
+  <li class="right-mg-md">作业多少：<%if @course.rate%><%=@course.rate.homework%><%else%><%='你猜'%><%end%></li>
+  <li class="right-mg-md">给分好坏：<%if @course.rate%><%=@course.rate.grading%><%else%><%='你猜'%><%end%></li>
+  <li class="right-mg-md">收获大小：<%if @course.rate%><%=@course.rate.gain%><%else%><%='你猜'%><%end%></li>
+</ul>
+
+<table class="table table-condensed no-border">
+  <tr>
+    <td><strong>学科类别：</strong><%=@course.course_major or '未知'%></td>
+    <td><strong>开课单位：</strong><%=@course.dept or '未知'%></td>
+  </tr>
+  <tr>
+    <td><strong>课程层次：</strong><%=@course.course_type or '未知'%></td>
+    <td><strong>学分：</strong><%=@course.credit or '未知'%>
+      <span class="float-right"><a href="#课程主页" target="_blank">更多信息</a><span></td>
+  </tr>
+  </tbody>
+</table>
+
+<div class="ud-pd-sm">
+  <% if @course.homepage and @course.homepage != 'http://' %>
+  <strong>课程主页</strong>:<%=@course.homepage%>
+  <% else %>
+  <strong>课程主页</strong>：暂无（如果你知道，劳烦告诉我们！）
+  <% end %>
+</div>

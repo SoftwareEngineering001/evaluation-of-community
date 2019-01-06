@@ -1,200 +1,62 @@
 <% provide(:title, @course.title) %>
-<div class="container">
 
   <div class="row float-element">
-    <div class="row">
-      <div class="col-md-8 inline-h3">
+      <!-- 左边栏 -->
+      <div class="col-md-9 inline-h3">
         <span class="blue h3"><%= @course.title %></span>
-        
         <% if @course.teachers.first and @course.teachers.first.name != ''%>
           <span class="h3 blue mobile"><%= @course.teachers.first.name %></span>
         <%else%>
           <span class="h3 blue mobile">暂无老师</span>
         <% end %>
-        
-        <!--<span class="small grey align-bottom left-pd-sm desktop">{{ course.term_ids|term_display }} &nbsp;课程号：{{ course.courseries }}</span>-->
-        <!--<br><span class="small grey align-bottom mobile">{{ course.term_ids|term_display }} &nbsp;课程号：{{ course.courseries }}</span>-->
-
         <% if current_user %>
           <%=link_to "编辑课程信息", editcourse_course_path(:course_id => @course.id)%>
-        <!--<btn class="btn btn-link float-right"><a href="{{ url_for('course.edit_course', course_id=course.id) }}">编辑课程信息</a></btn>-->
         <% end %>
-        <hr>
         
-        <%if @ccomments.count > 0%>
-          <div class="ud-pd-sm blue">
-            <% for star in 0..4 %>
-              <% if @course.rate.average_rate >= 1.5 + star * 2 %>
-              <span class="glyphicon glyphicon-star glyphicon-lg" aria-hidden="true"></span>
-              <% elsif @course.rate.average_rate >= 0.5 + star * 2 %>
-              <span class="glyphicon glyphicon-star-half glyphicon-lg" aria-hidden="true"></span>
-              <% else %>
-              <span class="glyphicon glyphicon-star-empty glyphicon-lg" aria-hidden="true"></span>
-              <% end%>
-            <% end%>
-            <span class="rl-pd-sm h4"><%= format("%0.1f", @course.rate.average_rate) %></span><span class="rl-pd-sm text-muted">(<%=@ccomments.count%>人评价)</span>
-          </div>
-        <% else %>
-          <div class="ud-pd-sm blue">
-          <% for star in 0..4 %>
-            <span class="glyphicon glyphicon-star-empty glyphicon-lg" aria-hidden="true"></span>
-          <% end %>
-          <span class="rl-pd-sm h4"><span class="text-muted px12">(暂无评价)</span>
-          </div>
-        <% end%>
-        
-        <ul class="text-muted list-inline list-unstyled ud-pd-sm">
-          <li class="right-mg-md">课程难度：<%if @course.rate%><%=@course.rate.difficulty%><%else%><%='你猜'%><%end%></li>
-          <li class="right-mg-md">作业多少：<%if @course.rate%><%=@course.rate.homework%><%else%><%='你猜'%><%end%></li>
-          <li class="right-mg-md">给分好坏：<%if @course.rate%><%=@course.rate.grading%><%else%><%='你猜'%><%end%></li>
-          <li class="right-mg-md">收获大小：<%if @course.rate%><%=@course.rate.gain%><%else%><%='你猜'%><%end%></li>
-        </ul>
-
-        <table class="table table-condensed no-border">
-          <tr>
-            <td><strong>学科类别：</strong><%=@course.course_major or '未知'%></td>
-            <td><strong>开课单位：</strong><%=@course.dept or '未知'%></td>
-          </tr>
-          <tr>
-            <td><strong>课程层次：</strong><%=@course.course_type or '未知'%></td>
-            <td><strong>学分：</strong><%=@course.credit or '未知'%>
-              <span class="float-right"><a href="#课程主页" target="_blank">更多信息</a><span></td>
-          </tr>
-          </tbody>
-        </table>
-
-        <div class="ud-pd-sm">
-          <% if @course.homepage and @course.homepage != 'http://' %>
-          <strong>课程主页</strong>:<%=@course.homepage%>
-          <% else %>
-          <strong>课程主页</strong>：暂无（如果你知道，劳烦告诉我们！）
-          <% end %>
-        </div>
+        <%= render 'courses/show_subview/course_detail' %>
 
         <div id="action-btn-group" class="ud-pd-md" >
           <div id="follow_form_container" style="display: inline-block">
             <%=render 'follow_form'%>
           </div>
-          
           <div id="recom_form_container" style="display: inline-block">
             <%=render 'recom_form'%>
           </div>
-          
           <div id="disrecom_form_container" style="display: inline-block">
             <%=render 'disrecom_form'%>
           </div>
-          
           <div id="learn_form_container" style="display: inline-block">
             <%=render 'learn_form'%>
           </div>
-          
-          <!--<span class="float-right" style="display: none" target="_blank"><a>查看{{ course.join_count }}位同班同学</a></span>-->
         </div>
 
-	<!--<div class="ud-pd-md">-->
-	<!--  <div class="solid ud-pd-sm inline-h3">-->
- <!--     <span class="blue h3">简介</span>-->
-	<!--  </div>-->
- <!--   <p class="text-muted pull-right small">-->
- <!--      < if current_user %>-->
- <!--      <span class="glyphicon glyphicon-pencil grey left-pd-sm" aria-hidden="true" ></span>-->
- <!--      <a href="{{ url_for('course.edit_course', course_id=course.id) }}">编辑课程简介</a>-->
- <!--      < end %>-->
- <!--   </p>-->
-	<!--</div>-->
-
-	<div class="solid ud-pd-md inline-h3">
-    <span class="blue h3">点评</span>
-    <% if logged_in? %>
-      <%= link_to new_comment_path(:course_id=>@course.id,:user_id=>current_user.id) do%>
-        <span class="glyphicon glyphicon-pencil glyphicon-sm right-pd-sm" aria-hidden="true" ></span>发表点评
-      <%end%>
-    <% else %>
-      <%= link_to new_comment_path(:course_id=>@course.id) do%>
-        <span class="glyphicon glyphicon-pencil glyphicon-sm right-pd-sm" aria-hidden="true"></span>写点评
-      <%end%>
-    <% end %>
-  </div>
-
-
-    <%if @ccomments.count == 0 %>
-      <div class="tips">
-        <p>还没有评论耶！放着我来！</p>
-      </div>
-      <div class="ud-pd-md"></div>
-    <% else %>
-      <ul class="comment">
-        <%= render @ccomments %>
-      </ul>
-    <%end%>
-  </div>
-
-
-
-      <!-- 右边栏 -->
-
-      <div class="col-md-4 rl-pd-lg">
-        <% for teacher in @course.teachers %>
-        <div class="ud-pd-md dashed">
-          <%= link_to image_tag("normal_icon.jpeg", :size => "60x60",:class => "img-thumbnail")%>
-          <% if current_user %>
-            <btn class="btn btn-link float-right"><%=link_to '编辑教师信息', edit_profile_teacher_path %></btn>
-          <% end %>
-          <h3 class="blue"><%=link_to teacher.name, teacher%></h3>
-          <p><%=teacher.dept %></p>
-          <p>教师主页：
-            <% if teacher.homepage and teacher.homepage != 'http://' %>
-              <a href="{{ teacher.homepage }}" target="_blank"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> 戳这里</a>
-            <% else %>暂无
-            <% end %>
-          </p>
-          <div class="ud-pd-md" style="display: none"><a>教师排行榜：23</a></div>
-        </div>
-        <% end %>
-        <% if @course.teachers.count == 0 %>
-        <div class="ud-pd-md dashed">
-          <%= link_to image_tag("normal_icon.jpeg", :size => "60x60",:class => "img-thumbnail")%>
-          <h3 class="blue">暂无老师</h3>
-        </div>
-        <% end %>
-
-        <div class="ud-pd-md dashed">
-          <h4 class="blue">其他老师的[<%= @course.title %>]课</h4>
-          <% for rel_course in @course.simcourses %>
-              <div class="ud-pd-sm">
-                <%if rel_course.teachers.first%>
-                  <%=link_to rel_course.teachers.first.name, rel_course.teachers.first%>
-                
-                  <% if rel_course.comments.count > 0%>
-                    <span><%= rel_course.rate.average_rate %></span>
-                    <span class="grey">(<%=rel_course.comments.count %>)</span>
-                  <% end %>
-                  <span class="small grey align-bottom  float-right"><%= rel_course.term%></span>
-                <%end%>
-              </div>
+      	<div class="solid ud-pd-md inline-h3">
+          <span class="blue h3">点评</span>
+          <% if logged_in? %>
+            <%= link_to new_comment_path(:course_id=>@course.id,:user_id=>current_user.id) do%>
+              <span class="glyphicon glyphicon-pencil glyphicon-sm right-pd-sm" aria-hidden="true" >写点评</span>
+            <%end%>
+          <% else %>
+            <%= link_to new_comment_path(:course_id=>@course.id) do%>
+              <span class="glyphicon glyphicon-pencil glyphicon-sm right-pd-sm" aria-hidden="true">写点评</span>
+            <%end%>
           <% end %>
         </div>
-
-        <% for teacher in @course.teachers %>
-          <div class="ud-pd-md dashed">
-            <h4 class="blue"><%= teacher.name %>老师的其他课</h5>
-            <% for rel_course in @course.same_teacher_courses(teacher) %>
-              <%if rel_course != @course%>
-                <div class="ud-pd-sm">
-                  <%=link_to rel_course.title, rel_course%>
-                  <% if rel_course.comments.count %>
-                    <span><%= rel_course.rate.average_rate %></span>
-                    <span class="grey">(<%=rel_course.comments.count %>)</span>
-                  <% end %>
-                  <span class="small grey align-bottom  float-right"><%= rel_course.term%></span>
-                </div>
-              <%end%>
-            <% end %>
+        <%if @ccomments.count == 0 %>
+          <div class="tips">
+            <p>还没有评论耶！放着我来！</p>
           </div>
-        <% end %>
+        <% else %>
+          <ul class="comment">
+            <%= render @ccomments %>
+          </ul>
+          <%= will_paginate @ccomments %>
+        <%end%>
       </div>
-    </div> <!-- row -->
-  </div>  <!-- float-element  -->
-</div>  <!-- container -->
+      <!-- 右边栏 -->
+      <div class="col-md-3">
+        <%= render "courses/show_subview/right" %>
+      </div>
+  </div>
 
-<%= will_paginate @ccomments %>
+

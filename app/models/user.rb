@@ -11,10 +11,10 @@ class User < ActiveRecord::Base
     has_many :passive_relationships, class_name: "Relationship",foreign_key: "followed_id",dependent: :destroy
     has_many :followings, through: :active_relationships, source: :followed
     has_many :followers, through: :passive_relationships, source: :follower
-    has_many :interest_courses, class_name: "InterestCourse",foreign_key: "user_id",dependent: :destroy
-    has_many :courses, through: :interest_courses, source: :course
+
     has_many :attitudes, dependent: :destroy #这个attitude对应的是用户对课程的关注，推荐，不推荐和学过四个操作
     has_many :attitude_to_comments, dependent: :destroy
+    has_many :courses, through: :attitudes, source: :course
     
     def User.new_token
         SecureRandom.urlsafe_base64
@@ -43,15 +43,6 @@ class User < ActiveRecord::Base
     end
     def following?(other_user)
         followings.include?(other_user)
-    end
-    def interest(course)
-        interest_courses.create(course_id: course.id)
-    end
-    def uninterest(course)
-        interest_courses.find_by(course_id: course.id).destroy
-    end
-    def interesting?(course)
-        courses.include?(course)
     end
     def notify_comments
         Comment.where(user_id: followings.ids).or(course_id: courses.ids).where("created_at > ?",self.logout_time)
