@@ -14,8 +14,7 @@ class User < ActiveRecord::Base
 
     has_many :attitudes, dependent: :destroy #这个attitude对应的是用户对课程的关注，推荐，不推荐和学过四个操作
     has_many :attitude_to_comments, dependent: :destroy
-    has_many :courses, through: :attitudes, source: :course
-    
+
     def User.new_token
         SecureRandom.urlsafe_base64
     end
@@ -43,6 +42,9 @@ class User < ActiveRecord::Base
     end
     def following?(other_user)
         followings.include?(other_user)
+    end
+    def courses
+        Course.where(id: attitudes.where(:has_follow=>true).select(:course_id)) 
     end
     def notify_comments
         Comment.where(user_id: followings.ids).or(course_id: courses.ids).where("created_at > ?",self.logout_time)
