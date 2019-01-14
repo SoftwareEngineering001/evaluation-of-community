@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190106063856) do
+ActiveRecord::Schema.define(version: 20190114131522) do
 
   create_table "attitude_to_comments", force: :cascade do |t|
     t.string   "user_id"
@@ -61,9 +61,8 @@ ActiveRecord::Schema.define(version: 20190106063856) do
   create_table "courses", force: :cascade do |t|
     t.text     "title"
     t.text     "teacher"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
-    t.decimal  "comment_counts"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
     t.string   "course_major"
     t.string   "dept"
     t.string   "course_type"
@@ -71,7 +70,13 @@ ActiveRecord::Schema.define(version: 20190106063856) do
     t.string   "term"
     t.string   "homepage"
     t.text     "introduction"
+    t.string   "code"
+    t.string   "title_en"
+    t.string   "period_credit"
+    t.string   "subject"
   end
+
+  add_index "courses", ["code"], name: "index_courses_on_code", unique: true
 
   create_table "instructions", force: :cascade do |t|
     t.integer  "teacher_id"
@@ -82,6 +87,17 @@ ActiveRecord::Schema.define(version: 20190106063856) do
 
   add_index "instructions", ["course_id"], name: "index_instructions_on_course_id"
   add_index "instructions", ["teacher_id"], name: "index_instructions_on_teacher_id"
+
+  create_table "interest_courses", force: :cascade do |t|
+    t.integer  "course_id"
+    t.integer  "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "interest_courses", ["course_id", "user_id"], name: "index_interest_courses_on_course_id_and_user_id", unique: true
+  add_index "interest_courses", ["course_id"], name: "index_interest_courses_on_course_id"
+  add_index "interest_courses", ["user_id"], name: "index_interest_courses_on_user_id"
 
   create_table "rates", force: :cascade do |t|
     t.float    "average_rate"

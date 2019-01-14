@@ -29,12 +29,12 @@
 
 <table class="table table-condensed no-border">
   <tr>
-    <td><strong>学科类别：</strong><%=@course.course_major or '未知'%></td>
+    <td><strong>学科类别：</strong><%=@course.subject or '未知'%></td>
     <td><strong>开课单位：</strong><%=@course.dept or '未知'%></td>
   </tr>
   <tr>
-    <td><strong>课程层次：</strong><%=@course.course_type or '未知'%></td>
-    <td><strong>学分：</strong><%=@course.credit or '未知'%>
+    <td><strong>课程层次：</strong><%=@course.course_major or '未知'%></td>
+    <td><strong>课时/学分：</strong><%=@course.period_credit or '未知'%>
       <span class="float-right"><a href="#课程主页" target="_blank">更多信息</a><span></td>
   </tr>
   </tbody>

@@ -1,0 +1,1166 @@
+序号,课程编码,课程名称,英文名称,课程属性,所属学科/专业,课时/学分,主讲教师,教师所属单位
+1,011D9032Z﹡,特征列方法引论,An Introduction to Characteristic Set Method,其它,,40/2.0,袁春明,数学与系统科学研究院
+2,011D9039Z﹡,数理逻辑,Mathematical Logic,其它,,40/2.0,吴刘臻,数学与系统科学研究院
+3,011D9049Z﹡,并行计算引论,Parallel Computing,其它,,40/2.0,崔涛,数学与系统科学研究院
+4,011D9059Z﹡,电磁反散射问题,Inverse Electromagnetic Scattering Problems,其它,,40/2.0,刘晓东,数学与系统科学研究院
+5,011D9082Z﹡,数量经济学,quantitative economics,其它,,40/2.0,杨翠红,数学与系统科学研究院
+6,011D9091Z﹡,深度学习前沿进展选讲,Lectures for Frontiers in Deep Learning,其它,,20/1.0,张世华,数学与系统科学研究院
+7,011D9093Z﹡,多层迭代法,Multilevel Iterative Methods,其它,,20/1.0,张晨松,数学与系统科学研究院
+8,011D9094Z﹡,随机微分几何,Stochastic Differential Geometry,其它,,40/2.0,李向东,数学与系统科学研究院
+9,011D9101Z﹡,李理论基础I、II,Basis of Lie theory,其它,,80/4.0,聂思安,数学与系统科学研究院
+10,011D9105Z﹡,代数数论I、II,Algebraic Number Theory,其它,,80/4.0,田野,数学与系统科学研究院
+11,011D9106Z﹡,代数几何I、II,Algebraic Geometry,其它,,80/4.0,付保华,数学与系统科学研究院
+12,011M1001Y,抽象代数,Abstract Algebra,一级学科核心课,数学,60/3.0,唐国平,数学科学学院
+13,011M1002Y,代数学Ⅰ,Algebra I,一级学科核心课,数学,60/3.0,胡永泉,数学与系统科学研究院
+14,011M1003H,微分流形,Differentiable Manifolds,一级学科核心课,数学,60/3.0,吴英毅,数学科学学院
+15,011M1003Y,微分流形,Differentiable Manifolds,一级学科核心课,数学,60/3.0,吴英毅,数学科学学院
+16,011M1007Y,代数拓扑Ⅰ,Algebraic Topology Ⅰ,一级学科核心课,数学,60/3.0,余建明,数学与系统科学研究院
+17,011M1008Y,现代复分析,Modern Complex Analysis,一级学科核心课,数学,40/2.0,邓富声,数学科学学院
+18,011M1009Y,实分析,Real Analysis,一级学科核心课,数学,50/2.5,燕敦验,数学科学学院
+19,011M1010H,泛函分析Ⅰ,Functional AnalysisⅠ,一级学科核心课,数学,40/2.0,孙义静,数学科学学院
+20,011M1010Y,泛函分析Ⅰ,Functional AnalysisⅠ,一级学科核心课,数学,40/2.0,孙义静,数学科学学院
+21,011M1011H,最优化计算方法,Computational Methods for Optimization,一级学科核心课,数学系统科学,40/2.0,王晓,数学科学学院
+22,011M1012H,高等概率论,Advanced Probability,一级学科核心课,数学统计学系统科学,54/2.5,胡晓予,数学科学学院
+23,011M1013H,高等数理统计,Advanced Mathematical Statistics,一级学科核心课,数学统计学系统科学（复杂系统建模与调控）,60/3.0,张三国,数学科学学院
+24,011M1014H,偏微分方程概论,Introduction to Partial Differential Equations,一级学科核心课,数学系统科学,60/3.0,韩丕功,数学与系统科学研究院
+25,011M1014Y,偏微分方程概论,Introduction to Partial Differential Equations,一级学科核心课,数学系统科学,60/3.0,韩丕功,数学与系统科学研究院
+26,011M2001H,数值分析,Numerical Analysis,一级学科普及课,,40/2.0,王晓,数学科学学院
+27,011M4006H,微分方程数值解Ⅰ,Numerical Solutions of Differential Equations Ⅰ,专业核心课,计算数学,40/2.0,张文生,数学与系统科学研究院
+28,011M4008H,数值线性代数,Numerical Linear Algebra,专业核心课,计算数学,40/2.0,黄记祖,数学与系统科学研究院
+29,011M4009H,数值逼近,Numerical Approximation,专业核心课,计算数学,40/2.0,许志强,数学与系统科学研究院
+30,011M4012H,非参数统计,Non-parametric Statistics,专业核心课,概率论与数理统计统计学（数理统计与统计计算）,40/2.0,孙志华,数学科学学院
+31,011M4013H,多元统计分析,Multivariate Statistical Analysis,专业核心课,概率论与数理统计统计学（生物与医学统计）统计学（数理统计与统计计算）,60/3.0,石坚,数学与系统科学研究院
+32,011M4017Y,计算机代数,Computer Algebra,专业核心课,应用数学,60/3.0,陈玉福,数学科学学院
+33,011M4020H,运筹学通论,Principles of Operational Research,专业核心课,系统理论运筹学与控制论,60/3.0,"刘克,胡旭东",数学与系统科学研究院
+34,011M4021H,图论与网络算法,Graph Theory and Network Algorithm,专业核心课,运筹学与控制论,40/2.0,高随祥,数学科学学院
+35,011M5002Y,微分拓扑,Differentiable Topology,专业普及课,,40/2.0,苏阳,数学与系统科学研究院
+36,011M5007H,微分方程数值解Ⅱ,Numerical Solutions of Differential Equations Ⅱ,专业普及课,,40/2.0,于海军,数学与系统科学研究院
+37,012M1001H,线性系统,Linear Systems,一级学科核心课,系统科学运筹学与控制论,40/2.0,李婵颖,数学与系统科学研究院
+38,012M1002H,系统稳定性理论,System Stability,一级学科核心课,系统科学运筹学与控制论,40/2.0,洪奕光,数学与系统科学研究院
+39,013M1003H,回归分析,Regression Analysi,一级学科核心课,概率论与数理统计统计学,60/3.0,张三国,数学科学学院
+40,01MGX004H,复变函数与积分变换,Function of Complex Variable and Integral Transform,公共选修课,,40/1.5,焦晓祥,数学科学学院
+41,01MGX010H,应用概率论,Applied Probability Theory,公共选修课,,60/2.0,张君玉,数学科学学院
+42,01MGX021H,数学模型及其应用,Mathematical Models and Its Applications,公共选修课,,40/1.5,杨文国,数学科学学院
+43,01MGX022H,常用数学软件选讲,The Use of Selected mathematical Softwares,公共选修课,,40/1.0,赵彤,数学科学学院
+44,01MGX023H,实用最优化算法及其应用,Practical Optimization Algorithms and Applications,公共选修课,,40/1.5,牛凌峰,经济与管理学院
+45,01MGX025H★,代数基础,Foundations of Algebra,公共选修课,,40/1.5,陈凌,数学科学学院
+46,01MGX027H★,几何与拓扑基础,Foundations of Geometry and Topology,公共选修课,,40/1.5,肖良,数学科学学院
+47,01MGX028H,Python科学计算与数据处理,Python for Scientific Computation and Data Analysis,公共选修课,,40/1.0,张敏洪,数学科学学院
+48,021M1001H,高等量子力学（凝聚态物理）,Advanced Quantum Mechanics,一级学科核心课,物理学,60/4.0,金彪,物理科学学院
+49,021M1002H,高等量子力学（理论物理）,Advanced Quantum Mechanics,一级学科核心课,物理学,60/4.0,"陈澍,周端陆",物理研究所
+50,021M1004H-1,物理学中的群论,Group Theory in Physics,一级学科核心课,物理学,60/4.0,"喻明,郭璐",物理科学学院
+51,021M1004H-2,物理学中的群论,Group Theory in Physics,一级学科核心课,物理学,60/4.0,"喻明,郭璐",物理科学学院
+52,021M1006H,光学电磁理论及应用,Theory and Application of Electromagnetic Field in Optics,一级学科核心课,物理学,50/3.0,"鲁欣,李玉同",物理科学学院
+53,021M1007H,超导物理,Superconductivity,一级学科核心课,物理学,50/3.0,"俞理,郑东宁",物理研究所
+54,021M1008H,量子场论（近代物理方向）,Quantum Field Theory,一级学科核心课,物理学,60/4.0,贾宇,高能物理研究所
+55,021M1009H-1,粒子物理基础,Introduction of Particle Physics,一级学科核心课,物理学,60/4.0,"吕才典,李钊",高能物理研究所
+56,021M1009H-2,粒子物理基础,Introduction of Particle Physics,一级学科核心课,物理学,60/4.0,陈莹,高能物理研究所
+57,021M1010H,粒子探测技术,The technology for particle detection,一级学科核心课,核科学与技术物理学,50/3.0,"胡涛,董明义",物理科学学院
+58,021M1018H,理论声学I,Theoretical Acoustics 1,一级学科核心课,物理学,60/4.0,李晓东,声学研究所
+59,021M1021H,表面物理,Physics of surfaces,一级学科核心课,物理学,60/4.0,"陆兴华,陈岚",物理研究所
+60,021M2001H,软物质物理导论,Introduction of Soft Mater Physics,一级学科普及课,物理学,50/3.0,"厚美瑛,杨明成",物理研究所
+61,021M2002H,X射线晶体学（凝聚态物理方向）,X-Ray Crystallography,一级学科普及课,物理学,50/3.0,"贺蒙,陈小龙",物理科学学院
+62,021M2003H,密度泛函理论与应用,Density Functional Theory and Applications,一级学科普及课,物理学,40/2.0,张余洋,物理科学学院
+63,021M2004H,量子场论（1）（理论物理方向）,Quantum Field Theory (I),一级学科普及课,物理学,50/3.0,"舒菁,晏启树",理论物理研究所
+64,021M2005H,广义相对论,General Relativity,一级学科普及课,物理学,50/3.0,"田雨,蔡荣根",物理科学学院
+65,021M2007H,高等物理实验（1）,Advanced Physiscs Experiments (1),实验课,,20/0.5,"林晓,刘渝珍",物理科学学院
+66,021M2009H,高等激光物理学,Advanced Laser Physics,一级学科普及课,物理学,50/3.0,"奚婷婷,魏志义",物理科学学院
+67,021M2013H,实验物理中的概率和统计,Probability and Statistics in Experimental Physics,一级学科普及课,物理学,40/2.0,李祖豪,高能物理研究所
+68,021M2014H,原子核结构,Nuclear Structure,一级学科普及课,物理学,50/3.0,"周善贵,彭光雄",物理科学学院
+69,021M2016H,现代生物物理学,Biological Physics,一级学科普及课,物理学,50/3.0,"史华林,黎明",理论物理研究所
+70,021M2022H,非平衡统计物理,Nonequilibrium Statistical Physics,一级学科普及课,物理学,40/2.0,"覃绍京,周海军",理论物理研究所
+71,021M2038H,高能天体物理（1）,High Energy Astrophysics I,一级学科普及课,物理学,40/2.0,张承民,国家天文台
+72,021M2040H,海洋声学,Ocean Acoustics,一级学科普及课,物理学,50/3.0,吴立新,声学研究所
+73,021M2045H,等离子体物理导论,Introduction to Plasma Physics,一级学科普及课,物理学,40/2.0,马石庄,地球与行星科学学院
+74,021M2047H,医学超声,Medical Ultrasonics,一级学科普及课,物理学,40/2.0,林伟军,声学研究所
+75,021M2048H,压电材料与压电换能器,Piezoelectric Materials and Piezoelectric Transducers,一级学科普及课,物理学,30/2.0,吴先梅,声学研究所
+76,021M3001H,密度泛函理论与应用讨论班,Seminar on Density Functional Theory and Applications,一级学科研讨课,物理学,20/1.0,张余洋,物理科学学院
+77,021M3002H,非平衡统计物理讨论课,Topics of Nonequilibrium Statistical Physics,一级学科研讨课,物理学,20/1.0,王正川,物理科学学院
+78,021M3019H,声表面波传感技术及应用,Surface Acoustic Wave Sensing Technology and Application,一级学科研讨课,物理学,20/1.0,王文,声学研究所
+79,031M1001H,天体物理中的辐射过程,Radiative Processes in Astrophysics,一级学科核心课,天文学,60/3.0,刘碧芳,国家天文台
+80,031M1002H,高等天文学,Modern Astrophysics,一级学科核心课,天文学,60/3.0,姜碧沩,物理科学学院
+81,031M2001H,天文学史,History of Astronomy,一级学科普及课,天文学,42/2.0,"黎耕,武家璧",国家天文台
+82,031M2002H,天文科技文献阅读与写作,Literature Reading and Academic Writing,一级学科普及课,天文学,30/2.0,Roberto Soria,天文与空间科学学院
+83,031M2003H,射电望远镜设计与实现,Technology and Design of Radio Telescope,一级学科普及课,天文学,48/3.0,"李建斌,刘东亮",国家天文台
+84,031M4001H,星系天文学,Galactic Astronomy,专业核心课,天体物理,60/3.0,马骏,国家天文台
+85,031M4002H,现代太阳物理导论,Fundamental Solar Physics,专业核心课,天体物理,60/3.0,"杨尚斌,张枚",国家天文台
+86,031M4003H,行星科学导论,Fundamental Planetary Sciences,专业核心课,天体物理,60/3.0,"崔峻,惠鹤九",国家天文台
+87,031M4004H,恒星大气与谱线分析,Stellar Atomospheres and Spectral Analysis,专业核心课,天体物理,60/3.0,"杜翠花,王菲鹿",国家天文台
+88,031M4005H,空间天文概论,Introduction to Space Astronomy,专业核心课,天体物理,60/3.0,"魏建彦,邓劲松",国家天文台
+89,031M4010H,天体测量学及其应用,Astrometry And Its Application,专业核心课,天体测量与天体力学,60/3.0,"齐朝祥,于涌",上海天文台
+90,031M4011H,天文地球动力学,Astro-geodynamics,专业核心课,天体测量与天体力学,60/3.0,"王广利,黄乘利",国家天文台
+91,031M4012H,时间频率理论与方法,Theory And Method Of Time & Frequency,专业核心课,天体测量与天体力学,53/3.0,"张首刚,李孝辉",国家授时中心
+92,031M4014H,天文光学系统,Guide To Understand Optical Systems,专业核心课,天文技术与方法,60/3.0,"张思炯,朱永田",南京天文光学技术研究所
+93,031M5001H,恒星内部结构和演化,Stellar Physics Ⅱ：Stellar Structure and Evolution,专业普及课,天体物理,42/2.0,"邓李才,毕少兰",国家天文台
+94,031M5002H,核天体物理学,Nuclear Astrophysics,专业普及课,天体物理,45/2.0,何建军,国家天文台
+95,031M5006H,行星遥感与应用,Planetary Remote Sensing And Application,专业普及课,天体测量与天体力学,42/2.0,"张渊智,刘建军",国家天文台
+96,032M1001H,空间环境预报,Prediction of Space Environment,一级学科核心课,航空宇航科学与技术,54/3.0,"师立勤,刘四清",中国科学院国家空间科学中心
+97,032M1002H,天基空间环境探测原理,Principle For Space Environment Exploration Based On Satellite,一级学科核心课,航空宇航科学与技术,54/3.0,"孙越强,白伟华",中国科学院国家空间科学中心
+98,032M1003H,航天器空间环境效应,Space Enviroment Effects For Spacecraft,一级学科核心课,航空宇航科学与技术,75/4.0,"韩建伟,张振龙",中国科学院国家空间科学中心
+99,032M1004H,航天器轨道姿态动力学与控制,Dynamics And Control Of Spacecraft Orbit & Attitude,一级学科核心课,航空宇航科学与技术,56/3.0,"高东,李明涛",中国科学院国家空间科学中心
+100,032M2001H,空间科学概论,Space Science Introduction,一级学科普及课,航空宇航科学与技术,30/2.0,吴季,中国科学院国家空间科学中心
+101,041M4003H,高等仪器分析,ADVANCED INSTRUMENTAL ANALYSIS,专业核心课,分析化学,50/3.0,"李向军,汪福意",化学科学学院
+102,041M4004H,高等有机合成,Advanced Organic Synthesis,专业核心课,有机化学,50/3.0,"刘利,陈传峰",化学研究所
+103,041M4006H,化学生物学,Chemical Biology,专业核心课,有机化学,50/3.0,何裕建,化学科学学院
+104,041M4008H,高等高分子化学,Advanced Polymer Chemistry,专业核心课,高分子化学与物理,80/5.0,"张辽云,杨士勇",化学科学学院
+105,041M4009H,高等高分子物理,Advanced Polymer Physics,专业核心课,高分子化学与物理,72/5.0,"郭洪霞,赵江",化学研究所
+106,041M4010H,配位化学,Coordination Chemistry,专业核心课,无机化学,60/4.0,高丽华,其它
+107,041M4011H,化学热力学,Chemical Thermodynamics,专业核心课,物理化学,50/3.0,"郭源,边文生",化学研究所
+108,041M4012H,化学反应动力学,Kinetics of Chemical Reaction,专业核心课,物理化学,50/3.0,陈波珍,化学科学学院
+109,041M4013H,量子化学,Quantum Chemistry,专业核心课,物理化学,50/3.0,汪志祥,化学科学学院
+110,041M5001H,化学与生物传感分析,Chem-and Bio-sensing Analysis,专业普及课,分析化学,46/3.0,"王铁,马会民",化学研究所
+111,041M5003H,质谱分析,Mass Spectrometry,专业普及课,分析化学,50/3.0,"赵镇文,聂宗秀",化学研究所
+112,041M5004H,有机光化学,Organic Photochemistry,专业普及课,有机化学,50/3.0,"李嫕,陈懿",理化技术研究所
+113,041M5007H-1,有机结构分析,Organic Structural Analysis,专业普及课,有机化学,60/4.0,"王德先,向俊锋",化学研究所
+114,041M5007H-2,有机结构分析,Organic Structural Analysis,专业普及课,有机化学,60/4.0,"徐伟,齐婷",化学科学学院
+115,041M5008H,药物化学,Medicinal Chemistry,专业普及课,有机化学,40/2.5,"俞初一,贾月梅",化学研究所
+116,041M5011H,软物质,Soft Matters,专业普及课,高分子化学与物理,40/2.0,"陈尔强,宋锐",化学科学学院
+117,041M5012H,特种高分子材料,High Performance Polymers,专业普及课,高分子化学与物理,40/2.0,"徐彩虹,范琳",化学研究所
+118,041M5017H,纳米科学与技术,Functional Nanomaterials,专业普及课,无机化学,30/2.0,江鹏,国家纳米科学中心
+119,041M5018H-1,电化学原理及应用,Electrochemical Fundamentals and Applications,专业普及课,物理化学,50/3.0,张占军,化学科学学院
+120,041M5018H-2,电化学原理及应用,Electrochemical Fundamentals and Applications,专业普及课,物理化学,50/3.0,"王树涛,王雪飞",化学科学学院
+121,041M5019H,光化学原理及应用,Principles and Applications of Photochemistry,专业普及课,物理化学,50/3.0,田志远,化学科学学院
+122,041M5021H,固体表面物理化学,Physical Chemistry of Solid-State Surface,专业普及课,物理化学,50/3.0,"裘晓辉,刘薇",化学科学学院
+123,041M5026H,材料分析与表征技术实验,Material Analysis and Characterization Technology Experiments,实验课,,30/1.0,"赵红,张辽云",化学科学学院
+124,041M6002H,纳米分析前沿,Analytical Chemistry Frontier based on Nanotechnology,专业研讨课,分析化学,21/1.0,王铁,化学研究所
+125,041M6003H,有机合成方法及应用,Methods and Applications of Organic Synthesis (Seminar),专业研讨课,有机化学,20/1.0,朱晓张,化学研究所
+126,041M6008H,聚合物共混与复合材料,Polymer Compounding and Composites,专业研讨课,高分子化学与物理,20/1.5,阳明书,化学研究所
+127,041M6010H,纳米材料的应用,Preparation and application of nanomaterials,专业研讨课,无机化学,20/1.0,胡劲松,化学研究所
+128,051M1002H,材料分析方法,Material Analysis Techniques,一级学科核心课,材料科学与工程,50/3.0,陈广超,材料科学与光电技术学院
+129,051M1003H,材料热力学和动力学,Thermodynamics and Kinetics of Materials,一级学科核心课,材料科学与工程,60/3.0,李晓毅,材料科学与光电技术学院
+130,051M2005H,材料科学与工程中的数学方法,Mathematical Methods in Materials Science and Engineering,一级学科普及课,材料科学与工程,50/3.0,苗兵,材料科学与光电技术学院
+131,051M2006H,固体材料,Solid State Materials,一级学科普及课,材料科学与工程,40/2.0,"张静,牛智川",材料科学与光电技术学院
+132,051M2007H,高等半导体物理,Advanced Semiconductor Physics,一级学科普及课,材料科学与工程,40/2.0,"姬扬,周玉琴",材料科学与光电技术学院
+133,051M2008H,半导体器件物理,Physics of Semiconductor Devices,一级学科普及课,材料科学与工程,60/3.0,"杨富华,刘丰珍",材料科学与光电技术学院
+134,051M4015H-1,固体物理基础,Introduction of Solid State Physics,专业核心课,材料学,50/3.0,"王开友,孙宝权",半导体研究所
+135,051M4015H-2,固体物理基础,Solid State Physics,专业核心课,材料学,50/3.0,"王开友,孙宝权",半导体研究所
+136,051M4017H,分子材料与器件,Molecular Materials and Devices,专业核心课,材料物理与化学,50/3.0,李剑峰,材料科学与光电技术学院
+137,051M4030H,材料化学,Chemistry of Materials,专业核心课,材料物理与化学,50/3.0,"张静,向军辉",材料科学与光电技术学院
+138,051M4083H,硅基光电子学材料与器件,Si-based Optoelectronic Materials and Devices,专业核心课,材料物理与化学,60/4.0,"李传波,成步文",半导体研究所
+139,051M5020H,生物可降解高分子材料,Biodegradable Polymers,专业普及课,材料学,40/2.0,"刘仁材,陈弘达",材料科学与光电技术学院
+140,051M5021H,有机半导体材料,Organic Semiconductors,专业普及课,材料学,40/2.0,"黄辉,沈国震",材料科学与光电技术学院
+141,051M5022H,高分子材料的结构与性能,Structures and properties of polymeric materials,专业普及课,材料学,40/2.0,"张兴旺,屈小中",材料科学与光电技术学院
+142,051M5029H,光电材料的制备与性能检测,Preparation and Testing of Optoelectronic Materials,实验课,,40/1.0,周玉荣,材料科学与光电技术学院
+143,051M5033H,纳米材料基础,Fundamentals of Nanomaterials,专业普及课,材料物理与化学,40/2.0,彭爱东,材料科学与光电技术学院
+144,051M5049H,材料的电磁过程及数值建模方法,Electromagnetic Process of Materials (EPM),专业普及课,材料加工工程,50/3.0,王晓东,材料科学与光电技术学院
+145,051M5062H,表面与界面,Surfaces and Interfaces,专业普及课,腐蚀与防护,40/2.0,苗兵,材料科学与光电技术学院
+146,051M5068H,发光材料学,luminescent Material,专业普及课,材料物理与化学,50/3.0,"曲胜春,刘孔",半导体研究所
+147,051M5069H,半导体异质结构材料与应用,Semiconductor Heterostructure Materials and Applications,专业普及课,材料物理与化学,40/2.0,"王晓亮,肖红领",半导体研究所
+148,051M5070H,半导体微纳结构光电子与量子器件,Optoelectronic and Quantum devices based on semiconductor Micro-nano Structure,专业普及课,,40/3.0,"倪海桥,牛智川",半导体研究所
+149,051M5072H,低维半导体光电性质与应用,Optoelectronic Properties and Applications of Low Dimensional Semiconductors,专业普及课,材料物理与化学,50/3.0,"李桂荣,申超",半导体研究所
+150,051M5073H,太阳能电池基础与应用,Fundamental and Application of Solar Cells,专业普及课,材料物理与化学,54/3.0,"游经碧,张兴旺",半导体研究所
+151,051M5106H,半导体激光器,Semiconductor Lasers,专业普及课,材料物理与化学,50/3.0,"杨跃德,黄永箴",半导体研究所
+152,051M5107H,光传感技术及其应用,Optical Sensing Technology and Application,专业普及课,材料物理与化学,50/3.0,"谢亮,王辉",半导体研究所
+153,051M5108H,半导体材料测试与分析,Characterization of Semiconductor Materials,专业普及课,材料物理与化学,50/3.0,"金鹏,杨少延",半导体研究所
+154,051M5109H,光电子器件制造技术,Fabrication Technology of Optoelectronic Devices,专业普及课,材料物理与化学,45/3.0,"种明,张冶金",半导体研究所
+155,051M5110H,低维材料制备、表征及应用,"Preparation, Characterization and Application of Low dimensional materials",专业普及课,材料物理与化学,40/2.0,"左玉华,郑军",半导体研究所
+156,051M5111H,第三代半导体材料及应用,Third Generation Semiconductor Materials and Their Application,专业普及课,材料物理与化学,42/2.0,"李晋闽,闫建昌",半导体研究所
+157,051M5112H,新型III族半导体光电材料及器件,III-V Optoelectronic Materials and Devices,专业普及课,材料物理与化学,50/3.0,"赵丽霞,刘喆",半导体研究所
+158,051M6002H,宽带高速硅基光子集成芯片,High Speed Silicon Based Photonic Integrated Circuits,专业研讨课,材料物理与化学,21/2.0,"成步文,郑婉华",半导体研究所
+159,051M6034H,光电子与微电子集成,The Integration of Optoelectronics and Microelectronics,专业研讨课,材料物理与化学,20/1.0,"黄北举,陈弘达",半导体研究所
+160,051M6035H,半导体物理前沿进展,Advances in Semiconductor Physics,专业研讨课,材料物理与化学,20/1.0,常凯,半导体研究所
+161,051M6037H,石墨烯光电子材料与器件,Photonics and Optoelectronics of Graphene and Graphene-Like Two-Dimensional Materials,专业研讨课,材料物理与化学,20/1.0,"毛旭瑞,陈弘达",半导体研究所
+162,051M6074H,光子集成芯片材料与器件进展,Photonic Integrated Circuits-materials/Processing/Devices,专业研讨课,材料物理与化学,30/2.0,"王圩,阚强",半导体研究所
+163,051M6107H,计算材料学中的机器学习,Computational Materials with Machine Learning,专业研讨课,,20/1.0,James P. Lewis,山西煤炭化学研究所
+164,052M1002H,信息光电子学,Optical Electronics for Information Technology,一级学科核心课,光学工程,57/3.0,孙志斌,中国科学院国家空间科学中心
+165,052M1004H,工程光学,Introduction to Engineering Optics,一级学科核心课,光学工程,60/3.0,闫召爱,中国科学院国家空间科学中心
+166,052M4027H,红外成像技术,Infrared Imaging Technology,专业核心课,光学工程,54/3.0,"徐云,宋国峰",半导体研究所
+167,052M5029H,固体激光原理及应用,Solid-state Laser and Its Applicaitons,专业普及课,光学工程,48/3.0,"于海娟,林学春",半导体研究所
+168,053M1001H,机械设计,Modern Machining Design,一级学科核心课,,60/3.0,周兰英,北京理工大学
+169,061M1001H,分子与细胞免疫学,Molecular and Cellular Immunology,一级学科核心课,生物学,60/4.0,"赵勇,范祖森",动物研究所
+170,061M2001H,免疫组织化学实验,Experiments of Immunohistochemistry,实验课,,40/1.0,"王红梅,丁文军",生命科学学院
+171,061M2028H,科研论文写作,Scientific Writing,一级学科普及课,生物学,40/3.0,"薛愿超,杨鹏远",生命科学学院
+172,061M2031H,生物统计与实验设计,Biological Statistics And Experimental Designs,一级学科普及课,生物学,40/3.0,"王启华,赵彤",数学科学学院
+173,061M4001H,高级植物发育生物学,Plant Developmental Biology,专业核心课,生物学,60/4.0,"王台,种康",植物研究所
+174,061M4002H,生物系统学原理与方法,Principles of Biological Systematics,专业核心课,生物学,60/4.0,"黄大卫,梁爱萍",存济医学院
+175,061M4003H,高等生理学,Advanced Physiology,专业核心课,生物学,60/4.0,王晋辉,生命科学学院
+176,061M4004H,发育神经生物学,Developmental Neurobiology,专业核心课,生物学,60/4.0,"王晓群,李岩",生物物理研究所
+177,061M4005H,细胞生物学技术及应用,Cell Biology Techniques and Their Applications in Life Science,专业核心课,生物学,60/4.0,"唐铁山,丁文军",生命科学学院
+178,061M4006H,系统与进化生物学,Systematic and Evolutionary Biology,专业核心课,生物学,60/4.0,"葛颂,郭亚龙",植物研究所
+179,061M4007H,保护生物学,Conservation Biology,专业核心课,生物学,60/4.0,"蒋志刚,魏辅文",生命科学学院
+180,061M4008H,生物活性小分子,Bioactive Endogenous Small Molecules,专业核心课,生物学,60/4.0,"陈畅,刘平生",生物物理研究所
+181,061M4009H,分子细胞生物学,Molecular Cell Biology,专业核心课,生物学,60/4.0,"李卫,陈佺",动物研究所
+182,061M4011H,细胞的物理生物学,Physical Biology of the Cell,专业核心课,生物学,60/4.0,"娄继忠,柳振峰",生命科学学院
+183,061M4012H,结构生物学技术,Structural Biology Technique,专业核心课,生物学,60/4.0,"叶克穷,冯巍",生物物理研究所
+184,061M4013H,细胞成像技术,Cell Imaging Technologies,专业核心课,生物学,60/4.0,"黄韶辉,徐涛",生物物理研究所
+185,061M4014H,神经科学,Neuroscience,专业核心课,生物学,60/4.0,"孙坚原,刘力",生物物理研究所
+186,061M4021H,表观遗传学,Epigenetics,专业核心课,生物学,60/4.0,"李国红,曹晓风",遗传与发育生物学研究所
+187,061M4023H,发育生物学,Developmental Biology,专业核心课,生物学,60/4.0,"杨维才,丁梅",遗传与发育生物学研究所
+188,061M4024H,生命组学,Life Omics/Life Science (Omics),专业核心课,生物学,60/4.0,"于军,章张",北京基因组研究所
+189,061M4025H,生物信息学,Bioinformatics,专业核心课,生物学,60/4.0,"陈润生,王秀杰",生物物理研究所
+190,061M4028H,微生物遗传与分子生物学,Microbial Genetics and Molecular Biology,专业核心课,生物学,60/4.0,"谭华荣,向华",微生物研究所
+191,061M4031H,植物激素生物学,Plant Hormone Biology,专业核心课,生物学,60/4.0,王红,生命科学学院
+192,061M4032H,分子生物学研究技术,Molecular Biology Techniques,专业核心课,生物学,60/4.0,"柴团耀,郎明林",生命科学学院
+193,061M5003H,光合作用原理,Photosynthesis,专业普及课,生物学,40/3.0,"张立新,卢从明",植物研究所
+194,061M5004H,生物统计学,Biostatistics,专业普及课,生物学,40/3.0,"李欣海,李镇清",生命科学学院
+195,061M5012H,生物技术药物,Biotechnological Drugs,专业普及课,生物学,48/3.0,"杭海英,梁伟",生物物理研究所
+196,061M5014H,生物大分子的电镜三维结构,Three Dimensional Electron Microscopic Reconstruction of Biological Macromolecules,专业普及课,生物学,40/3.0,"朱平,孙飞",生物物理研究所
+197,061M5015H,生物样品制备与关键蛋白发现,Sample Preparation and Key Protein Identification,专业普及课,生物学,40/3.0,"李岩,刘平生",生物物理研究所
+198,061M5016H,认知科学与脑成像,Cognitive Science and Brain Mapping,专业普及课,生物学,40/3.0,"周天罡,陈霖",生物物理研究所
+199,061M5017H,真菌系统学及进化生物学,Fungal Systematics and Evolutionary Biology,专业普及课,生物学,40/3.0,"赵瑞琳,蔡磊",微生物研究所
+200,061M5020H,分子细胞遗传学,Molecular Cytogenetics,专业普及课,生物学,40/3.0,"韩方普,程祝宽",遗传与发育生物学研究所
+201,061M5021H,功能基因组学,Functional Genomics,专业普及课,生物学,40/3.0,"储成才,程祝宽",遗传与发育生物学研究所
+202,061M5025H,分子病毒学,Molecular Virology,专业普及课,生物学,40/3.0,"孟颂东,严景华",微生物研究所
+203,061M5026H,微生物代谢工程,Microbial Metabolic Engineering,专业普及课,生物学,30/2.0,"陈义华,陶勇",微生物研究所
+204,061M5028H,微生物生态学,Microbial Ecology,专业普及课,生物学,40/3.0,"戴欣,郭良栋",微生物研究所
+205,061M5029H,动物生态学,Animal Ecology,专业普及课,生物学,40/3.0,"王德华,李春旺",动物研究所
+206,061M5030H,植物生态学,Plant Ecology,专业普及课,生物学,40/3.0,"王艳芬,崔骁勇",生命科学学院
+207,061M5036H,细胞生物学实验,Experiments of Cell Biology,实验课,,40/1.0,丁文军,生命科学学院
+208,061M5037H,生物化学实验,Experiment of Biochemistry,实验课,,80/2.0,王瑞林,生命科学学院
+209,061M5038H,分子生物学实验,Experiment of Molecular Biology,实验课,,72/2.0,杨铁,动物研究所
+210,061M5041H,生命科学研究中的色谱、质谱和组学技术,"Chromatography, Mass Spectrometry and Omics in Life Science",专业普及课,生物学,40/3.0,"陈秀兰,杨福全",生物物理研究所
+211,061M5045H,生物化学实验原理与技术,Principle and Technique of Biochemistry Experiment,专业普及课,生物学,40/3.0,"张芳,郎明林",生命科学学院
+212,061M5046H,神经科学的表述与撰写,Neuroscience through Presentation and Writing,专业普及课,生物学,30/2.0,"于翔,孙坚原",生物物理研究所
+213,061M6002H,进化发育生物学研讨课,Evolutionary Developmental Biology,专业研讨课,生物学,30/2.0,贺超英,植物研究所
+214,071M4001H,地球物理学基础,Fundamentals of Geophysics,专业核心课,固体地球物理学,60/4.0,魏东平,地球与行星科学学院
+215,071M4002H,地球电磁现象物理学,Physics of Electromagnetic Phenomena of the Earth,专业核心课,固体地球物理学,60/4.0,"杜爱民,葛亚松",地质与地球物理研究所
+216,071M4005H,工程地震学,Engineering Seismology,专业核心课,固体地球物理学,70/4.5,"周本刚,章文波",地球与行星科学学院
+217,071M4007H,空间等离子体物理学,Space Plasma Physics,专业核心课,空间物理学,60/4.0,"王赤,傅绥燕",其它
+218,071M4010H,地球动力学基础,Foundations of Geodynamics,专业核心课,地球动力学,72/4.5,王世民,地球与行星科学学院
+219,071M4011H,有限元方法与计算地球动力学,Finite Element Method and Computational Geodynamics,专业核心课,地球动力学,50/3.0,张怀,地球与行星科学学院
+220,071M4013H,数字信号处理（地学）,Digital Signal Processing for Geosciences,专业核心课,地球动力学,60/4.0,"周元泽,艾印双",地球与行星科学学院
+221,071M5001H,地球科学反演导论,Introduction of Inversion Methods for Earth Science,专业普及课,固体地球物理学,50/3.0,"王彦飞,周元泽",地球与行星科学学院
+222,071M5002H,现代地学实验分析技术,Modern Experimental Analytical Techniques （Geoscience）,专业普及课,固体地球物理学,53/3.0,"马麦宁,姜能",地球与行星科学学院
+223,071M5003H,高等地震学,Advanced Seismology,专业普及课,固体地球物理学,50/3.0,"于湘伟,陈晓非",地球与行星科学学院
+224,071M5005H,地球介质力学,Mechanics of the Earth Medium,专业普及课,固体地球物理学,40/2.5,罗纲,地球与行星科学学院
+225,071M5006H,空间等离子体模拟,Numerical Simulation of the Space Plasma,专业普及课,空间物理学,40/2.5,"沈芳,郭孝城",中国科学院国家空间科学中心
+226,071M5008H,构造物理学基础,Foundation of Tectonophysics,专业普及课,地球动力学,52/3.0,"宁杰远,魏荣强",地球与行星科学学院
+227,071M5012H,中层大气动力学导论,Introductory Course to the Dynamics of The Middle Atmosphere,专业普及课,空间物理学,51/3.0,"余优,陈泽宇",地质与地球物理研究所
+228,071M5013H,空间环境探测原理,The Principle of Space Environment Exploration,专业普及课,空间物理学,50/3.0,"李国主,乐新安",地质与地球物理研究所
+229,071M5015H,地震仪器操作及台站布设,Seismograph Operation and Station Installation,专业普及课,地球动力学,48/2.0,"艾印双,李丽",地球与行星科学学院
+230,072M4001H,火成岩石学,Igneous Rocks,专业核心课,矿物学、岩石学、矿床学,60/4.0,"吴福元,徐义刚",地球与行星科学学院
+231,072M4004H,沉积盆地成因,Origin of Sedimentary Basin,专业核心课,矿物学、岩石学、矿床学,50/3.0,孟庆任,地质与地球物理研究所
+232,072M4006H,矿物物理学,Mineral Physics,专业核心课,矿物学、岩石学、矿床学,50/3.0,"张毅刚,郭光军",地质与地球物理研究所
+233,072M4007H,高等矿床学,Higher Economic Geology,专业核心课,矿物学、岩石学、矿床学,60/4.0,"秦克章,胡瑞忠",地球与行星科学学院
+234,072M4008H,元素地球化学,Element Geochemistry,专业核心课,地球化学,60/4.0,"郭敬辉,孙卫东",地球与行星科学学院
+235,072M4010H,有机地球化学,Organic Geochemistry,专业核心课,地球化学,60/4.0,"彭平安,蔡春芳",地质与地球物理研究所
+236,072M4011H,脊椎动物进化,Vertebrate Evolution,专业核心课,古生物学与地层学,60/4.0,"邓涛,朱敏",古脊椎动物与古人类研究所
+237,072M4013H,环境与生物考古,Environmental Archaeology and Bioarchaeology,专业核心课,古生物学与地层学,40/3.0,"张双权,李小强",古脊椎动物与古人类研究所
+238,072M4014H,高等构造地质学,Advanced Structural Geology,专业核心课,构造地质学,80/5.0,"侯泉林,林伟",地球与行星科学学院
+239,072M4017H,第四纪地质与环境,Quaternary Geology and Environment,专业核心课,第四纪地质学,60/4.0,"吕厚远,刘嘉麒",地质与地球物理研究所
+240,072M4019H,能源地质学,Energy Resource Geology,专业核心课,矿物学、岩石学、矿床学,60/4.0,"胡圣标,琚宜文",地球与行星科学学院
+241,072M4020H,矿床地球化学,Ore Deposit Geochemistry,专业核心课,矿物学、岩石学、矿床学,60/4.0,"范宏瑞,陈华勇",地球与行星科学学院
+242,072M4021H,沉积大地构造学,Sedimentation and Tectonics,专业核心课,构造地质学,60/4.0,闫全人,地球与行星科学学院
+243,072M5003H,岩石热力学,Petrological Thermodynamics,专业普及课,矿物学、岩石学、矿床学,40/2.5,"吴春明,陈意",地质与地球物理研究所
+244,072M5005H,层序地层学,Sequence Stratigraphy,专业普及课,矿物学、岩石学、矿床学,42/2.5,"陈代钊,周锡强",地质与地球物理研究所
+245,072M5007H,成因矿物学,Genetic Mineralogy,专业普及课,矿物学、岩石学、矿床学,50/3.0,"李永兵,杨主明",地球与行星科学学院
+246,072M5013H,生物进化论,Biological Evolution,专业普及课,古生物学与地层学,40/2.5,郭建崴,古脊椎动物与古人类研究所
+247,072M5014H,构造与成矿作用（含矿田构造）,Metallization and Tectonics,专业普及课,构造地质学,36/2.0,"刘庆,闫全人",地球与行星科学学院
+248,072M5015H,显微构造地质学,Microtectonics,专业普及课,构造地质学,50/3.0,"张进江,赵桂萍",地球与行星科学学院
+249,072M5018H,稳定同位素与古环境,Stable Isotopes and Paleoenvironment,专业普及课,第四纪地质学,40/2.5,"刘卫国,杨石岭",地质与地球物理研究所
+250,072M5020H,现代地质学概论,An introduction to Modern Geology,专业普及课,矿物学、岩石学、矿床学,40/2.5,王清晨,地球与行星科学学院
+251,072M5021H,前新生代环境,Pre-Cenozoic Environment,专业普及课,第四纪地质学,32/2.0,汉景泰,地质与地球物理研究所
+252,072M5023H,金属矿床成矿理论研究进展,Advancement of Research on the Metal Mineralization,专业普及课,矿物学、岩石学、矿床学,30/2.0,"杨奎锋,李晓峰",地质与地球物理研究所
+253,072M5024H,地球化学概论,An Introduction to Geochemistry,专业普及课,地球化学,40/2.5,"汤艳杰,英基丰",地球与行星科学学院
+254,072M6001H,火山学,Volcanology,专业研讨课,矿物学、岩石学、矿床学,20/1.0,郭正府,地球与行星科学学院
+255,073M4001H,高等大气动力学,Advanced Atmospheric Dynamics,专业核心课,气象学,72/4.5,林一骅,大气物理研究所
+256,073M4003H,中小尺度天气动力学与数值模拟,Dynamics of Meso-scale System and Numerical Simulation,专业核心课,气象学,60/4.0,"冉令坤,高守亭",大气物理研究所
+257,073M4004H,云与降水过程及其数值模拟,Cloud Physics and Numerical Simulations,专业核心课,,80/5.0,"雷恒池,孙继明",大气物理研究所
+258,073M4006H,大气物理学,Atmospheric Physics,专业核心课,大气物理学与大气环境,60/4.0,"郄秀书,卞建春",大气物理研究所
+259,073M4007H,大气辐射学,Atmospheric Radiation,专业核心课,大气物理学与大气环境,60/4.0,"王普才,石广玉",大气物理研究所
+260,073M4008H,大气探测学,Atmospheric observation,专业核心课,大气物理学与大气环境,60/4.0,"郄秀书,夏祥鳌",大气物理研究所
+261,073M4009H,大气化学,Atmospheric Chemistry,专业核心课,大气物理学与大气环境,60/4.0,"徐永福,贾龙",大气物理研究所
+262,073M4010H,碳氮循环及其模拟,Processes and Modelling of Carbon and Nitrogen Cycles,专业核心课,大气物理学与大气环境,75/4.5,郑循华,大气物理研究所
+263,073M5001H,气候统计方法和应用,Statistical Analysis and Application in Climate Research,专业普及课,气象学,50/3.0,"华丽娟,严中伟",地球与行星科学学院
+264,073M5004H,天气动力学与诊断分析,Synoptic Dynamics and Diagnostic Analysis,专业普及课,气象学,45/2.5,"周玉淑,崔晓鹏",大气物理研究所
+265,073M5005H,雷达气象学原理和应用,Radar Meteorology: Principles and Applications,专业普及课,气象学,48/3.0,"刘黎平,肖辉",其它
+266,073M5009H,大气污染数值预报基础和模式,"Physical, Chemical, Biological Processes and Mathematical Model on Air Pollution",专业普及课,大气物理学与大气环境,30/2.0,"张美根,韩霄",大气物理研究所
+267,073M6001H,气候变化讨论课,Overview of Climate Change Sciences in IPCC WG1 AR5,专业研讨课,气象学,20/1.0,周天军,大气物理研究所
+268,073M6007H,土壤碳氮过程与温室气体,Soil Carbon and Nitrogen Processes and Greenhouse Gases,专业研讨课,大气物理学与大气环境,30/1.5,徐星凯,大气物理研究所
+269,075M4001H,工程地质学,Engineering Geology,专业核心课,地质工程,60/4.0,"尚彦军,胡瑞林",地质与地球物理研究所
+270,075M4002H,水文地质学,Hydrogeology,专业核心课,地质工程,60/4.0,"庞忠和,董艳辉",地球与行星科学学院
+271,075M4003H,地热地质学,Geothermal Geology,专业核心课,地质工程,60/4.0,"胡圣标,张健",地质与地球物理研究所
+272,075M5001H,岩体力学,Rock Mechanics,专业普及课,地质工程,40/2.5,"崔振东,李晓",地质与地球物理研究所
+273,075M5002H,灾害地质学,Disaster Geology,专业普及课,地质工程,40/2.5,"尚彦军,曾庆利",地球与行星科学学院
+274,076M4001H,物理大地测量学,Physical Geodecy,专业核心课,大地测量学与测量工程,62/4.0,"鲍李峰,陆洋",测量与地球物理研究所
+275,076M4003H,时变重力学,Time-varying Gravity,专业核心课,大地测量学与测量工程,60/4.0,孙文科,地球与行星科学学院
+276,076M5001H,成像大地测量学概论,Introduction of Imaging Geodesy,专业普及课,大地测量学与测量工程,30/2.0,"沈强,江利明",测量与地球物理研究所
+277,07MGX001H,地球-我们生活的行星,Earth-the Planet We Live on,公共选修课,,30/1.0,石耀霖,地球与行星科学学院
+278,07MGX005H,世界历史文化名城赏析,The Famous Historical and Cultural city in the World,公共选修课,,30/1.0,王大伟,地球与行星科学学院
+279,07MGX007H,中国民居建筑艺术赏析,The Architectural Art of Chinese Vernacular Dwellings,公共选修课,,30/1.0,吴艳,地球与行星科学学院
+280,07MGX008H,巨构建筑简史,A Brief History of Mega Structure,公共选修课,,30/1.0,彭相国,地球与行星科学学院
+281,07MGX012H,中国建筑赏析,The Art of Chinese Architecture,公共选修课,,30/1.0,陈晓红,地球与行星科学学院
+282,081M1001H,当代人文与经济地理学,Contemporary Human and Economic Geography,一级学科核心课,地理学,60/4.0,"张文忠,刘卫东",地理科学与资源研究所
+283,081M1002H,区域可持续发展理论与实践,Theories and practices of regional sustainable development,一级学科核心课,地理学,60/4.0,"刘慧,刘毅",地理科学与资源研究所
+284,081M1003H,现代自然地理学,Modern Physical Geography,一级学科核心课,地理学,54/3.0,"吴绍洪,郑度",地理科学与资源研究所
+285,081M1004H,资源生态学,Ecology of Resources,一级学科核心课,地理学,50/3.0,"谢高地,闵庆文",地理科学与资源研究所
+286,081M1005H,资源经济学,Resource Economics,一级学科核心课,地理学,50/3.0,"王礼茂,沈镭",地理科学与资源研究所
+287,081M1006H,资源科学纲要,Essentials of Resource Science,一级学科核心课,地理学,50/3.0,"江东,封志明",资源与环境学院
+288,081M1007H,现代地图学,Mordern Cartography,一级学科核心课,地理学,52/3.0,"齐清文,周成虎",地理科学与资源研究所
+289,081M1008H-A,地理信息科学-A,Geographical Information Science,一级学科核心课,地理学,52/3.0,"周成虎,宋现锋",地理科学与资源研究所
+290,081M1008H-B,地理信息科学-B,Geographical Information Science,一级学科核心课,地理学,52/3.0,"周成虎,岳天祥",地理科学与资源研究所
+291,081M1009H-A,遥感科学-A,Remote Sensing Science,一级学科核心课,地理学,60/4.0,姜小光,资源与环境学院
+292,081M1009H—B,遥感科学-B,Remote Sensing Science,一级学科核心课,地理学,60/4.0,姜小光,资源与环境学院
+293,081M2002H,冰冻圈科学概论,Cryospheric Sciences,一级学科普及课,地理学,51/2.0,"秦大河,效存德",资源与环境学院
+294,081M2003H,现代水文学与水资源学,Modern Hydrology and Water Resources,一级学科普及课,地理学,50/2.5,"于静洁,宋献方",地理科学与资源研究所
+295,081M2004H,环境地学导论,Introduction to Geo-environmental Science,一级学科普及课,地理学,51/3.0,"杨林生,戴尔阜",地理科学与资源研究所
+296,081M2007H-1,地理信息系统应用实践-1,GIS Tutorial and Practice,一级学科普及课,地理学,30/1.5,"宋现锋,宋辞",地理科学与资源研究所
+297,081M2007H-2,地理信息系统应用实践-2,GIS Tutorial and Practice,一级学科普及课,地理学,30/1.5,"杜云艳,王江浩",地理科学与资源研究所
+298,081M2009H,遥感智能计算与信息提取,Remote sensing intelligent computing and information extraction,一级学科普及课,地理学,42/2.0,"骆剑承,杨晓梅",遥感应用研究所
+299,081M4008H,空间分析,Spatial analysis,专业核心课,,60/4.0,"宋现锋,裴韬",地理科学与资源研究所
+300,081M5005H,Python空间数据处理,Geo-processing with Python,专业普及课,地图学与地理信息系统,54/3.0,"宋现锋,芮小平",资源与环境学院
+301,081M5009H,全球导航卫星系统原理与应用,Global Navigation Satellite System,专业普及课,地图学与地理信息系统,51/3.0,"许长辉,党亚民",其它
+302,081M5010H,产业与交通地理学,Industry and Transport Geography,专业普及课,人文地理学,45/3.0,"张晓平,金凤君",资源与环境学院
+303,081M5023H,数字地图制图与应用,Digital Map Making and Using,专业普及课,地图学与地理信息系统,30/2.0,齐清文,地理科学与资源研究所
+304,081M5024H,热红外遥感,Remote Sensing in Thermal Infrared,专业普及课,地图学与地理信息系统,36/2.0,"唐伯惠,李召良",地理科学与资源研究所
+305,081M5027H,遥感物理,Remote Sensing Physics,专业普及课,地图学与地理信息系统,51/3.0,"郭华东,牛铮",遥感应用研究所
+306,081M5029H,资源循环利用与生态经济,Resources Recycling and Ecological Economics,专业普及课,自然资源学,36/2.0,"董锁成,李泽红",地理科学与资源研究所
+307,081M6001H,人口流动与城镇化讨论班,The Floating Population and Urbanization Seminar,专业研讨课,人文地理学,21/1.0,刘盛和,地理科学与资源研究所
+308,081M6002H,旅游资源评价与利用,Evaluation and utilization of Tourism Resources,专业研讨课,人文地理学,21/1.0,钟林生,地理科学与资源研究所
+309,081M6021H,城市地理信息系统,Urban GIS,专业研讨课,地图学与地理信息系统,21/1.0,陆锋,地理科学与资源研究所
+310,081M6035H,高光谱遥感,Hyperspectral Remote Sensing,专业研讨课,地图学与地理信息系统,21/1.0,张兵,资源与环境学院
+311,082M1001H,全球变化生态学,Global Change Ecology,一级学科核心课,生态学,60/3.0,"方精云,冯晓娟",植物研究所
+312,082M1002H,生态系统生态学A,Ecosystem Ecology,一级学科核心课,生态学,60/3.0,"黄建辉,白永飞",植物研究所
+313,082M1004H,生态系统观测与实验的基本原理与方法,Theories and Methods in Ecosystem Observation and Experiment,一级学科核心课,生态学,60/3.0,"李胜功,孙晓敏",地理科学与资源研究所
+314,082M1007H,景观与区域生态学,Landscape and Urban Ecology,一级学科核心课,生态学,54/3.0,"陈利顶,傅伯杰",生态环境研究中心
+315,082M1008H,高级生态学,Advanced Ecology,一级学科核心课,生态学,51/3.0,"于贵瑞,欧阳志云",地理科学与资源研究所
+316,082M2008H,环境规划与管理,Environmental Planning and Management,一级学科普及课,生态学,40/2.0,"吕永龙,王铁宇",生态环境研究中心
+317,082M2011H-1,生态学试验设计和统计方法,Experimental Design and Statistical Analysis in Ecology,一级学科普及课,生态学,54/3.0,"程淑兰,黄耀",大气物理研究所
+318,082M2011H-2,生态学试验设计和统计方法,Experimental Design and Statistical Analysis in Ecology,一级学科普及课,生态学,54/3.0,"牛海山,黄耀",资源与环境学院
+319,082M2014H-1,R语言及其在生态学中的应用-1,R language and its application in ecology,一级学科普及课,生态学,40/2.0,"赖江山,马克平",植物研究所
+320,082M2014H-2,R语言及其在生态学中的应用-2,R language and its application in ecology,一级学科普及课,生态学,40/2.0,"赖江山,马克平",植物研究所
+321,082M2016H,植物生理生态学,Plant Physiological Ecology,专业普及课,生态学,40/2.0,"崔骁勇,张文浩",植物研究所
+322,082M3003H,农业生态系统生态学,Agricultural ecosystem ecology,一级学科研讨课,生态学,20/1.0,欧阳竹,地理科学与资源研究所
+323,082M3004H,高原生态系统生态学,Advance in Qinghai-Tibetan Plateau Ecosystem Ecology,一级学科研讨课,生态学,21/1.0,张宪洲,地理科学与资源研究所
+324,082M3005H,遥感生态学,Remote Sensing Ecology,一级学科研讨课,生态学,21/1.0,张扬建,地理科学与资源研究所
+325,082M3006H,恢复生态学,Restoration Ecology,一级学科研讨课,生态学,20/1.0,陶福禄,地理科学与资源研究所
+326,082M3008H,环境变化的生态效应专题研讨,Thesis Seminar: Ecological Effects of Environmental Changes,一级学科研讨课,生态学,21/1.0,冯兆忠,生态环境研究中心
+327,083M1001H,大气污染控制技术,Air Pollution Control Technologies,一级学科核心课,环境科学与工程,60/3.0,"余运波,贺泓",生态环境研究中心
+328,083M1002H,大气环境化学,Atmospheric Environmental Chemistry,一级学科核心课,环境科学与工程,60/3.0,"牟玉静,王新明",生态环境研究中心
+329,083M2001H,大气污染监测技术,Atmospheric Pollution Monitoring Technology,一级学科普及课,环境科学与工程,40/2.0,"刘建国,刘文清",生态环境研究中心
+330,083M4002H,环境分子毒理学,Environmental Molecular Toxicology,专业核心课,环境科学,50/2.5,"何滨,赵斌",生态环境研究中心
+331,083M4006H,现代环境微生物学,Current Environmental Microbiology,专业核心课,环境科学,50/2.5,"庄绪亮,刘双江",生态环境研究中心
+332,083M4008H,高等环境化学,Advanced Environmental Chemistry,专业核心课,环境科学,60/4.0,"江桂斌,张爱茜",资源与环境学院
+333,083M4009H,现代环境分析,Modern Environmental Analysis,专业核心课,环境科学,60/4.0,"郑明辉,蔡亚岐",生态环境研究中心
+334,083M4012H,饮用水安全,Drinking Water Safety,专业核心课,环境工程,54/3.0,"石宝友,杨敏",资源与环境学院
+335,083M5002H,纳米毒理学,Nanotoxicology,专业普及课,环境科学,40/2.0,"宋茂勇,万斌",生态环境研究中心
+336,083M5006H-1,环境微生物实验-1,Experiments of Environmental Microbiology,实验课,,40/1.5,"张洪勋,余志晟",资源与环境学院
+337,083M5006H-2,环境微生物实验-2,Experiments of Environmental Microbiology,实验课,,40/1.5,"张洪勋,余志晟",资源与环境学院
+338,083M5007H,环境污染控制化学,Environmental pollution control chemistry,专业普及课,环境科学,40/2.0,"王亚韡,刘文彬",生态环境研究中心
+339,083M5008H,环境纳米科学与技术,Environmental Nanoscience and Nanotechnology,专业普及课,环境科学,50/3.0,"刘景富,郝郑平",资源与环境学院
+340,083M5009H,环境影响评价,Environmental Impact Assessment,专业普及课,环境科学,40/2.0,"程淑兰,张庆华",资源与环境学院
+341,083M5013H,高级废水生物处理工程,Advanced Biological Wastewater Treatment Engineering,专业普及课,环境工程,40/2.0,"刘俊新,张昱",资源与环境学院
+342,083M5014H,水质界面过程原理,Science and technology of aquatic surface process,专业普及课,环境工程,50/2.5,"郑建中,王东升",资源与环境学院
+343,083M5015H,工业废气控制过程、材料与技术,"Pollution Control of Industrial Exhausts: Processes, Materials and Technologies",专业普及课,环境工程,60/3.0,"程杰,郝郑平",研究生院本部
+344,083M5018H,环境工程数学模型与应用,Mathematical Models of Environmental Engineering and Case Studies,专业普及课,环境工程,40/2.0,"邢新会,钱智",资源与环境学院
+345,083M5020H,膜分离原理与技术,The Membrane Separation Principle and Technology,专业普及课,环境工程,40/2.0,"魏源送,王军",生态环境研究中心
+346,083M5022H,环境修复与资源工程,Environment Remediation and Resources Engineering,专业普及课,环境工程,40/2.0,"陈同斌,雷梅",地理科学与资源研究所
+347,083M5023H-1,环境数据的统计学分析方法-1,Statistical Methods for Environmental Data Analysis,专业普及课,环境科学,60/4.0,"肖康,张爱茜",资源与环境学院
+348,083M5023H-2,环境数据的统计学分析方法-2,Statistical Methods for Environmental Data Analysis,专业普及课,环境科学,60/4.0,"肖康,张爱茜",资源与环境学院
+349,083M5025H,新型有机污染物前沿进展,Frontier Development of Emerging Organic Pollutants,专业普及课,环境工程,40/2.0,"苏贵金,廖春阳",资源与环境学院
+350,083M5026H,土壤物理学,Soil Physics,专业普及课,环境科学,50/3.0,"贾小旭,邵明安",地理科学与资源研究所
+351,083M5027H,环境土壤学,Environmental Soil Science,专业普及课,环境科学,40/2.0,"崔岩山,马义兵",资源与环境学院
+352,083M6008H,水处理药剂与材料,Agent & Materials for Water Treatment,专业研讨课,环境工程,20/1.0,彭先佳,生态环境研究中心
+353,091M4001H,计算机体系结构,Computer Architecture,专业核心课,计算机系统结构,60/3.0,"胡伟武,汪文祥",计算技术研究所
+354,091M4021H-1,高级软件工程,Advanced Software Engineering,一级学科核心课,计算机软件与理论软件工程,60/3.0,魏峻,软件研究所
+355,091M4021H-2,高级软件工程,Advanced Software Engineering,一级学科核心课,计算机软件与理论软件工程,60/3.0,"魏峻,罗铁坚",计算机与控制学院
+356,091M4023H,数理逻辑与程序理论,Mathematical Logic and Theory of Programming,专业核心课,计算机软件与理论,60/3.0,"詹乃军,眭跃飞",软件研究所
+357,091M4041H,计算机算法设计与分析,Algorithm design and analysis,专业核心课,计算机应用技术,60/3.0,卜东波,计算技术研究所
+358,091M4042H-1,模式识别与机器学习,Pattern Recognition and Machine Learning,专业核心课,计算机应用技术,60/3.0,"黄庆明,山世光",计算技术研究所
+359,091M4042H-2,模式识别与机器学习,Pattern Recognition and Machine Learning,专业核心课,计算机应用技术,60/3.0,"卿来云,黄庆明",计算机与控制学院
+360,091M4043H,高级人工智能,Advanced Artificial Intelligence,专业核心课,计算机应用技术,60/3.0,"吴高巍,程学旗",计算技术研究所
+361,091M5001H,VLSI测试与可测试性设计,Testing and Testable Design of VLSI Systems,专业普及课,计算机系统结构,40/2.0,"李晓维,李华伟",计算机与控制学院
+362,091M5004H,超大规模集成电路基础,Fundamental of VLSI,专业普及课,计算机系统结构,40/2.0,齐洪钢,信息工程研究所
+363,091M5005H,移动互联网技术,Mobile Internet Technology,专业普及课,计算机系统结构,40/2.0,王文杰,心理研究所
+364,091M5023H,数据挖掘,Data Mining,专业普及课,计算机软件与理论,40/2.0,刘莹,计算机与控制学院
+365,091M5024H,编译程序高级教程,Compilers: An Advanced Course,专业普及课,计算机软件与理论软件工程,40/2.0,李炼,计算技术研究所
+366,091M5025H,操作系统高级教程,Advance Operating system,专业普及课,计算机软件与理论软件工程,40/2.0,杨力祥,计算机与控制学院
+367,091M5026H,并发数据结构与多核编程,Concurrent Data Structures and Multicore Programming,专业普及课,计算机软件与理论软件工程,40/2.0,"吕毅,林惠民",软件研究所
+368,091M5027H,形式语言与自动机理论,Formal Language and Automata Theory,专业普及课,计算机软件与理论软件工程,40/2.0,姚刚,计算机与控制学院
+369,091M5028H,矩阵分析与应用,Matrix Analysis and Applications,专业普及课,计算机软件与理论,40/2.0,李保滨,计算机与控制学院
+370,091M5029H,算法中的最优化方法,Optimization Methods in Algorithms,专业普及课,计算机软件与理论,40/2.0,林姝,计算机与控制学院
+371,091M5041H,人机交互,Human-Computer Interaction,专业普及课,计算机应用技术,40/2.0,"陈辉,王宏安",软件研究所
+372,091M5042H,网络数据挖掘,Web Data Mining,专业普及课,计算机应用技术,40/2.0,"徐君,沈华伟",计算技术研究所
+373,091M5047H,现代信息检索,Modern Information Retrieval,专业普及课,计算机应用技术,40/2.0,何苯,计算机与控制学院
+374,091M5049H,图像处理与分析,Image Processing and Analysis,专业普及课,计算机应用技术,40/2.0,王伟强,计算机与控制学院
+375,091M6043H,认知计算,Cognitive Computing Seminar,专业研讨课,计算机应用技术,20/1.0,何清,计算技术研究所
+376,092M1002H-1,计算机算法设计与分析,The Design and Analysis of Computer Algorithms,一级学科核心课,软件工程,60/3.0,"陈玉福,马菲菲",软件研究所
+377,092M1002H-2,计算机算法设计与分析,The Design and Analysis of Computer Algorithms,一级学科核心课,软件工程,60/3.0,"陈玉福,刘玉贵",计算机与控制学院
+378,092M1002H-3,计算机算法设计与分析,The Design and Analysis of Computer Algorithms,一级学科核心课,软件工程,60/3.0,"陈玉福,马丙鹏",计算技术研究所
+379,092M2007H,数据库新技术,Database New Technology,一级学科普及课,软件工程,40/2.0,苏桂平,计算机与控制学院
+380,09MGX001H,C++ 程序设计,The C++ Programming Language,公共选修课,,40/1.0,杨力祥,计算机与控制学院
+381,09MGX005H,Python语言导论,aaaIntroduction to Python,公共选修课,,40/1.0,张晋连,计算机与控制学院
+382,101M1001H,矩阵论,Matrix Analysis and Applications,一级学科核心课,信息与通信工程,60/4.0,叶世伟,电子电气与通信工程学院
+383,101M1002H,随机过程（电子与通信类）,Stochastic Processes,一级学科核心课,信息与通信工程,60/4.0,孙应飞,电子电气与通信工程学院
+384,101M1003H,现代数字信号处理,Modern Digital Signal Processing,一级学科核心课,信息与通信工程,60/4.0,张颢,其它
+385,101M1004H,信息论,Elements of Information Theory,一级学科核心课,信号与信息处理,60/4.0,陈德元,电子电气与通信工程学院
+386,101M4001H,现代雷达系统,Modern Radar Theory and Technologies,专业核心课,通信与信息系统,80/5.0,张云华,中国科学院国家空间科学中心
+387,101M4002H,高级通信原理I,Modern digital communication I,专业核心课,通信与信息系统,50/3.0,凃国防,电子电气与通信工程学院
+388,101M4007H,语音信号处理,Speech signal processing,专业核心课,信号与信息处理,50/3.0,"李军锋,颜永红",声学研究所
+389,101M5002H,数字视频处理,Digital Video Processing,专业普及课,通信与信息系统,50/3.0,高绍帅,电子电气与通信工程学院
+390,101M5003H,计算机网络,Computer Networks,专业普及课,通信与信息系统,50/3.0,鲁士文,计算技术研究所
+391,101M5007H,数字图像处理与分析,Digital Image Processing in Electronics and Communication,专业普及课,信号与信息处理,50/3.0,韩振军,电子电气与通信工程学院
+392,101M5009H,小波与滤波器设计,Wavelet and filter banks,专业普及课,信号与信息处理,60/4.0,"彭思龙,李保滨",计算机与控制学院
+393,101M5010H,高光谱遥感基础与数据处理,Hyperspectral Remote Sensing and Data Processing,专业普及课,信号与信息处理,60/4.0,"耿修瑞,赵永超",电子学研究所
+394,101M5012H,水声建模与声纳系统分析,Underwater Acoustic Modeling and Sonar System Analysis,专业普及课,信号与信息处理,30/2.0,马晓川,声学研究所
+395,101M5013H,现代信号处理Ⅰ,Modern Signal Processing Ⅰ,专业普及课,信号与信息处理,50/3.0,黄志蓓,电子电气与通信工程学院
+396,101M5016H,空间光通信技术,Spatial Optical Communication Technology,专业普及课,通信与信息系统,30/2.0,陈雄斌,半导体研究所
+397,101M6001H,电声原理与应用,Fundamentals and Applications of Electroacoustics,专业研讨课,通信与信息系统,20/1.0,郑成诗,声学研究所
+398,101M6002H,干涉合成孔径雷达技术,Interferometric Synthetic Aperture Radar,专业研讨课,信号与信息处理,20/1.0,向茂生,电子学研究所
+399,101M6004H,微波遥感概论,Introduction to Microwave Remote Sensing,专业研讨课,信号与信息处理,20/1.0,禹卫东,电子学研究所
+400,101M6005H,声波测井前沿及定量处理方法,Frontier and quantitative processing method of acoustic logging,专业研讨课,信号与信息处理,20/1.0,陈浩,声学研究所
+401,101M6006H,合成孔径雷达原理,Synthetic Aperture Radar Principle,专业研讨课,信号与信息处理,20/1.0,王宇,电子学研究所
+402,102M2001H,数值分析（电子与通信类）,Numerical Analysis,一级学科普及课,电子科学与技术,40/2.5,肖良,数学科学学院
+403,102M2003H,半导体微纳加工技术,Micro/Nano processing technology for semiconductors,一级学科普及课,电路与系统,50/3.0,"樊中朝,王晓东",半导体研究所
+404,102M4001H,微波电子学,Microwave Electronics,专业核心课,物理电子学,60/4.0,罗积润,电子学研究所
+405,102M4002H-1,高级电磁理论,Advanced Electromagnetic Theory,专业核心课,物理电子学,54/3.0,王勇,电子学研究所
+406,102M4002H-2,高级电磁理论,Advanced Electromagnetic Theory,专业核心课,物理电子学,54/3.0,纪奕才,电子学研究所
+407,102M4004H,超大规模集成电路（VLSI）与系统设计,Very Large Scale Integration (VLSI) and System Design,专业核心课,电路与系统,80/5.0,段成华,电子电气与通信工程学院
+408,102M4005H,半导体器件物理学,Physics of Semiconductor Devices,专业核心课,电路与系统,80/5.0,许军,清华大学
+409,102M4006H-1,半导体工艺与制造技术,Semiconductor Process and Manufacturing Technology,专业核心课,电路与系统,53/3.0,"殷华湘,韩郑生",微电子研究所
+410,102M4006H-2,半导体工艺与制造技术,Semiconductor Process and Manufacturing Technology,专业核心课,电路与系统,53/3.0,"陈宝钦,夏洋",电子学研究所
+411,102M4007H-1,微机电系统基础,Foundations of MEMS,专业核心课,电路与系统,50/3.0,"邹旭东,薛宁",电子学研究所
+412,102M4007H-2,微机电系统基础,Micro-Electro-Mechanical System,专业核心课,电路与系统,50/3.0,"袁泉,杨晋玲",半导体研究所
+413,102M4007H-3,微机电系统基础,Foundations of Sensors and MEMS,专业核心课,电路与系统,50/3.0,易卫东,电子电气与通信工程学院
+414,102M4009H,天线理论与设计,Antenna Theory and Design,专业核心课,物理电子学,50/3.0,薛谦忠,电子学研究所
+415,102M4012H,高等模拟集成电路分析与设计,Advanced Analog Integrated Circuits Design,专业核心课,电路与系统,60/4.0,"刘力源,刘鸣",半导体研究所
+416,102M5004H,最优化方法,Methods of Optimization,专业普及课,电子科学与技术,40/2.5,赵振江,人文学院
+417,102M5005H,微电子系统封装,Microelectronics Packaging,专业普及课,电路与系统,50/3.0,万里兮,微电子研究所
+418,102M5006H,现代传感器技术与应用,Modern Transducers Technology and Application,专业普及课,电路与系统,60/4.0,赵湛,电子学研究所
+419,102M6002H,微传感器与微系统,Microsensors and Microsystems,专业研讨课,电路与系统,20/1.0,夏善红,电子学研究所
+420,102M6007H,导波光学传感理论与技术,Theory and Technology of Optical Waveguide Sensors,专业研讨课,电路与系统,20/1.0,祁志美,电子学研究所
+421,102M6010H,飞秒激光技术应用,Femtosecond Technology Applications,专业研讨课,物理电子学,20/1.0,孙辉,光电研究院
+422,102M6011H,太阳能光伏技术与应用,Solar Photovoltaic Technologies and Application,专业研讨课,物理电子学,30/2.0,韩培德,半导体研究所
+423,103M1003H,数学物理方法（电子与通信类）,Methods of Mathematical Physics,一级学科核心课,电子科学与技术,60/4.0,朱振刚,电子电气与通信工程学院
+424,103M4002H,现代电力系统,Modern Power System Analysis,专业核心课,电力系统及其自动化,60/4.0,"叶华,裴玮",电工研究所
+425,103M4004H,高电压技术,High Voltage Engineering,专业核心课,高电压与绝缘技术,50/3.0,严萍,电工研究所
+426,103M4005H,生物医学工程,Biomedical Engineering,专业核心课,生物电工,50/3.0,陈靖容,电子电气与通信工程学院
+427,103M5001H,气体放电与低温等离子体,Gas Discharge and Low-Temperature Plasma Technology,专业普及课,高电压与绝缘技术,30/2.0,"邵涛,章程",电工研究所
+428,103M6003H,超导精密测量技术及误差理论,Superconducting Precision Measurement and Error Theory,专业研讨课,高电压与绝缘技术,20/1.0,胡新宁,电工研究所
+429,111M4002H,连续介质力学（流体）,Continuity Mechanics (Fluid Mechanics),专业核心课,,60/3.0,吴应湘,力学研究所
+430,111M4003H,连续介质力学（固体）,Continuum Mechanics (Solid),专业核心课,,60/3.0,"赵亚溥,袁泉子",力学研究所
+431,111M4004H,力学实验原理与技术,The Measuremental Principles and Techniques in Experiments of Mechanics,专业核心课,,60/3.0,"谢季佳,李战华",力学研究所
+432,111M4006H,有限元方法,Finite Element Methods,专业核心课,,60/3.0,张年梅,工程科学学院
+433,111M4007H,材料物理基础,Fundamentals of materials physics,专业核心课,,50/2.5,"武晓雷,袁福平",力学研究所
+434,111M4008H,高等流体力学,Advanced Fluid Mechanics,专业核心课,,60/3.0,"余永亮,何国威",工程科学学院
+435,111M4010H,固体力学导论,Introduction to Solid Mechanics,专业核心课,,60/3.0,"魏宇杰,苏业旺",工程科学学院
+436,111M4011H-1,流体力学导论,Introduction to Fluid Dynamics,专业核心课,,60/3.0,"刘秋生,王智慧",工程科学学院
+437,111M4011H-2,流体力学导论,Introduction to Fluid Dynamics,专业核心课,,60/3.0,姚朝晖,工程科学学院
+438,111M4012H,量纲分析,Dimensional Analysis,专业核心课,,60/3.0,"张旭辉,谈庆明",力学研究所
+439,111M4027H,高等岩石力学,Advanced Rock Mechanics,专业核心课,,40/2.0,"盛谦,胡大伟",武汉岩土力学研究所
+440,111M5001H,非线性动力学与混沌,Nonlinear Dynamics and Chaos,专业普及课,,40/2.0,武作兵,力学研究所
+441,111M5002H,生物力学,Biomechanics,专业普及课,,40/2.0,"龙勉,吕守芹",力学研究所
+442,111M5003H,应用偏微分方程与科学计算,Applied Partial Differential Equations and Scientific Computing,专业普及课,,50/2.5,马石庄,地球与行星科学学院
+443,111M5006H,张量分析,tensor analysis,专业普及课,,40/2.0,"余新刚,汪海英",工程科学学院
+444,111M5008H,高等结构动力学,Advanced Structural Dynamics,专业普及课,,60/3.0,"陈伟民,张吟",力学研究所
+445,111M5010H,气体动力学基础,Gas Dynamics,专业普及课,,36/2.0,"姜宗林,胡宗民",力学研究所
+446,111M5011H,渗流力学,Mechanics of underground water flow,专业普及课,,40/2.0,"吴梦喜,刘青泉",力学研究所
+447,112M4001H,高等工程热力学,Advanced Engineering Thermodynamics,专业核心课,,80/4.0,"曹玉会,聂超群",工程科学学院
+448,112M4002H,高等传热学,Advanced Heat Transfer,专业核心课,,70/3.5,"姜玉雁,王增辉",工程热物理研究所
+449,112M4003H,热物理实验原理与技术,Principle and Technology of Experiment in Thermophysics,专业核心课,,50/2.5,李骥,工程科学学院
+450,112M4007H,制冷与低温测试原理与技术,Principle and technology of refrigeration and low temperature testing,专业核心课,,50/2.5,"洪国同,李青",理化技术研究所
+451,112M5001H,化工原理,Principle of Chemical Engineering,专业普及课,,40/2.0,刘伟,其它
+452,113M5001H,太阳能热发电技术,Solar thermal power technology,专业普及课,,50/2.5,"王志峰,宫博",电工研究所
+453,115M1002H,高级管理学,Advanced Management,专业核心课,,40/2.0,王国庆,工程科学学院
+454,115M1003H,工程论证与决策,Engineering Development and Decision,专业核心课,,40/2.0,詹伟,工程科学学院
+455,115M1004H,管理中的数学方法及应用,Mathematical Methods and its Application in Management,专业核心课,,40/2.0,杨文国,数学科学学院
+456,115M1005H,工程管理概论,Introduction to Engineering Management,专业核心课,,40/2.0,于华,工程科学学院
+457,115M1007H,大型复杂工程管理,Mega and Complex Projects Management,专业核心课,,40/2.0,宋元涛,工程科学学院
+458,115M2002H,工程造价管理,Project cost management,专业普及课,,40/2.0,刘曰武,力学研究所
+459,11MGB003H-01,工程伦理通论,Engineering ethics,公共必修课,,6/0.5,姜卉,工程科学学院
+460,11MGB003H-02,工程伦理通论,Engineering ethics,公共必修课,,6/0.5,姜卉,工程科学学院
+461,11MGB003H-03,工程伦理通论,Engineering ethics,公共必修课,,6/0.5,姜卉,工程科学学院
+462,11MGB003H-04,工程伦理-资环,Engineering ethics,公共必修课,,2/0.0,肖康,资源与环境学院
+463,11MGB003H-05,工程伦理-生物,Engineering ethics,公共必修课,,2/0.0,陆忠兵,生命科学学院
+464,11MGB003H-06,工程伦理-信息,Engineering ethics,公共必修课,,2/0.0,陈德元,电子电气与通信工程学院
+465,11MGB003H-07,工程伦理-机械,Engineering ethics,公共必修课,,2/0.0,王生,光电研究院
+466,11MGB003H-08,工程伦理-材料,Engineering ethics,公共必修课,,2/0.0,王晓东,材料科学与光电技术学院
+467,11MGB003H-09,工程伦理-化学,Engineering ethics,公共必修课,,2/0.0,李增喜,化学科学学院
+468,11MGB003H-10,工程伦理-核能,Engineering ethics,公共必修课,,2/0.0,魏龙,高能物理研究所
+469,121D2001Z,研究生科研素养培养,The Cultivation of Scientific Literacy,一级学科普及课,,30/1.0,汪寿阳,数学与系统科学研究院
+470,121D2002Z,创新管理与创新测度,Innovation Management & Innovation Measurement,一级学科普及课,,40/2.0,官建成,经济与管理学院
+471,121D2003Z,管理学研究的数据分析方法,Big Data Analysis Based on Management Principle,一级学科普及课,,20/1.0,吕本富,经济与管理学院
+472,121D2013Z,管理学研究方法论,Management Research Methodology,专业课,,40/2.0,尹红霞,经济与管理学院
+473,121M1002H,高级管理学,Advanced Strategic Management,一级学科核心课,管理科学与工程,80/4.0,"吕萍,徐艳梅",经济与管理学院
+474,121M1003H,数量经济模型与工具应用,Mathematical Economics: Models and Tools,一级学科核心课,管理科学与工程,80/4.0,"汪寿阳,杨翠红",数学与系统科学研究院
+475,121M1004H,管理科学方法论与工具应用,Scientific Management Methodology And Tools Applications,一级学科核心课,,60/3.0,"柳卸林,董纪昌",经济与管理学院
+476,121M5001H,运筹学,Operations Research,专业普及课,管理运筹学,40/2.0,官建成,经济与管理学院
+477,121M5005H,决策分析,Decision Analysis,专业普及课,管理科学与工程,40/2.0,"董纪昌,董志",研究生院本部
+478,121M5006H,博弈论,Game theory,专业普及课,管理科学与工程,40/2.0,乔晗,经济与管理学院
+479,121M5007H,科研统计方法,Seminar on Statistical Methods in Scientific Research,专业普及课,管理运筹学,40/2.0,张建方,经济与管理学院
+480,122M4003H,财务报表阅读与分析,Financial Statement Reading & Analysis,专业核心课,会计学,40/2.0,"王冬梅,吴少平",经济与管理学院
+481,122M5002H,营销管理,Marketing Management,专业普及课,企业管理,40/2.0,"赵红,张莎",经济与管理学院
+482,122M5006H,技术创新与创业经济学,Economics OF Innovation And Entrepreneurship,专业普及课,技术经济及管理,40/2.0,柳卸林,经济与管理学院
+483,123M5005H,金融工程,Financial Engineering,专业普及课,金融学,50/2.0,"吴德胜,邓智斌",经济与管理学院
+484,123M5006H,金融统计与计量经济学,Financial Statistics and Econometrics,专业普及课,金融学,40/2.0,"陈敏,孙佳婧",经济与管理学院
+485,123M5009H,货币金融学,"The Economics of Money, Banking and Financial Markets",专业普及课,金融学,40/2.0,宋吟秋,经济与管理学院
+486,123M5013H,试验优化与产品设计,The Experimental Optimization and Product Design,专业普及课,管理科学与工程,40/2.0,张建方,经济与管理学院
+487,123M6011H,环境经济学研讨课,Seminar on Environmental Economics,专业研讨课,应用经济学（统计学）,30/1.0,"吴德胜,张元勋",资源与环境学院
+488,124M1001H,现代情报学理论与方法,AIntroduction of Modern Library and Information Science,专业核心课,情报学,50/3.0,刘细文,中国科学院文献情报中心
+489,124M1002H,现代图书馆学理论与方法,Theories and Methods of Modern Librarianship,专业核心课,图书馆学,50/3.0,初景利,中国科学院文献情报中心
+490,124M2003H,信息用户与服务研究,Information User and Service Studies,专业普及课,图书馆学,30/2.0,顾立平,中国科学院文献情报中心
+491,124M2004H,情报分析与研究,Information analysis,专业普及课,情报学,30/2.0,李宏,中国科学院科技战略咨询研究院
+492,124M2005H,信息计量学及其应用,Informetrics and Its Application,专业普及课,,30/2.0,袁军鹏,中国科学院文献情报中心
+493,12MGB001H-01,科技信息检索与利用实用技巧（化学化工领域）,Information Retrieval Skills for Chemistry and MaterialsInformation Retrieval for Computer Science,公共必修课,,27/1.0,吴鸣,中国科学院文献情报中心
+494,12MGB001H-02,科技信息检索与利用实用技巧（生命科学领域）,Information Retrieval for Computer Science,公共必修课,,27/1.0,李扬,中国科学院文献情报中心
+495,12MGB001H-03,科技信息检索与利用实用技巧（地球资环领域）,Information Retrieval for Computer Science,公共必修课,,27/1.0,彭皓,中国科学院文献情报中心
+496,12MGB001H-04,科技信息检索与利用实用技巧（计算机领域）,Information Retrieval for Computer Science,公共必修课,,27/1.0,李玲,中国科学院文献情报中心
+497,12MGB001H-05,科技信息检索与利用实用技巧（电子领域）,Information RetrievalInformation Retrieval for Computer Science,公共必修课,,27/1.0,于健,中国科学院文献情报中心
+498,12MGB001H-06,科技信息检索与利用实用技巧（工程材料与光电技术领域）,Information Retrieval for Computer Science,公共必修课,,27/1.0,董兰军,中国科学院文献情报中心
+499,12MGB001H-07,科技信息检索与利用实用技巧,Practical Skills of Scientific Information RetrievalInformation Retrieval for Computer Science,公共必修课,,27/1.0,王保成,中国科学院文献情报中心
+500,12MGB001H-08,科技信息检索与利用实用技巧,Information Retrieval for Computer Science,公共必修课,,27/1.0,宋秀芳,中国科学院文献情报中心
+501,12MGX001H-09,科技信息检索与利用实用技巧,Information Retrieval for Computer Science,公共选修课,,27/1.0,闫亚飞,中国科学院文献情报中心
+502,12MGX001H-10,科技信息检索与利用实用技巧,Information Retrieval for Computer Science,公共选修课,,27/1.0,张冬荣,中国科学院文献情报中心
+503,12MGX003H,面板数据计量经济分析,Econometric Analysis of Panel Data,公共选修课,,40/1.0,胡毅,经济与管理学院
+504,12MGX004H,统计分析与Stata应用,Statistical Analysis Using Stata,公共选修课,,40/1.0,胡毅,经济与管理学院
+505,12MGX009H,项目管理,project management,公共选修课,,40/1.0,张思,经济与管理学院
+506,12MGX030H,创新与创业管理,Innovation and entrepreneurship,公共选修课,,40/1.0,卢涛,经济与管理学院
+507,12MGX032H,危机管理,Crisis Management,公共选修课,,40/1.0,乔晗,经济与管理学院
+508,12MGX035H,随机优化与算法,Stochastic optimization and algorithm,公共选修课,,40/1.0,姚凯,经济与管理学院
+509,12MGX046H,行为金融学,Behavioral Finance,公共选修课,,40/1.0,李秀婷,经济与管理学院
+510,12MGX058H,职业生涯管理,Career Management,公共选修课,,40/1.0,赵红,经济与管理学院
+511,12MGX061H,风险投资,Venture Capital,公共选修课,,40/1.0,张矢的,经济与管理学院
+512,12MGX072H,风险管理,Risk Management,公共选修课,,40/1.0,姚凯,经济与管理学院
+513,12MGX098H,城市与房地产经济学,Urban and Real Estate Economics,公共选修课,,40/1.0,李秀婷,经济与管理学院
+514,12MGX100H,经济地理学,Economic Geography,公共选修课,,40/1.0,郑丹,经济与管理学院
+515,12MGX118H,管理经济学,managerial economics,公共选修课,,40/1.0,孙毅,经济与管理学院
+516,12MGX119H,大数据管理与应用,Management and Applications Based on Big Data,公共选修课,,40/1.0,孙毅,经济与管理学院
+517,12MGX120H,创造力开发与管理,Creativity Development and Management,公共选修课,,40/1.0,汤超颖,经济与管理学院
+518,12MGX123H,国际商务礼仪,International Business Etiquette,公共选修课,,40/1.0,张秋柳,经济与管理学院
+519,12MGX139H,统计学习与R应用,Statistical Learning with Applications in R,公共选修课,,40/1.0,尹红霞,经济与管理学院
+520,12MGX140H,区块链金融,Finance of BlockChains,公共选修课,,30/1.0,魏先华,经济与管理学院
+521,12MGX141H,实用数据统计分析,Statistical Analysis of General Data in Daily Life & Research,公共选修课,,30/1.0,王春,中国科学院文献情报中心
+522,12MGX142H-1,科学数据管理与应用,The Management and Application of Research Data,公共选修课,,30/1.0,青秀玲,中国科学院文献情报中心
+523,12MGX142H-2,科学数据管理与应用,The Management and Application of Research Data,公共选修课,,30/1.0,许哲平,中国科学院文献情报中心
+524,12MGX143H,专利申请实务,Patent application practices,公共选修课,,30/1.0,李玲,中国科学院文献情报中心
+525,12MGX147H,能源经济与绿色发展,Energy economics and green development,公共选修课,,30/1.0,李娜,研究生院本部
+526,12MGX149H,数据分析与统计机器学习,Data Analytics and Statistical Machine Learning,公共选修课,,40/1.0,王曙明,经济与管理学院
+527,12MGX150H,应用统计学基础,Applied Statistics,公共选修课,,30/1.0,朱晓燕,经济与管理学院
+528,131D2003Z,可持续发展管理学,Management Science of Sustainable Development,一级学科普及课,管理科学与工程,36/2.0,"陈劭锋,刘怡君",中国科学院科技战略咨询研究院
+529,131D2004Z,科技管理理论与方法,Theory and methodology of S&T management,一级学科普及课,管理科学与工程,36/2.0,李晓轩,中国科学院科技战略咨询研究院
+530,131D2006Z,管理学研究方法,Methodology of Management Research,一级学科普及课,管理科学与工程,36/2.0,"池宏,许保光",中国科学院科技战略咨询研究院
+531,131D2009Z,高级战略管理学,Strategy Management,一级学科普及课,管理科学与工程,36/2.0,霍国庆,公共政策与管理学院
+532,131D2010Z,科技政策研究方法论,Methodology for Science and Technology Policy Research,一级学科普及课,管理科学与工程,36/2.0,"樊永刚,方新",中国科学院科技战略咨询研究院
+533,131D2011Z,风险分析与决策,Risk Analysis and Decision Marking,一级学科普及课,管理科学与工程,36/2.0,"李建平,吴登生",公共政策与管理学院
+534,131M1002H,科技战略管理,S&T Strategic Management,一级学科核心课,管理科学与工程,54/3.0,"张古鹏,霍国庆",公共政策与管理学院
+535,131M1004H,创新经济学,the economics of innovation,一级学科核心课,管理科学与工程,54/3.0,"顾淑林,温珂",中国科学院科技战略咨询研究院
+536,131M1005H,可持续发展理论与实践,Theory and Practices in Sustainable Development,一级学科核心课,管理科学与工程,54/3.0,"陈劭锋,王毅",公共政策与管理学院
+537,131M2004H,现代化科学导论,Introduction to Modernization Science,一级学科普及课,管理科学与工程,36/2.0,"叶青,何传启",中国科学院文献情报中心
+538,131M2006H,可持续发展管理学导论,Introduction to Management Science for Sustainable development,一级学科普及课,管理科学与工程,36/2.0,"陈劭锋,李颖明",中国科学院科技战略咨询研究院
+539,131M3006H,气候变化经济学,The Economics of Climate Change,一级学科研讨课,管理科学与工程,20/1.0,吴静,中国科学院科技战略咨询研究院
+540,132M1001H,公共管理学,Public Administration,一级学科核心课,公共管理,54/3.0,叶中华,公共政策与管理学院
+541,132M2001H,公共伦理学,Ethics of Administration,一级学科普及课,公共管理,36/2.0,"刘红,李真真",公共政策与管理学院
+542,133M4001H,知识产权法,Intellectual Property Law,专业核心课,民商法学,54/3.0,"李顺德,刘朝",公共政策与管理学院
+543,133M4002H,民法学,Civil Law,专业核心课,民商法学,54/3.0,罗先觉,公共政策与管理学院
+544,133M4003H,科技法学,Science and Technology Law,专业核心课,民商法学,54/3.0,"段异兵,唐素琴",公共政策与管理学院
+545,133M4004H,法理学,Jurisprudence,专业核心课,民商法学,54/3.0,"李玲娟,肖尤丹",公共政策与管理学院
+546,133M5004H,知识产权管理与运营,Intellectual Property Management,专业普及课,民商法学,36/2.0,"宋河发,刘海波",中国科学院科技战略咨询研究院
+547,13MGB001H-01,知识产权,Intellectual Property Right,公共必修课,,20/1.0,张艳,公共政策与管理学院
+548,13MGB001H-02,知识产权,Intellectual Property Right,公共必修课,,20/1.0,尹锋林,公共政策与管理学院
+549,13MGB001H-03,知识产权,Intellectual Property Right,公共必修课,,20/1.0,唐素琴,公共政策与管理学院
+550,13MGB001H-04,知识产权,Intellectual Property Right,公共必修课,,20/1.0,阎文军,公共政策与管理学院
+551,13MGB001H-05,知识产权,Intellectual Property Right,公共必修课,,20/1.0,罗先觉,公共政策与管理学院
+552,13MGB001H-06,知识产权,Intellectual Property Right,公共必修课,,20/1.0,李玲娟,公共政策与管理学院
+553,13MGB001H-07,知识产权,Intellectual Property Right,公共必修课,,20/1.0,刘朝,公共政策与管理学院
+554,13MGX001H,全球化创新,The Globalization of Innovation,公共选修课,,30/1.0,张古鹏,公共政策与管理学院
+555,13MGX002H,创新与创业管理,Innovation and Entrepreneurship Management,公共选修课,,30/1.0,张庆芝,公共政策与管理学院
+556,13MGX003H,高科技企业管理,High-tech Enterprise Management,公共选修课,,30/1.0,孙玉麟,公共政策与管理学院
+557,13MGX004H,创造性思维,The Creative Thinking,公共选修课,,30/1.0,梁洪力,公共政策与管理学院
+558,13MGX006H,科研项目质量管理,Quality Management in Scientific Research,公共选修课,,30/1.0,王富良,电子学研究所
+559,13MGX007H,领导力,Leadership,公共选修课,,30/1.0,曾明彬,公共政策与管理学院
+560,13MGX012H,技术合同与案例分析,Research on Contract of Technology,公共选修课,,30/1.0,李玲娟,公共政策与管理学院
+561,13MGX013H,合同法,Contract Law,公共选修课,,30/1.0,阎文军,公共政策与管理学院
+562,13MGX015H,行政法,Administrative Law,公共选修课,,30/1.0,张艳,公共政策与管理学院
+563,13MGX016H,刑法,Criminal Law,公共选修课,,30/1.0,尹锋林,公共政策与管理学院
+564,13MGX024H,科技战略与政策,Strategy and Policy of Science & Technology,公共选修课,,30/1.0,李志红,公共政策与管理学院
+565,13MGX025H,科研伦理,Research Ethics,公共选修课,,30/1.0,黄小茹,中国科学院科技战略咨询研究院
+566,13MGX068H,社会政策理论与实践,The Principle and practice of Social Policy,公共选修课,,30/1.0,胡乃军,公共政策与管理学院
+567,13MGX069H,中外政治制度和政府治理比较,Comparative Politics and Government Policies,公共选修课,,30/1.0,臧雷振,公共政策与管理学院
+568,13MGX074H,创新方法导论,The Introduction to Innovation Methods,公共选修课,,30/1.0,王海燕,公共政策与管理学院
+569,141M2001H,中国古代哲学,Ancient Chinese Philosophy,一级学科普及课,哲学,40/2.0,"李伯聪,汪前进",人文学院
+570,141M2002H,西方哲学史专题,Study on History of Western Philosophy,一级学科普及课,哲学,50/3.0,邱慧,人文学院
+571,141M2003H,现代西方哲学思潮,Thoughts of Western Contemporary Philosophy,一级学科普及课,哲学,50/3.0,孟建伟,人文学院
+572,141M2004H,伦理学思想流派,Introduction to ethics,一级学科普及课,哲学,40/2.0,胡志强,人文学院
+573,141M3001H,现代西方哲学专题,Study on Western Contemporary Philosophy,一级学科研讨课,哲学,20/1.0,孟建伟,人文学院
+574,141M4002H,技术与工程哲学研究,Studies on Philosophy of Technology and Engineering,专业核心课,哲学,60/4.0,"王大洲,王楠",人文学院
+575,141M4003H,科学的社会研究,Social Studies of Science,专业核心课,哲学,60/3.0,尚智丛,人文学院
+576,141M6009H,社会道德问题分析,Moral Issues in Contemporary Society,专业研讨课,哲学,20/1.0,胡志强,人文学院
+577,142M1001H,传播理论研究,Studies in Communication Theory,一级学科核心课,新闻传播学,60/3.0,张增一,人文学院
+578,142M1002H,传播研究方法,Communication Research Methods,一级学科核心课,新闻传播学,60/3.0,张增一,人文学院
+579,142M1003H,媒介社会学,Media Sociology,一级学科核心课,新闻传播学,60/3.0,诸葛蔚东,人文学院
+580,142M2001H,科学技术传播理论研究,Theory of Science Communication,一级学科普及课,,40/2.0,李大光,人文学院
+581,142M2002H,新闻采访与写作,News  Visit  and  Write,一级学科普及课,,40/2.0,莫扬,人文学院
+582,142M3002H,国际传播专题研究,Analysis of International Communication,一级学科研讨课,新闻传播学,20/1.0,诸葛蔚东,人文学院
+583,142M3003H,科学新闻专题讨论,Science News Seminars,一级学科研讨课,新闻传播学,20/1.0,莫扬,人文学院
+584,143M1001H,科学技术通史,General History of Science: the making of modern science,一级学科核心课,科学技术史,60/3.0,"刘晓,王扬宗",人文学院
+585,143M1002H,中国科技史,History of Science and Technology in China,一级学科核心课,,60/3.0,"孙小淳,胡维佳",人文学院
+586,143M2010H,中国医学文化史,A History of Medicine in Chinese Culture,一级学科普及课,科学技术史,40/2.0,方晓阳,人文学院
+587,143M2013H,西方科学史研究导论,Introduction to History of Western Science Studies,一级学科普及课,,40/2.0,"袁江洋,罗兴波",人文学院
+588,143M3001H,科学技术通史原著精读,General History of Science：An Intensive Reading,一级学科研讨课,,30/2.0,刘晓,人文学院
+589,143M3007H,传统医学与现代科学,Traditional Medicine Modem Science,一级学科研讨课,,20/1.0,方晓阳,人文学院
+590,143M4001H,科技考古,An Introduction to Archaeometry,专业核心课,科学技术史,40/2.0,蒋洪恩,人文学院
+591,143M5003H,陶瓷科技史,History of Scienence and Technology about Ceramics,专业普及课,科学技术史,40/2.0,朱剑,人文学院
+592,143M5007H,中国考古,Chinese Archaeology,专业普及课,科学技术史,40/2.0,宋国定,人文学院
+593,14MGX003H-01,科学通史,General History of Science,公共选修课,,40/1.0,张佳静,人文学院
+594,14MGX003H-02,科学通史,General History of Science,公共选修课,,40/1.0,刘洋,人文学院
+595,14MGX003H-03,科学通史,Comprehensive History of Science——Science and Enlightenment,公共选修课,,40/1.0,罗兴波,人文学院
+596,14MGX003H-04,科学通史,General History of Science,公共选修课,,40/1.0,刘晓,人文学院
+597,14MGX003H-05,科学通史,General History of Science（Integrated）,公共选修课,,40/1.0,张明悟,人文学院
+598,14MGX012H,美国科学技术史概论,History of American Science and Technology,公共选修课,,40/1.0,王大明,人文学院
+599,14MGX017H,世界军事史,Military History of  World,公共选修课,,40/1.0,刘二中,人文学院
+600,14MGX018H,中国古代史,Chinese Ancient History,公共选修课,,40/1.0,张明悟,人文学院
+601,14MGX019H,中国近现代史专题,Special topics on Modern Chinese history,公共选修课,,40/1.0,王丽娜,人文学院
+602,14MGX020H,先秦思想史,The History of Thought in Pre-Qin Period,公共选修课,,21/0.5,韩健平,人文学院
+603,14MGX025H,科学技术与公共政策,"Science,Technology and Public Policy",公共选修课,,40/1.0,王大洲,人文学院
+604,14MGX034H,北京文化历史地理,The Historical Cultural Geography of Beijing,公共选修课,,40/1.0,尚雪,人文学院
+605,14MGX035H,植物学史,The History of Botany,公共选修课,,40/1.0,蒋洪恩,人文学院
+606,14MGX039H,文化人类学,Introduction to Cultural,公共选修课,,40/1.0,潘守永,其它
+607,14MGX041H,科学技术史,History of Science and Technology,公共选修课,,40/1.0,刘二中,人文学院
+608,14MGX045H,中国历史地理,Historical Geography of China,公共选修课,,40/1.0,陈晓珊,自然科学史研究所
+609,14MGX046H,传统工艺与当代社会,Traditional Crafts & Modern Society,公共选修课,,40/1.0,杨丽凡,人文学院
+610,14MGX048H,科幻小说与科学,Science Fiction and Modern,公共选修课,,40/1.0,苏湛,人文学院
+611,14MGX052H,科学史英文文献选读,Readings in the History and Philosophy of Science,公共选修课,,40/1.0,孙小淳,人文学院
+612,14MGX061H,科学技术与社会,Introduction to Science Technology and Society,公共选修课,,40/1.0,王聪,人文学院
+613,14MGX062H,陶瓷的世界—贸易、文化和技术交流史,"World of Ceramics –History on Trade, Cultural and Technical Exchange",公共选修课,,40/1.0,黄荣光,人文学院
+614,14MGX066H,电影视听叙事艺术中的社会和三观,"Die Kunst des Films:Gesellschaft,Kulturen und Wertvorstellungen im 		filmischen Erz&#228;hlen",公共选修课,,36/1.0,杨慧,其它
+615,14MGX067H,逻辑与批判性思维,Logic and Critical Thinking,公共选修课,,40/1.0,范杰,人文学院
+616,14MGX070H,全球史（上）,Global History,公共选修课,,40/1.0,苏湛,人文学院
+617,14MGX072H,密码学史,A History of Cryptography,公共选修课,,40/1.0,赵振江,人文学院
+618,14MGX073H,西方数学史,A History of Western Mathematics,公共选修课,,40/1.0,赵振江,人文学院
+619,14MGX074H,化学史,History of Chemistry,公共选修课,,40/1.0,何涓,人文学院
+620,14MGX075H,中外大学文化史,History and Culture of the University,公共选修课,,30/1.0,王勇忠,人文学院
+621,14MGX076H,中国术数文化,Mysterious Culture in China,公共选修课,,40/1.0,汪前进,人文学院
+622,14MGX077H,近现代物理学史,History of Moden Physics,公共选修课,,30/1.0,鲁大龙,研究生院本部
+623,14MGX079H,中国古代的天文历法,Astronomy and Calendar in Ancient China,公共选修课,,30/1.0,王广超,人文学院
+624,14MGX080H,科学的起源与科学革命,The Beginnings of Science and Scientific Revolution,公共选修课,,40/1.0,宁晓玉,人文学院
+625,15DGB002H-L203,英语B-203班（怀）-高级听说,PhD English Program,公共必修课,,36/1.0,杨莉,外语系
+626,15DGB002H-L204,英语B-204班（怀）-高级听说,PhD English Program,公共必修课,,36/1.0,杨莉,外语系
+627,15DGB002H-L207,英语B-207班（怀）-高级听说,PhD English Program,公共必修课,,36/1.0,田禾,外语系
+628,15DGB002H-L208,英语B-208班（怀）-高级听说,PhD English Program,公共必修课,,36/1.0,田禾,外语系
+629,15DGB002H-L44,英语B-44班（怀）-高级听说,PhD English,公共必修课,,36/1.0,张红晖,外语系
+630,15DGB002H-L49,英语B-49班（怀）-高级听说,PhD English,公共必修课,,36/1.0,张红晖,外语系
+631,15DGB002H-S001,英语B-01班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Carl James Hutchinson,其它
+632,15DGB002H-S002,英语B-02班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Carl James Hutchinson,其它
+633,15DGB002H-S003,英语B-03班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Carl James Hutchinson,其它
+634,15DGB002H-S004,英语B-04班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Carl James Hutchinson,其它
+635,15DGB002H-S011,英语B-11班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,RAYMOND SERAPHIM PORTER,其它
+636,15DGB002H-S012,英语B-12班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,RAYMOND SERAPHIM PORTER,其它
+637,15DGB002H-S040,英语B-40班（怀）-高级口语,PhD English,公共必修课,,36/1.0,Lettice Wigby,外语系
+638,"15DGB002H-S041	",英语B-41班（怀）-高级口语,PhD English,公共必修课,,36/1.0,Lettice Wigby,外语系
+639,"15DGB002H-S042	",英语B-42班（怀）-高级口语,PhD English,公共必修课,,36/1.0,Lettice Wigby,外语系
+640,15DGB002H-S043,英语B-43班（怀）-高级口语,PhD English,公共必修课,,36/1.0,Lettice Wigby,外语系
+641,15DGB002H-S21,英语B-21班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,RAYMOND SERAPHIM PORTER,其它
+642,15DGB002H-S210,英语B-210班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Lauren David,其它
+643,15DGB002H-S213,英语B-213班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Tim Conboy,其它
+644,15DGB002H-S214,英语B-214班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Tim Conboy,其它
+645,15DGB002H-S216,英语B-216班（怀）-高级口语,PhD English,公共必修课,,36/1.0,Tim Conboy,其它
+646,15DGB002H-S22,英语B-22班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,RAYMOND SERAPHIM PORTER,其它
+647,15DGB002H-S225,英语B-225班（怀）-高级口语,PhD English,公共必修课,,36/1.0,Daniel Elias Concepcion,其它
+648,15DGB002H-S226,英语B-226班（怀）-高级口语,PhD English,公共必修课,,36/1.0,Daniel Elias Concepcion,其它
+649,15DGB002H-S227,英语B-227班（怀）-高级口语,PhD English,公共必修课,,36/1.0,Carl James Hutchinson,其它
+650,15DGB002H-S228,英语B-228班（怀）-高级口语,PhD English,公共必修课,,36/1.0,Lauren David,其它
+651,15DGB002H-S232,英语B-232班（怀）-高级口语,PhD English,公共必修课,,36/1.0,Tim Conboy,其它
+652,15DGB002H-S243,英语B-243班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Hawkeye,研究生院本部
+653,15DGB002H-S244,英语B-244班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Hawkeye,研究生院本部
+654,15DGB002H-S245,英语B-245班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Lauren David,其它
+655,15DGB002H-S246,英语B-246班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Tim Conboy,其它
+656,15DGB002H-S249,英语B-249班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Lettice Wigby,外语系
+657,15DGB002H-S251,英语B-251班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Lauren David,其它
+658,15DGB002H-S253,英语B-253班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Hawkeye,研究生院本部
+659,15DGB002H-S254,英语B-254班（怀）-高级口语,PhD English Program,公共必修课,,36/1.0,Hawkeye,研究生院本部
+660,15DGB002H-W19,英语B-19班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,孙迎晖,北京师范大学
+661,15DGB002H-W20,英语B-20班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,孙迎晖,北京师范大学
+662,15DGB002H-W201,英语B-201班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,冉继军,其它
+663,15DGB002H-W202,英语B-202班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,冉继军,其它
+664,15DGB002H-W205,英语B-205班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Hawkeye,研究生院本部
+665,15DGB002H-W206,英语B-206班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Tim Conboy,其它
+666,15DGB002H-W211,英语B-211班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Hawkeye,研究生院本部
+667,15DGB002H-W212,英语B-212班（怀）-高级写作,PhD English,公共必修课,,36/1.0,Tim Conboy,其它
+668,15DGB002H-W215,英语B-215班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Hawkeye,研究生院本部
+669,15DGB002H-W217,英语B-217班（怀）-高级写作,PhD English,公共必修课,,36/1.0,冉继军,其它
+670,15DGB002H-W219,英语B-219班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Hawkeye,研究生院本部
+671,15DGB002H-W221,英语B-221班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Daniel Elias Concepcion,其它
+672,15DGB002H-W222,英语B-222班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Daniel Elias Concepcion,其它
+673,15DGB002H-W223,英语B-223班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Lauren David,其它
+674,15DGB002H-W229,英语B-229班（怀）-高级写作,PhD English,公共必修课,,36/1.0,Lauren David,其它
+675,15DGB002H-W23,英语B-23班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Carl James Hutchinson,其它
+676,15DGB002H-W230,英语B-230班（怀）-高级写作,PhD English,公共必修课,,36/1.0,Daniel Elias Concepcion,其它
+677,15DGB002H-W231,英语B-231班（怀）-高级写作,PhD English,公共必修课,,36/1.0,Daniel Elias Concepcion,其它
+678,15DGB002H-W24,英语B-24班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Carl James Hutchinson,其它
+679,15DGB002H-W25,英语B-25班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Carl James Hutchinson,其它
+680,15DGB002H-W255,英语B-255班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Lauren David,其它
+681,15DGB002H-W256,英语B-256班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Lauren David,其它
+682,15DGB002H-W26,英语B-26班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Carl James Hutchinson,其它
+683,15DGB002H-W27,英语B-27班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,许宏晨,其它
+684,15DGB002H-W28,英语B-28班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,许宏晨,其它
+685,15DGB002H-W300,英语B-300班（怀）-英文科技论文写作,PhD English Program,公共必修课,,36/1.0,RAYMOND SERAPHIM PORTER,其它
+686,15DGB002H-W301,英语B-301班（怀）-英文科技论文写作,PhD English Program,公共必修课,,36/1.0,RAYMOND SERAPHIM PORTER,其它
+687,15DGB002H-W302,英语B-302班（怀）-英文科技论文写作,PhD English Program,公共必修课,,36/1.0,RAYMOND SERAPHIM PORTER,其它
+688,15DGB002H-W303,英语B-303班（怀）-英文科技论文写作,PhD English Program,公共必修课,,36/1.0,RAYMOND SERAPHIM PORTER,其它
+689,15DGB002H-W37,英语B-37班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Tim Conboy,其它
+690,15DGB002H-W38,英语B-38班（怀）-高级写作,PhD English Program,公共必修课,,36/1.0,Tim Conboy,其它
+691,15DGB002H-W45,英语B-45班（怀）-高级写作,PhD English,公共必修课,,36/1.0,Lettice Wigby,外语系
+692,15DGB002H-W46,英语B-46班（怀）-高级写作,PhD English,公共必修课,,36/1.0,Lettice Wigby,外语系
+693,15DGB002H-W47,英语B-47班（怀）-高级写作,PhD English,公共必修课,,36/1.0,Lettice Wigby,外语系
+694,15DGB002H-W48,英语B-48班（怀）-高级写作,PhD English,公共必修课,,36/1.0,Lettice Wigby,外语系
+695,15DGB002Y-L03,英语B-03班（玉）-高级听说,PhD English Program,公共必修课,,36/1.0,张红晖,外语系
+696,15DGB002Y-L04,英语B-04班（玉）-高级听说,PhD English,公共必修课,,36/1.0,张红晖,外语系
+697,15DGB002Y-L05,英语B-05班（玉）-高级听说,PhD English Program,公共必修课,,36/1.0,郭建,外语系
+698,15DGB002Y-W01,英语B-01班（玉）-高级写作,PhD English,公共必修课,,36/1.0,郭建,外语系
+699,15DGB002Y-W02,英语B-02班（玉）-高级写作,PhD English,公共必修课,,36/1.0,郭建,外语系
+700,15DGB002Y-W06,英语B-06班（玉）-高级写作,PhD English,公共必修课,,36/1.0,张红晖,外语系
+701,15DGB002Z-L115,英语B-115班（中）-高级听说,English　Ｂ,公共必修课,,36/1.0,洪雷,外语系
+702,15DGB002Z-L116,英语B-116班（中）-高级听说,English B,公共必修课,,36/1.0,洪雷,外语系
+703,15DGB002Z-L134,英语B-134班（中）-高级听说,PhD English Program,公共必修课,,36/1.0,莫嘉琳,中国人民大学
+704,15DGB002Z-L151,英语B-151班（中）-高级听说,PhD English Program,公共必修课,,36/1.0,莫嘉琳,中国人民大学
+705,15DGB002Z-L155,英语B-155班（中）-高级听说,PhD English Program,公共必修课,,36/1.0,莫嘉琳,中国人民大学
+706,15DGB002Z-L156,英语B-156班（中）-高级听说,PhD English Program,公共必修课,,36/1.0,刘欣,首都经济贸易大学
+707,15DGB002Z-L157,英语B-157班（中）-高级听说,PhD English Program,公共必修课,,36/1.0,刘欣,首都经济贸易大学
+708,15DGB002Z-L158,英语B-158班（中）-高级听说,PhD English Program,公共必修课,,36/1.0,刘重霄,首都经济贸易大学
+709,15DGB002Z-L159,英语B-159班（中）-高级听说,PhD English Program,公共必修课,,36/1.0,刘重霄,首都经济贸易大学
+710,15DGB002Z-S105,英语B-105班（中）-高级口语,PhD English Program,公共必修课,,36/1.0,Philip John Docherty,其它
+711,15DGB002Z-S112,英语B-112班（中）-高级口语,PhD English Program,公共必修课,,36/1.0,Philip John Docherty,其它
+712,15DGB002Z-S117,英语B-117班（中）-高级口语,PhD English,公共必修课,,36/1.0,Daniel Elias Concepcion,其它
+713,15DGB002Z-S119,英语B-119班（中）-高级口语,PhD English Program,公共必修课,,36/1.0,Ann Marie Ross,中央民族大学
+714,15DGB002Z-S120,英语B-120班（中）-高级口语,PhD English Program,公共必修课,,36/1.0,Ann Marie Ross,中央民族大学
+715,15DGB002Z-S124,英语B-124班（中）-高级口语,PhD English Program,公共必修课,,36/1.0,ROBERT THOMAS TUOHEY,其它
+716,15DGB002Z-S125,英语B-125班（中）-高级口语,PhD English Program,公共必修课,,36/1.0,ROBERT THOMAS TUOHEY,其它
+717,15DGB002Z-S138,英语B-138班（中）-高级口语,PhD English,公共必修课,,36/1.0,Philip John Docherty,其它
+718,15DGB002Z-S141,英语B-141班（中）-高级口语,PHD English,公共必修课,,36/1.0,Daniel Elias Concepcion,其它
+719,15DGB002Z-S142,英语B-142班（中）-高级口语,PhD English,公共必修课,,36/1.0,Daniel Elias Concepcion,其它
+720,15DGB002Z-S148,英语B-148班（中）-高级口语,PhD English Program,公共必修课,,36/1.0,ROBERT THOMAS TUOHEY,其它
+721,15DGB002Z-S160,英语B-160班（中）-高级口语,PhD English Program,公共必修课,,36/1.0,Ann Marie Ross,中央民族大学
+722,15DGB002Z-S162,英语B-162班（中）-高级口语,PhD English Program,公共必修课,,36/1.0,Daniel Elias Concepcion,其它
+723,15DGB002Z-S163,英语B-163班（中）-高级口语,PhD English Program,公共必修课,,36/1.0,Ann Marie Ross,中央民族大学
+724,15DGB002Z-S164,英语B-164班（中）-高级口语,PhD English Program,公共必修课,,36/1.0,ROBERT THOMAS TUOHEY,其它
+725,15DGB002Z-S168,英语B-168班（中）-高级口语,PhD English Program,公共必修课,,36/1.0,Ann Marie Ross,中央民族大学
+726,15DGB002Z-S182,英语B-182班（中）-高级口语,PhD English Program,公共必修课,,36/1.0,Philip John Docherty,其它
+727,15DGB002Z-S190,英语B-190班（中）-高级口语,PhD English Program,公共必修课,,36/1.0,Philip John Docherty,其它
+728,15DGB002Z-W103,英语B-103班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,房印杰,其它
+729,15DGB002Z-W104,英语B-104班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,ROBERT THOMAS TUOHEY,其它
+730,15DGB002Z-W106,英语B-106班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,吴江梅,其它
+731,15DGB002Z-W109,英语B-109班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,吴江梅,其它
+732,15DGB002Z-W110,英语B-110班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,高建平,其它
+733,15DGB002Z-W111,英语B-111班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,高建平,其它
+734,15DGB002Z-W113,英语B-113班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,ROBERT THOMAS TUOHEY,其它
+735,15DGB002Z-W114,英语B-114班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,尉洪池,其它
+736,15DGB002Z-W122,英语B-122班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,吴江梅,其它
+737,15DGB002Z-W133,英语B-133班（中）-高级写作,PhD English,公共必修课,,36/1.0,焦丽霞,其它
+738,15DGB002Z-W136,英语B-136班（中）-高级写作,PhD English,公共必修课,,36/1.0,尉洪池,其它
+739,15DGB002Z-W145,英语B-145班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,ROBERT THOMAS TUOHEY,其它
+740,15DGB002Z-W146,英语B-146班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,ROBERT THOMAS TUOHEY,其它
+741,15DGB002Z-W149,英语B-149班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,房印杰,其它
+742,15DGB002Z-W150,英语B-150班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,Philip John Docherty,其它
+743,15DGB002Z-W161,英语B-161班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,樊玲,其它
+744,15DGB002Z-W165,英语B-165班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,Philip John Docherty,其它
+745,15DGB002Z-W166,英语B-166班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,Philip John Docherty,其它
+746,15DGB002Z-W167,英语B-167班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,焦丽霞,其它
+747,15DGB002Z-W169,英语B-169班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,宋成方,其它
+748,15DGB002Z-W170,英语B-170班（中）-高级写作,PhD English,公共必修课,,36/1.0,宋成方,其它
+749,15DGB002Z-W188,英语B-188班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,樊玲,其它
+750,15DGB002Z-W189,英语B-189班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,Philip John Docherty,其它
+751,15DGB002Z-W191,英语B-191班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,郝钦海,首都经济贸易大学
+752,15DGB002Z-W192,英语B-192班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,张慧宇,首都经济贸易大学
+753,15DGB002Z-W193,英语B-193班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,张慧宇,首都经济贸易大学
+754,15DGB002Z-W194,英语B-194班（中）-高级写作,PhD English Program,公共必修课,,36/1.0,郝钦海,首都经济贸易大学
+755,15MGB001H-001,英语A-01班（怀）,MS English Program,公共必修课,,36/3.0,洪雷,外语系
+756,15MGB001H-002,英语A-02班（怀）,MS English Program,公共必修课,,36/3.0,洪雷,外语系
+757,15MGB001H-003,英语A-03班（怀）,MS English Program,公共必修课,,36/3.0,洪雷,外语系
+758,15MGB001H-004,英语A-04班（怀）,MS English Program,公共必修课,,36/3.0,范嘉舜,外语系
+759,15MGB001H-005,英语A-05班（怀）,MS English Program,公共必修课,,36/3.0,田禾,外语系
+760,15MGB001H-006,英语A-06班（怀）,MS English Program,公共必修课,,36/3.0,田禾,外语系
+761,15MGB001H-007,英语A-07班（怀）,MS English Program,公共必修课,,36/3.0,彭宇,外语系
+762,15MGB001H-008,英语A-08班（怀）,MS English Program,公共必修课,,36/3.0,孔飞,北京交通大学
+763,15MGB001H-009,英语A-09班（怀）,MS English Program,公共必修课,,36/3.0,姜文东,外语系
+764,15MGB001H-010,英语A-10班（怀）,MS English Program,公共必修课,,36/3.0,赵新,其它
+765,15MGB001H-011,英语A-11班（怀）,MS English Program,公共必修课,,36/3.0,张旭,外语系
+766,15MGB001H-012,英语A-12班（怀）,MS English Program,公共必修课,,36/3.0,张旭,外语系
+767,15MGB001H-013,英语A-13班（怀）,MS English Program,公共必修课,,36/3.0,姜文东,外语系
+768,15MGB001H-014,英语A-14班（怀）,MS English Program,公共必修课,,36/3.0,苏衡,北京航空航天大学
+769,15MGB001H-015,英语A-15班（怀）,MS English Program,公共必修课,,36/3.0,苏衡,北京航空航天大学
+770,15MGB001H-016,英语A-16班（怀）,MS English Program,公共必修课,,36/3.0,孙海洋,外语系
+771,15MGB001H-017,英语A-17班（怀）,MS English Program,公共必修课,,36/3.0,张继琴,其它
+772,15MGB001H-018,英语A-18班（怀）,MS English Program,公共必修课,,36/3.0,李利军,外语系
+773,15MGB001H-019,英语A-19班（怀）,MS English Program,公共必修课,,36/3.0,杜垚,外语系
+774,15MGB001H-020,英语A-20班（怀）,MS English Program,公共必修课,,36/3.0,杨阳,外语系
+775,15MGB001H-021,英语A-21班（怀）,MS English Program,公共必修课,,36/3.0,杨阳,外语系
+776,15MGB001H-022,英语A-22班（怀）,MS English Program,公共必修课,,36/3.0,葛全顺,北京交通大学
+777,15MGB001H-023,英语A-23班（怀）,MS English Program,公共必修课,,36/3.0,姜文东,外语系
+778,15MGB001H-024,英语A-24班（怀）,MS English Program,公共必修课,,36/3.0,范嘉舜,外语系
+779,15MGB001H-025,英语A-25班（怀）,MS English Program,公共必修课,,36/3.0,刘彬,外语系
+780,15MGB001H-026,英语A-26班（怀）,MS English Program,公共必修课,,36/3.0,孙丽冰,外语系
+781,15MGB001H-027,英语A-27班（怀）,MS English Program,公共必修课,,36/3.0,孙丽冰,外语系
+782,15MGB001H-028,英语A-28班（怀）,MS English Program,公共必修课,,36/3.0,孙丽冰,外语系
+783,15MGB001H-029,英语A-29班（怀）,MS English Program,公共必修课,,36/3.0,黄然,外语系
+784,15MGB001H-030,英语A-30班（怀）,MS English Program,公共必修课,,36/3.0,黄然,外语系
+785,15MGB001H-031,英语A-31班（怀）,MS English Program,公共必修课,,36/3.0,范嘉舜,外语系
+786,15MGB001H-032,英语A-32班（怀）,MS English Program,公共必修课,,36/3.0,范嘉舜,外语系
+787,15MGB001H-033,英语A-33班（怀）,MS English Program,公共必修课,,36/3.0,赵新,其它
+788,15MGB001H-034,英语A-34班（怀）,MS English Program,公共必修课,,36/3.0,刘彬,外语系
+789,15MGB001H-035,英语A-35班（怀）,MS English Program,公共必修课,,36/3.0,刘琦,外语系
+790,15MGB001H-036,英语A-36班（怀）,MS English Program,公共必修课,,36/3.0,刘琦,外语系
+791,15MGB001H-037,英语A-37班（怀）,MS English Program,公共必修课,,36/3.0,胡江波,外语系
+792,15MGB001H-038,英语A-38班（怀）,MS English Program,公共必修课,,36/3.0,胡江波,外语系
+793,15MGB001H-039,英语A-39班（怀）,MS English Program,公共必修课,,36/3.0,姜文东,外语系
+794,15MGB001H-040,英语A-40班（怀）,MS English Program,公共必修课,,36/3.0,胡江波,外语系
+795,15MGB001H-041,英语A-41班（怀）,MS English Program,公共必修课,,36/3.0,赵新,其它
+796,15MGB001H-042,英语A-42班（怀）,MS English Program,公共必修课,,36/3.0,赵新,其它
+797,15MGB001H-043,英语A-43班（怀）,MS English Program,公共必修课,,36/3.0,葛全顺,北京交通大学
+798,15MGB001H-044,英语A-44班（怀）,MS English Program,公共必修课,,36/3.0,孙海洋,外语系
+799,15MGB001H-045,英语A-45班（怀）,MS English Program,公共必修课,,36/3.0,李利军,外语系
+800,15MGB001H-046,英语A-46班（怀）,MS English Program,公共必修课,,36/3.0,赵竹轩,外语系
+801,15MGB001H-047,英语A-47班（怀）,MS English Program,公共必修课,,36/3.0,赵竹轩,外语系
+802,15MGB001H-048,英语A-48班（怀）,MS English Program,公共必修课,,36/3.0,赵竹轩,外语系
+803,15MGB001H-049,英语A-49班（怀）,MS English Program,公共必修课,,36/3.0,彭宇,外语系
+804,15MGB001H-050,英语A-50班（怀）,MS English Program,公共必修课,,36/3.0,彭宇,外语系
+805,15MGB001H-051,英语A-51班（怀）,MS English Program,公共必修课,,36/3.0,彭宇,外语系
+806,15MGB001H-052,英语A-52班（怀）,MS English Program,公共必修课,,36/3.0,孙海洋,外语系
+807,15MGB001H-053,英语A-53班（怀）,MS English Program,公共必修课,,36/3.0,孙海洋,外语系
+808,15MGB001H-054,英语A-54班（怀）,MS English Program,公共必修课,,36/3.0,田禾,外语系
+809,15MGB001H-055,英语A-55班（怀）,MS English Program,公共必修课,,36/3.0,田禾,外语系
+810,15MGB001H-056,英语A-56班（怀）,MS English Program,公共必修课,,36/3.0,葛全顺,北京交通大学
+811,15MGB001H-057,英语A-57班（怀）,MS English Program,公共必修课,,36/3.0,葛全顺,北京交通大学
+812,15MGB001H-058,英语A-58班（怀）,MS English Program,公共必修课,,36/3.0,葛全顺,北京交通大学
+813,15MGB001H-059,英语A-59班（怀）,MS English Program,公共必修课,,36/3.0,黄然,外语系
+814,15MGB001H-060,英语A-60班（怀）,MS English Program,公共必修课,,36/3.0,刘琦,外语系
+815,15MGB001H-061,英语A-61班（怀）,MS English Program,公共必修课,,36/3.0,刘琦,外语系
+816,15MGB001H-062,英语A-62班（怀）,MS English Program,公共必修课,,36/3.0,孔飞,北京交通大学
+817,15MGB001H-063,英语A-63班（怀）,MS English Program,公共必修课,,36/3.0,杜垚,外语系
+818,15MGB001H-064,英语A-64班（怀）,MS English Program,公共必修课,,36/3.0,葛全顺,北京交通大学
+819,15MGB001H-065,英语A-65班（怀）,MS English Program,公共必修课,,36/3.0,葛全顺,北京交通大学
+820,15MGB001H-066,英语A-66班（怀）,MS English Program,公共必修课,,36/3.0,孔飞,北京交通大学
+821,15MGB001H-067,英语A-67班（怀）,MS English Program,公共必修课,,36/3.0,苏衡,北京航空航天大学
+822,15MGB001H-068,英语A-68班（怀）,MS English Program,公共必修课,,36/3.0,张继琴,其它
+823,15MGB001H-069,英语A-69班（怀）,MS English Program,公共必修课,,36/3.0,张继琴,其它
+824,15MGB001H-070,英语A-70班（怀）,MS English Program,公共必修课,,36/3.0,孔延红,其它
+825,15MGB001H-071,英语A-71班（怀）,MS English Program,公共必修课,,36/3.0,孔延红,其它
+826,15MGB001H-072,英语A-72班（怀）,MS English Program,公共必修课,,36/3.0,孔延红,其它
+827,15MGB001H-101,英语A+01班（怀）,MS English Program,公共必修课,,36/3.0,陈玮,外语系
+828,15MGB001H-102,英语A+02班（怀）,MS English Program,公共必修课,,36/3.0,陈玮,外语系
+829,15MGB001H-103,英语A+03班（怀）,MS English Program,公共必修课,,36/3.0,崔雅琼,其它
+830,15MGB001H-104,英语A+04班（怀）,MS English Program,公共必修课,,36/3.0,辛琦,外语系
+831,15MGB001H-105,英语A+05班（怀）,MS English Program,公共必修课,,36/3.0,辛琦,外语系
+832,15MGB001H-106,英语A+06班（怀）,MS English Program,公共必修课,,36/3.0,曹笃鑫,外语系
+833,15MGB001H-107,英语A+07班（怀）,MS English Program,公共必修课,,36/3.0,钱玉彬,外语系
+834,15MGB001H-108,英语A+08班（怀）,MS English Program,公共必修课,,36/3.0,辛琦,外语系
+835,15MGB001H-109,英语A+09班（怀）,MS English Program,公共必修课,,36/3.0,辛琦,外语系
+836,15MGB001H-110,英语A+10班（怀）,MS English Program,公共必修课,,36/3.0,崔雅琼,其它
+837,15MGB001H-111,英语A+11班（怀）,MS English Program,公共必修课,,36/3.0,崔雅琼,其它
+838,15MGB001H-112,英语A+12班（怀）,MS English Program,公共必修课,,36/3.0,钱玉彬,外语系
+839,15MGB001H-113,英语A+13班（怀）,MS English Program,公共必修课,,36/3.0,钱玉彬,外语系
+840,15MGB001H-114,英语A+14班（怀）,MS English Program,公共必修课,,36/3.0,于华,外语系
+841,15MGB001H-115,英语A+15班（怀）,MS English Program,公共必修课,,36/3.0,陈念宁,外语系
+842,15MGB001H-116,英语A+16班（怀）,MS English Program,公共必修课,,36/3.0,陈念宁,外语系
+843,15MGB001H-117,英语A+17班（怀）,MS English Program,公共必修课,,36/3.0,崔雅琼,其它
+844,15MGB001H-118,英语A+18班（怀）,MS English Program,公共必修课,,36/3.0,陈念宁,外语系
+845,15MGB001H-119,英语A+19班（怀）,MS English Program,公共必修课,,36/3.0,陈念宁,外语系
+846,15MGB001H-120,英语A+20班（怀）,MS English Program,公共必修课,,36/3.0,曹笃鑫,外语系
+847,15MGB001H-121,英语A+21班（怀）,MS English Program,公共必修课,,36/3.0,于华,外语系
+848,15MGB001H-122,英语A+22班（怀）,MS English Program,公共必修课,,36/3.0,路露,外语系
+849,15MGB001H-123,英语A+23班（怀）,MS English Program,公共必修课,,36/3.0,路露,外语系
+850,15MGB001H-125,英语A+25班（怀）,MS English Program,公共必修课,,36/3.0,于华,外语系
+851,15MGB001H-126,英语A+26班（怀）,MS English Program,公共必修课,,36/3.0,于华,外语系
+852,15MGB001H-127,英语A+27班（怀）,MS English Program,公共必修课,,36/3.0,曹笃鑫,外语系
+853,15MGB001H-128,英语A+28班（怀）,MS English Program,公共必修课,,36/3.0,曹笃鑫,外语系
+854,15MGB001H-129,英语A+29班（怀）,MS English Program,公共必修课,,36/3.0,陈玮,外语系
+855,15MGB001H-130,英语A+30班（怀）,MS English Program,公共必修课,,36/3.0,陈玮,外语系
+856,15MGB001H-131,英语A+31班（怀）,MS English Program,公共必修课,,36/3.0,刘云龙,外语系
+857,15MGB001H-132,英语A+32班（怀）,MS English Program,公共必修课,,36/3.0,刘云龙,外语系
+858,15MGB001H-133,英语A+33班（怀）,MS English Program,公共必修课,,36/3.0,路露,外语系
+859,15MGB001H-134,英语A+34班（怀）,MS English Program,公共必修课,,36/3.0,路露,外语系
+860,15MGB001H-135,英语A+35班（怀）,MS English Program,公共必修课,,36/3.0,刘云龙,外语系
+861,15MGB001H-136,英语A+36班（怀）,MS English Program,公共必修课,,36/3.0,刘云龙,外语系
+862,15MGB001Y-001,硕士学位英语,MS English Program,公共必修课,,36/3.0,刘彬,外语系
+863,15MGX001H-01,口译技能训练,Interpretation Skills,公共选修课,,32/1.0,彭宇,外语系
+864,15MGX001H-02,口译技能训练,Interpretation Skills,公共选修课,,32/1.0,彭宇,外语系
+865,15MGX004H-01,基础学术论文写作,Academic Writing in English - Basic Course,公共选修课,,32/1.0,Torsten Jülich,其它
+866,15MGX004H-02,基础学术论文写作,Academic Writing in English - Basic Course,公共选修课,,32/1.0,Torsten Jülich,其它
+867,15MGX005H-01,国际交流英语听说,English Listening Course for International Communication,公共选修课,,32/1.0,彭工,外语系
+868,15MGX005H-02,国际交流英语听说,English Listening Course for International Communication,公共选修课,,32/1.0,彭工,外语系
+869,15MGX008H-01,英美报刊选读,Selected Readings in English Print News Media,公共选修课,,32/1.0,于少蔚,外语系
+870,15MGX008H-02,英美报刊选读,Selected Readings in English Print News Media,公共选修课,,32/1.0,于少蔚,外语系
+871,15MGX009H-02,汉英翻译,Chinese-English Translation Techniques,公共选修课,,32/1.0,于少蔚,外语系
+872,15MGX012H,德语（二外）,German,公共选修课,,90/2.0,沈永前,外语系
+873,15MGX013H-01,日语（二外）（初级）,Japanese,公共选修课,,64/2.0,马潇漪,外语系
+874,15MGX013H-02,日语（二外）（初级）,Japanese,公共选修课,,64/2.0,马潇漪,外语系
+875,15MGX016H,法语（中级）,French for Advanced Learners,公共选修课,,64/2.0,张旭,外语系
+876,15MGX018H,美国文化面面观,Multiple Aspects of American Culture,公共选修课,,16/0.5,Hawkeye,研究生院本部
+877,15MGX021H-01,科技论文写作,Scientific Paper Writing,公共选修课,,32/1.0,高原,外语系
+878,181M1001H,现代组织胚胎学及其技术应用,Current Histology and Embryology and Technologies,一级学科核心课,基础医学,60/4.0,"彭景楩,李磊",动物研究所
+879,181M1002H,医学实验动物学与疾病模型,Medical Laboratory Animal Sciences and Disease Models,一级学科核心课,基础医学,60/4.0,"史桂芝,田勇",生物物理研究所
+880,181M1003H,高级生物化学,Advanced Biochemistry,一级学科核心课,基础医学,50/3.5,钟良玮,生命科学学院
+881,181M1004H,生理学,Physiology,一级学科核心课,基础医学,50/3.5,"周光飚,唐铁山",动物研究所
+882,181M1005H,医学细胞生物学,Medical Cell Biology,一级学科核心课,,50/3.5,"陈佺,杨建虹",动物研究所
+883,181M1006H,感染免疫学,Immunology of Infectious Diseases,一级学科核心课,基础医学,60/4.0,"孙钦秒,周旭宇",微生物研究所
+884,181M1007H,蛋白质组学,Proteomics,一级学科核心课,,50/3.5,"汪迎春,徐平",其它
+885,181M1008H,医学微生物学及进展,Medical microbiology: basics and research progress,一级学科核心课,基础医学,50/3.5,"李少杰,刘翠华",微生物研究所
+886,181M1011H,生物医学大数据,Big data in biomedicine,一级学科核心课,基础医学,60/4.0,"方向东,雷红星",北京基因组研究所
+887,181M1012H,现代生殖医学之生理基础,Modern Reproductive Medicine-Basic Physiology,一级学科核心课,基础医学,50/3.5,"王红梅,彭景楩",动物研究所
+888,181M1013H,现代生殖医学之病理概论,Modern Reproductive Medicine – Introduction to Pathology,一级学科核心课,基础医学,50/3.5,"王雁玲,高飞",动物研究所
+889,181M1015H,人类遗传疾病,Human Genetic Disease,一级学科核心课,基础医学,50/3.5,"王强,赵建国",动物研究所
+890,181M2002H,微生物组与微生物基因组学,Microbiome and Microbial Genome,一级学科普及课,基础医学,30/2.5,"朱宝利,杜文斌",微生物研究所
+891,181M2003H,精准医学概论,Introduction to Precision Medicine,一级学科普及课,基础医学,40/3.0,"曾长青,王拥军",遗传与发育生物学研究所
+892,181M2004H,人群队列大数据研究基础与R实战,Introduction to Large Data Analysis in Cohort Studies Using R,一级学科普及课,,30/2.5,"张治华,刘凡",北京基因组研究所
+893,181M2005H,病毒病与监控,Viral Disease and Intervention,一级学科普及课,基础医学,30/2.5,"胡志红,罗敏华",武汉病毒研究所
+894,181M2010H,遗传咨询与未来医疗,Genetic Counseling and Future Healthcare,一级学科普及课,,30/2.5,"蔡军,米双利",北京基因组研究所
+895,181M2013H,医学科研中的统计学方法,Statistical Method in Medical Sciences,一级学科普及课,基础医学,50/3.0,"郭秀花,高琦",其它
+896,182M1001H,药物设计方法学,Methodology of Drug Design,一级学科核心课,药学,50/3.5,"李中军,李学兵",微生物研究所
+897,182M1002H,天然药物研究方法学导论,Natural Products Chemistry,一级学科核心课,药学,50/3.5,"马晓丰,刘宏伟",微生物研究所
+898,183M1001H,干细胞生物学,Stem Cell Biology,一级学科核心课,生物医学工程,60/4.0,"刘峰,周琪",动物研究所
+899,183M1002H,再生医学导论,Introductory Course toRegenerative Medicine,一级学科核心课,生物医学工程,50/3.5,"刘光慧,胡宝洋",动物研究所
+900,183M2001H,医学发育生物学,Medical Developmental Biology,一级学科普及课,生物医学工程,30/2.5,"王强,曲静",动物研究所
+901,183M2003H,医学材料学,Materials for Medical Applications,一级学科普及课,生物医学工程,40/3.0,"刘瑞刚,邱东",化学研究所
+902,191M4002H,光纤通信技术,Optical Fiber Communication Technologies,专业核心课,,50/3.0,刘建国,半导体研究所
+903,191M4003H,高等数字集成电路分析及设计,Analysis and Design of Advanced Digital Integrated Circuits,专业核心课,集成电路工程,50/3.0,"王志君,梁利平",微电子研究所
+904,191M6003H,数据挖掘技术与应用,Data Mining Techniques and Applications,专业研讨课,,30/2.0,陈曙东,微电子研究所
+905,192M5002H,半导体材料与器件的分析与表征,Methods and Instruments of Analysis,专业普及课,,40/2.0,Henry Homayoun Radamson,微电子研究所
+906,192M5003H,半导体存储器技术,Semiconductor memory technology,专业普及课,,30/2.0,吕杭炳,微电子研究所
+907,192M6001H,TCAD仿真技术,TCAD Simulation,专业研讨课,,21/1.0,毕津顺,微电子研究所
+908,201M4001H,密码学的数学基础,Mathematics of Cryptography,专业核心课,网络空间安全,60/3.0,"李永强,王明生",信息工程研究所
+909,201M4002H,应用密码学,Applied Cryptography,专业核心课,网络空间安全,60/3.0,林东岱,信息工程研究所
+910,201M4004H-01,机器学习,Machine Learning,专业核心课,网络空间安全,60/3.0,周晓飞,信息工程研究所
+911,201M4004H-02,机器学习,Machine Learning,专业核心课,网络空间安全,60/3.0,周晓飞,信息工程研究所
+912,201M4005H,自然语言处理,Natural Language Processing,专业核心课,网络空间安全,60/3.0,"胡玥,王厚峰",信息工程研究所
+913,201M4008H,网络认证技术,Network Authentication,专业核心课,网络空间安全,60/3.0,"林璟锵,王琼霄",信息工程研究所
+914,201M4009H,无线安全,The Security of Wireless Communications,专业核心课,网络空间安全,60/3.0,"孙德刚,王竹",信息工程研究所
+915,201M4010H,网络与系统安全,Network and System Security,专业核心课,网络空间安全,60/3.0,"王跃武,荆继武",信息工程研究所
+916,201M4011H,安全协议与形式化方法,Security protocols and Formal methods,专业核心课,网络空间安全,60/3.0,姬东耀,信息工程研究所
+917,201M4012H,软件安全原理,Software Security and Vulnerability Analysis,专业核心课,网络空间安全,60/3.0,"贾晓启,邹维",信息工程研究所
+918,201M4014H,信息安全数学基础,Math Foundation of Information Security,专业核心课,网络空间安全,60/3.0,"胡磊,王丽萍",信息工程研究所
+919,201M5001H,理论密码学,Theoretical Cryptography,专业普及课,网络空间安全,40/2.0,"薛锐,陈宇",信息工程研究所
+920,201M5003H,信息隐藏,Information Hiding,专业普及课,网络空间安全,40/2.0,赵险峰,信息工程研究所
+921,201M5006H,密码分析学,Cryptanalysis,专业普及课,网络空间安全,40/2.0,"孙思维,叶顶锋",信息工程研究所
+922,201M5011H,安全性归约证明-基础与方法,Reduction-Based Security Proofs: Foundation and Methods,专业普及课,网络空间安全,40/2.0,"李红达,徐海霞",信息工程研究所
+923,201M5013H,保密技术,Secrecy Technology,专业普及课,网络空间安全,40/2.0,"李梅梅,姜建国",信息工程研究所
+924,201M5017H,网络溯源取证,Cyber Attacks Attribution and Forensics,专业普及课,网络空间安全,40/2.0,"刘宝旭,杨泽明",信息工程研究所
+925,201M5019H,Web安全技术,Web Security,专业普及课,网络空间安全,40/2.0,"刘奇旭,刘潮歌",信息工程研究所
+926,201M5020H,恶意软件发现与分析,Malware Detection and Analysis,专业普及课,网络空间安全,40/2.0,"刘剑,赵双",信息工程研究所
+927,201M5021H,区块链技术及应用,Blockchain and its Applications,专业普及课,网络空间安全,40/2.0,"徐海霞,王鲲鹏",信息工程研究所
+928,201M5022H,信息论与编码,Information Theory and Coding,专业普及课,网络空间安全,40/2.0,"吕克伟,王丽萍",信息工程研究所
+929,201M5025H,域名安全技术,DNS Security,专业普及课,网络空间安全,40/2.0,"张永铮,臧天宁",信息工程研究所
+930,201M5026H,数据科学导论,The Introduction of Data Science,专业普及课,网络空间安全,40/2.0,"沙灜,周川",信息工程研究所
+931,201M6006H,系统结构安全可信计算新思路,System Secure Architecture: The Trend of R&D on Trustworthy Execution,专业研讨课,网络空间安全,20/1.0,王跃武,信息工程研究所
+932,201M6009H,密码学中的量子计算基础,Quantum Computation in Cryptology,专业研讨课,网络空间安全,20/1.0,黄震宇,信息工程研究所
+933,201M6012H,云计算安全,Cloud Security,专业研讨课,网络空间安全,20/1.0,陈驰,信息工程研究所
+934,201M6013H,互联网内容分发与安全,Internet Content Distribution and Security,专业研讨课,网络空间安全,20/1.0,李杨,信息工程研究所
+935,201M6015H-01,基于大数据的软件安全,Big Data Analysis for Software Security,专业研讨课,网络空间安全,20/1.0,陈恺,信息工程研究所
+936,201M6015H-02,基于大数据的软件安全,Big Data Analysis for Software Security,一级学科研讨课,密码学与信息对抗,20/1.0,陈恺,信息工程研究所
+937,201M6022H-01,漏洞利用与攻防实践,Vulnerability Exploiting Techniques and Practice,专业研讨课,网络空间安全,20/1.0,霍玮,信息工程研究所
+938,201M6022H-02,漏洞利用与攻防实践,Vulnerability Exploiting Techniques and Practice,专业研讨课,网络空间安全,20/1.0,霍玮,信息工程研究所
+939,201M6025H,机器学习在网络安全中的应用,Machine Learning Approaches in Network Security,专业研讨课,网络空间安全,20/1.0,张棪,信息工程研究所
+940,211M5002H,液态金属微流体学,Microfluidics of Liquid Metal,专业普及课,液态金属物质科学与技术,30/1.5,桂林,理化技术研究所
+941,212M5002H,肿瘤精准治疗的临床实践与未来技术,Clinical practice and future technology of precision cancer treatment,专业普及课,基因组健康技术,20/1.0,"江倩,王前飞",北京基因组研究所
+942,212M5003H,基因组技术与健康大数据,Genomic Technology and Health Database,专业普及课,基因组健康技术,30/1.5,"柯玉文,刘江",北京基因组研究所
+943,212M5004H,生物信息大数据挖掘分析和实践,"Bioinformatics Big Data: Analysis, Mining and Practice",专业普及课,基因组健康技术,30/1.5,"鲍一明,赵文明",北京基因组研究所
+944,213M5002H,生物医学电子电路、器件及系统前沿,"Frontier of Biomedical Electronic Circuits, Devices and Micriosystems",专业普及课,生物芯片技术,32/1.5,"刘昱,黄成军",微电子研究所
+945,214M5001H,光子集成芯片：理论与器件,Photonic Integrated Circuits：Theory and Devices,专业普及课,光子与量子芯片技术,30/1.5,"王国玺,张文富",西安光学精密机械研究所
+946,214M5002H,微/纳米激光技术,Micro/Nano Laser Technology,专业普及课,光子与量子芯片技术,30/1.5,"王宇飞,郑婉华",半导体研究所
+947,215M5001H,仿生智能纳米材料,Bioinspired Intelligent Nanostructured  Materials,专业普及课,仿生智能材料科学与技术,64/4.0,"王京霞,王树涛",理化技术研究所
+948,216M5001H,类脑智能导论,Introduction to Brain-inspired Intelligence,专业普及课,脑科学与智能技术,30/1.5,"曾毅,余山",自动化研究所
+949,216M5002H,神经科学导论,Fundamentals of Neuroscience,专业普及课,脑科学与智能技术,36/1.5,"罗振革,杜久林",上海生命科学研究院
+950,216M5003H,系统神经科学,Systems neuroscience,专业普及课,脑科学与智能技术,33/1.5,"顾勇,李澄宇",中国科学院脑科学与智能技术卓越创新中心（神经科学研究所）
+951,217M5001H,人工光合作用与太阳能转换,Artificial Photosynthesis and Solar Energy Conversion,专业普及课,光物质科学与能源技术,34/1.5,"陈勇,吴骊珠",理化技术研究所
+952,217M5002H,光谱及显微成像基础与前沿,Fundamentals and Advances of Spectroscopy and Microscopy,专业普及课,光物质科学与能源技术,30/1.5,"王雪松,只金芳",理化技术研究所
+953,22MGX003H,智慧物流,Smart Logistics,公共选修课,,40/1.0,兰舒琳,研究生院本部
+954,23DGB002H-01,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,贺新元,其它
+955,23DGB002H-02,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,贺新元,其它
+956,23DGB002H-03,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,刘志明,其它
+957,23DGB002H-04,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,贺新元,其它
+958,23DGB002H-05,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,陈志刚,其它
+959,23DGB002H-06,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,陈志刚,其它
+960,23DGB002H-07,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,刘志明,其它
+961,23DGB002H-08,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,陈志刚,其它
+962,23DGB002H-09,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,刘志明,其它
+963,23DGB002H-10,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,贺新元,其它
+964,23DGB002H-11,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,贺新元,其它
+965,23DGB002H-12,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,贺新元,其它
+966,23DGB002H-13,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,陈志刚,其它
+967,23DGB002H-14,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,戴立兴,其它
+968,23DGB002H-15,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,贺新元,其它
+969,23DGB002Z-01,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,戴立兴,其它
+970,23DGB002Z-02,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,戴立兴,其它
+971,23DGB002Z-03,中国马克思主义与当代,Marxism and the Present World,公共必修课,,36/2.0,戴立兴,其它
+972,23MGB001H-01,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,张士义,其它
+973,23MGB001H-02,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,陈坚,其它
+974,23MGB001H-03,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,薛庆超,其它
+975,23MGB001H-04,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,陈坚,其它
+976,23MGB001H-05,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,薛庆超,其它
+977,23MGB001H-06,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,张士义,其它
+978,23MGB001H-07,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,薛庆超,其它
+979,23MGB001H-08,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,薛庆超,其它
+980,23MGB001H-09,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,陈坚,其它
+981,23MGB001H-10,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,张士义,其它
+982,23MGB001H-11,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,陈坚,其它
+983,23MGB001H-12,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,薛庆超,其它
+984,23MGB001H-13,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,陈坚,其它
+985,23MGB001H-14,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,陈坚,其它
+986,23MGB001H-15,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,张士义,其它
+987,23MGB001H-16,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,薛庆超,其它
+988,23MGB001H-17,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,张士义,其它
+989,23MGB001H-18,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,陈坚,其它
+990,23MGB001H-19,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,张士义,其它
+991,23MGB001H-20,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,薛庆超,其它
+992,23MGB001H-21,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,薛庆超,其它
+993,23MGB001H-22,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,张士义,其它
+994,23MGB001H-23,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,薛庆超,其它
+995,23MGB001H-24,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,薛庆超,其它
+996,23MGB001H-25,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,陈坚,其它
+997,23MGB001H-26,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,张士义,其它
+998,23MGB001H-27,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,陈坚,其它
+999,23MGB001Y,中国特色社会主义理论与实践研究,The Study of Theory and Practice of Socialism with Chinese Characteristics,公共必修课,,36/2.0,景庆虹,其它
+1000,23MGX005H,科学与人文,Science and Humanities,公共选修课,,40/1.0,孟建伟,人文学院
+1001,23MGX007H,中国历史文化概论,Introduction to History and Civilization in china,公共选修课,,40/1.0,曹志红,人文学院
+1002,23MGX010H,中国古代制度史概要,The Historical Overview of Ancient Institutions of China,公共选修课,,40/1.0,王佩琼,研究生院本部
+1003,241M1001H,心理学研究方法,Research Method of Psychology,一级学科核心课,心理学,60/3.0,"刘烨,毕鸿燕",心理研究所
+1004,241M2001H,心理测量与评估,Psychological Assessment,一级学科普及课,心理学,40/2.0,陈天勇,心理研究所
+1005,241M4001H,认知心理学,Cognitive Psychology,专业核心课,基础心理学,60/3.0,"李雪冰,蒋毅",心理研究所
+1006,241M4002H,发展与教育心理学,Developmental and Educational Psychology,专业核心课,发展与教育心理学,60/3.0,李甦,心理研究所
+1007,241M4003H,应用心理学高级课程,Advanced Topics in Applied Psychology,专业核心课,应用心理学,60/3.0,朱廷劭,心理研究所
+1008,241M4004H,生理心理学,Physiological Psychology,专业核心课,健康心理学,60/3.0,"王玮文,王亮",心理研究所
+1009,241M4005H,功能神经解剖,Functional Neuroanatomy,专业核心课,认知神经科学,60/3.0,"王锦琰,梁璟",心理研究所
+1010,241M5008H,脑病理生理学导论,Introduction of Neuropathophysiology,专业普及课,健康心理学,40/2.0,赫荣乔,生物物理研究所
+1011,24MGX001H,中国文化与心理健康要素,Chinese Civilization and Essentials in Mental Health,公共选修课,,30/1.0,罗非,心理研究所
+1012,24MGX003H,心理学实验,Introduction of The Experiments in Psychology,公共选修课,,30/1.0,黄佳,心理研究所
+1013,251M1001H,模式识别,Pattern Recognition,一级学科核心课,控制科学与工程,60/3.0,"向世明,刘成林",自动化研究所
+1014,251M1002H,图像处理与分析,Digital Image Processing and Analysis,一级学科核心课,控制科学与工程,60/3.0,王伟强,计算技术研究所
+1015,251M1004H,机器人学,Robotics,一级学科核心课,控制科学与工程,60/3.0,"徐德,邢登鹏",自动化研究所
+1016,251M1005H,人工智能原理,Principle of Artificial Intelligence,一级学科核心课,控制科学与工程,57/3.0,"王文杰,史忠植",计算技术研究所
+1017,251M1006H,现代控制理论,Modern Control Theory,一级学科核心课,控制科学与工程,60/3.0,"薛文超,程龙",数学与系统科学研究院
+1018,251M5001H,模式识别导论,Fudamentals of Pattern Recognition,专业普及课,模式识别与智能系统,40/2.0,"向世明,樊彬",自动化研究所
+1019,251M5006H,脑网络组学基础及应用,Brainnetome: from basic to application,专业普及课,模式识别与智能系统,40/2.0,"刘冰,蒋田仔",自动化研究所
+1020,251M5009H,智能人机交互,Intelligent Human Computer Interaction,专业普及课,模式识别与智能系统,40/2.0,"范向民,田丰",软件研究所
+1021,251M5010H,语音识别技术,Automatic speech recognition,专业普及课,模式识别与智能系统,40/2.0,"张鹏远,颜永红",声学研究所
+1022,251M5011H,多媒体分析与理解,Multimedia Analysis and Understanding,专业普及课,模式识别与智能系统,40/2.0,"卢汉清,程健",自动化研究所
+1023,251M5015H,智能传感与信息处理,Intelligent sensing and Information Processing,专业普及课,控制理论与控制工程,40/2.0,"何文浩,邹伟",自动化研究所
+1024,251M5016H,机器人机构学,Robot Mechanism,专业普及课,控制理论与控制工程,40/2.0,"毕树生,张大朋",自动化研究所
+1025,251M5017H,机器人系统设计,Design of Robot System,专业普及课,控制理论与控制工程,40/2.0,"杨国栋,景奉水",自动化研究所
+1026,251M5024H,最优控制理论,Optimal Control,专业普及课,控制理论与控制工程,40/2.0,"张杰,王飞跃",自动化研究所
+1027,251M5025H,智能控制,Intelligent Control,专业普及课,控制理论与控制工程,40/2.0,"赵冬斌,程龙",自动化研究所
+1028,251M5026H,复杂系统与复杂网络,Complex Systems and Networks,专业普及课,控制理论与控制工程,40/2.0,"王大辉,韩战钢",其它
+1029,251M6005H,高级认知功能脑机理,Brain Mechanism of High-level cognition,专业研讨课,模式识别与智能系统,20/1.0,张朋,生物物理研究所
+1030,251M6006H,智能普适计算,Intelligent Ubiquitous Computing,专业研讨课,模式识别与智能系统,20/1.0,陈益强,计算技术研究所
+1031,251M6017H,工业视觉检测,Industrial Machine Vision,专业研讨课,控制理论与控制工程,20/1.0,刘智勇,自动化研究所
+1032,251M6019H,嵌入式系统,Embedded System,专业研讨课,控制理论与控制工程,20/1.0,赵军锁,软件研究所
+1033,251M6022H,人工智能哲学与伦理,Philosophy and Ethics of Artificial Intelligence,专业研讨课,模式识别与智能系统,20/1.0,曾毅,自动化研究所
+1034,261M4001H,纳米科学导论,Introduction to Nanoscience,专业核心课,纳米科学与技术,50/3.0,王琛,生物物理研究所
+1035,261M4002H,纳米材料、结构物理特性,Characterization and Analysis of Nanotechnology,专业核心课,纳米科学与技术,50/3.0,"孙连峰,何军",国家纳米科学中心
+1036,261M4004H,纳米生物学概论,General Principles of Nanobiology,专业核心课,纳米科学与技术,53/3.0,"方巧君,梁兴杰",国家纳米科学中心
+1037,261M4006H,半导体纳米结构物理基础,Fundamentals of Physics for Nano-structural Semiconductors,专业核心课,纳米科学与技术,50/3.0,"江潮,何军",国家纳米科学中心
+1038,261M4007H,纳米化学概论,The Introduction of Nanochemistry,专业核心课,纳米科学与技术,54/4.0,"韩宝航,杨延莲",生物物理研究所
+1039,261M5003H,纳米发电机与自驱动系统概论,Nanogenerators and self-powered systems,专业普及课,纳米科学与技术,50/3.0,"王中林,唐伟",研究生院本部
+1040,261M5006H,纳米光电子学/光子学,Nano Optoelectronics/photonics,专业普及课,纳米科学与技术,30/2.0,刘前,国家纳米科学中心
+1041,261M5007H,纳米生物材料,Nanobiomaterials,专业普及课,纳米科学与技术,30/2.0,"杨蓉,张伟",国家纳米科学中心
+1042,261M5008H,纳米生物界面的物理化学,Physical Chemistry at nano-bio interfaces,专业普及课,纳米科学与技术,30/2.0,"谢黎明,刘颖",国家纳米科学中心
+1043,261M6002H,纳米药物递送前沿,Frontier of Nanomedicine and Drug Delivery,专业研讨课,纳米科学与技术,30/2.0,"高远,李乐乐",国家纳米科学中心
+1044,261M6004H,纳米生物检测与成像,Nano-biological Detection and Bioimaging,专业研讨课,纳米科学与技术,30/2.0,"王磊,王浩",国家纳米科学中心
+1045,27MGX001H,书法研修及应用,Calligraphy research and applications,公共选修课,,34/1.0,王渭田,研究生院本部
+1046,27MGX002H,美术研修及应用,Art research with Applications,公共选修课,,34/1.0,徐铭,研究生院本部
+1047,27MGX003H,民族器乐理论与实践,Theory and practice of national instrumental music,公共选修课,,40/1.0,陈碧荷,研究生院本部
+1048,27MGX004H,音乐基础修养,Music-based self cultivation,公共选修课,,40/1.0,陈碧荷,研究生院本部
+1049,27MGX005H,舞蹈鉴赏与体验,Dance Appreciation and Practice,公共选修课,,40/1.0,牛锡桐,研究生院本部
+1050,27MGX006H,中国舞蹈基础,Chinese classical dance basic training,公共选修课,,40/1.0,牛锡桐,研究生院本部
+1051,27MGX007H,西方美术鉴赏,Western art appreciation,公共选修课,,42/1.0,陈晓晶,研究生院本部
+1052,281M1001H,应用光学,Applied Optics,一级学科核心课,光学工程,50/3.0,谭峭峰,清华大学
+1053,281M1002H,高等物理光学,Advanced Physical Optics,一级学科核心课,光学工程,60/3.0,"史祎诗,樊仲维",光电学院
+1054,281M1003H,非线性光学,Nonlinear Optics,一级学科核心课,光学工程,60/3.0,屈一至,光电学院
+1055,281M1004H,光电子学,Optoelectronics,一级学科核心课,光学工程,54/3.0,"王兴军,周治平",北京大学
+1056,281M2001H,高光谱遥感物理基础及传感器模型,Hyperspectral Remote Sensing Physics and Sensors,一级学科普及课,光学工程,40/2.0,"黄旻,张桂峰",光电研究院
+1057,281M2004H,光电技术实验,Experiments of Optoelectronic Technology,实验课,,40/1.0,"史祎诗,余锦",光电学院
+1058,281M2005H,光学传感实验I,Optical Sensor Experiment I,实验课,,60/1.5,董国艳,光电学院
+1059,281M3002H,生医光电系统在臨床上的应用,Special Topics in Biophotonics System: Clinical Application of Medical Device,一级学科研讨课,光学工程,20/1.0,陈靖容,电子电气与通信工程学院
+1060,281M5007H,高等光学实验,Experiments of Advanced Optics,实验课,,40/1.0,史祎诗,光电学院
+1061,283M1001H,精密仪器设计,Precision Instrument Manufacturing,一级学科核心课,仪器科学与技术,54/3.0,"董登峰,周维虎",光电研究院
+1062,283M4001H,传感器与信息测试技术,Sensor & Information Measurement Technology,专业核心课,仪器科学与技术,50/3.0,王雪,清华大学
+1063,283M4004H,精密时间的产生与测量,Generation and Measurement of Accurate Time,专业核心课,仪器科学与技术,60/3.0,"袁海波,李孝辉",国家授时中心
+1064,291M1001H,粒子加速器物理,Physics for accelerator of Storage Ring,一级学科核心课,,60/4.0,"秦庆,张源",高能物理研究所
+1065,291M1002H,X射线晶体学（近代物理方向）,X-Ray Crystallography,一级学科核心课,核科学与技术物理学,60/4.0,"王焕华,董宇辉",高能物理研究所
+1066,291M1003H,粒子加速器技术I,Technology of Particle Accelerator I,一级学科核心课,,50/3.0,"潘卫民,陈福三",高能物理研究所
+1067,291M1004H,核物理实验方法,Experimental Methods for Nuclear and Particle Physics,一级学科核心课,核科学与技术,64/4.0,李智焕,其它
+1068,291M1005H,中子散射,Neutron scattering,一级学科核心课,,60/4.0,"朱涛,王芳卫",物理研究所
+1069,291M1006H,高等核反应堆物理分析,Advanced Nuclear Reactor Physics Analysis,一级学科核心课,,60/4.0,"杨永伟,顾龙",近代物理研究所
+1070,291M2001H,核天体物理与激光核物理,Nuclear Astrophysics and Laser Nuclear Physics,一级学科普及课,,50/3.0,"李志宏,王宏伟",上海应用物理研究所
+1071,291M2002H,重离子储存环物理,Heavy-ion Storage Ring Related Physics,一级学科普及课,,42/3.0,"张玉虎,原有进",近代物理研究所
+1072,291M2004H,固体材料中粒子辐照效应,Particle Irradiation Effects in Solid Materials,一级学科普及课,,40/2.0,"贾学军,王志光",近代物理研究所
+1073,291M2005H,自由电子激光物理与技术,Free Electron Laser Physics and Technologies,一级学科普及课,,40/3.0,"王东,刘波",上海应用物理研究所
+1074,291M2007H,中子物理,Neutron Physics,一级学科普及课,,50/3.0,"梁天骄,殷雯",高能物理研究所
+1075,291M2008H,肿瘤放射物理学,Introduction to Radiation Oncology Physics,一级学科普及课,,50/3.0,胡逸民,其它
+1076,291M3002H,先进电子学和数据获取,Advanced Electronics and Data Acquisition,一级学科研讨课,,20/1.0,"章红宇,王焕玉",高能物理研究所
+1077,301M4002H,化学反应工程,Chemical Reaction Engineering,专业核心课,化学工程,50/3.0,"张广积,冯鑫",过程工程研究所
+1078,301M4003H,高等化工热力学,Advanced Chemical Engineering Thermodynamics,专业核心课,化学工艺,50/3.0,"李春山,吕兴梅",过程工程研究所
+1079,301M4004H,传递过程原理,Principle of Transport Process,专业核心课,化学工艺,50/3.0,"何险峰,葛蔚",过程工程研究所
+1080,301M4005H,生物过程工程,Bioprocess Engineering,专业核心课,生物化工,50/3.0,"邢建民,马光辉",过程工程研究所
+1081,301M4009H,工业催化原理,The Principle of Industrial Catalysis,专业核心课,工业催化,50/3.0,李增喜,化学科学学院
+1082,301M4011H,化工数学模型与方法,Modeling Methods in Chemical Engineering,专业核心课,化学工程,50/3.0,"李春山,王二强",化学科学学院
+1083,301M5003H,网络化学化工资源,Chemistry and Chemical Engineering Resources,专业普及课,应用化学,40/2.0,李晓霞,过程工程研究所
+1084,301M5004H,能源化学与化工,Energy Chemistry and Engineering,专业普及课,应用化学,48/3.0,"刘晓星,崔丽杰",化学科学学院
+1085,301M5005H,催化反应工程,Catalytic Reaction Engineering （I）,专业普及课,工业催化,50/3.0,王垚,其它
+1086,301M6001H,SOx，NOx及CO2的治理和利用,The Treatment and Useage of SOx，NOx and CO2,专业研讨课,化学工艺,20/1.0,李松庚,过程工程研究所
+1087,"311M4302H	",高等土壤化学,Advanced Soil Chemistry,专业核心课,土壤学,56/3.0,"徐仁扣,徐明岗",其它
+1088,"311M4303H	",土壤生物学,Soil Biology,专业核心课,土壤学,51/3.0,"陈保冬,褚海燕",生态环境研究中心
+1089,"311M4304H	",环境土壤学,Environmental Soil Science,专业核心课,土壤学,60/4.0,"崔岩山,周东美",资源与环境学院
+1090,"311M4306H	","农业生态学	",Agroecology,专业核心课,土壤学,51/4.0,"胡春胜,刘金铜",遗传与发育生物学研究所农业资源研究中心
+1091,"311M4310H	",高等土壤——植物营养学,Advanced Soil-Plant Nutrition,专业核心课,植物营养学,60/4.0,"施卫明,胡正义",资源与环境学院
+1092,"311M5308H	","土壤生态学	",Soil Ecology,专业普及课,土壤学,38/2.0,"王辉,董元华",南京土壤研究所
+1093,312M1201H,多维组学,Multidimensional Omics,一级学科核心课,作物学,60/4.0,"汪迎春,王国栋",遗传与发育生物学研究所
+1094,312M2203H,代谢调控：细胞、生理与进化,"Metabolic Regulation: Cell Biology, Physiology and Evolution",一级学科普及课,作物学,30/2.0,"黄勋,吴青峰",遗传与发育生物学研究所
+1095,"312M4701H	","作物种质资源学	","Crop Germplasm Resources 				",专业核心课,作物遗传育种学,50/3.0,"冯献忠,方军",东北地理与农业生态研究所
+1096,312M5212H,"高级微生物组学	","Advanced Microbiomics				",专业普及课,作物遗传育种学,50/3.0,"白洋,钱韦",微生物研究所
+1097,312M5213H,"作物抗病育种	","Crop Disease Resistance Breeding				",专业普及课,作物遗传育种学,30/2.0,"邱金龙,刘志勇",遗传与发育生物学研究所
+1098,312M6216H,"作物栽培新技术理论与实践研讨	","Theory and Practice of New Techniques for Crop Cultivation 				",专业研讨课,作物遗传育种学,20/2.0,刘小京,遗传与发育生物学研究所农业资源研究中心
+1099,313M4601H,高级动物营养学,Advanced  Animal  Nutrition,专业核心课,动物营养与饲料科学,50/3.0,"李铁军,黄瑞林",亚热带农业生态研究所
+1100,313M5602H,动物消化道健康与营养调控,Animal Digestive Tract Health and Nutritional Regulation,专业普及课,动物营养与饲料科学,30/2.0,"谭碧娥,周传社",亚热带农业生态研究所
+1101,"314M4501H	","花色花香遗传育种学	","Genetics and Breeding of Flower Color and Fragrance				",专业核心课,园林植物与观赏园艺,50/3.0,"王亮生,徐文忠",植物研究所
+1102,314M5504H,"植物与人类健康和社会发展	",Plants for  Human Health and Society Development,专业普及课,园林植物与观赏园艺,40/2.0,"王瑛,魏孝义",华南植物园
+1103,315M4401H,"水产生物遗传育种学	","Genetics and Breeding in Aquaculture 				",专业核心课,水产养殖,60/4.0,"桂建芳,殷战",水生生物研究所
+1104,"315M4402H	","水产动物病害防控与免疫学	","Prevention and Control of Aquatic Animal Diseases and Immunology				",专业核心课,水产养殖,60/4.0,"李爱华,昌鸣先",水生生物研究所
+1105,"315M4403H			","水产养殖学	","Aquaculture				",专业核心课,水产养殖,60/4.0,"解绶启,王雷",海洋研究所
+1106,"315M5404H	","鱼类分子遗传与基因工程育种	",Fish Molecular Genetics and Genetic Engineering for Breeding,专业普及课,水产养殖,40/2.0,"胡炜,朱作言",水生生物研究所
+1107,"315M5406H	","水产生物发育生物学	","Developmental Biology of Fisheries Species				",专业普及课,水产养殖,40/2.0,"孙永华,崔宗斌",水生生物研究所
+1108,"315M5407H	","水产动物摄食行为学 	","Feeding Behavior of Aquatic Animals				",专业普及课,水产养殖,40/2.0,"李勇,朱晓鸣",海洋研究所
+1109,"315M5408H	","高级水生生物学	",Advanced Aquatic Biology,专业普及课,水产养殖,40/2.0,"缪炜,宋立荣",水生生物研究所
+1110,"315M5418H	","鱼类分子细胞生物学	","Molecular Cell Biology of Fish				",专业普及课,渔业资源,40/2.0,"肖武汉,葛峰",水生生物研究所
+1111,"315M6409H	","水产动物基因组学	",Aquatic Animal Genomics,专业研讨课,水产养殖,30/2.0,夏晓勤,水生生物研究所
+1112,"315M6410H	","水产生物生理生化	",Aquatic Physiology and Biochemistry,专业研讨课,水产养殖,30/2.0,王广策,海洋研究所
+1113,315M6413H,"水域生态系统数学分析方法	",Methods of Mathematical Analysis for Aquatic Ecosystem,专业研讨课,水产养殖,30/2.0,蔡庆华,水生生物研究所
+1114,"315M6422H	","特色海水养殖学 	",Mariculture of Commercial Mollusc and Algae,专业研讨课,渔业资源,30/2.0,刘保忠,海洋研究所
+1115,321M4001H,物理海洋学,Physical Oceanography,专业核心课,物理海洋学,51/3.0,"杨海军,管玉平",南海海洋研究所
+1116,321M4004H,化学海洋学,Chemical Oceanography,专业核心课,海洋化学,60/4.0,"龙爱民,宋秀贤",海洋研究所
+1117,321M4005H,生物有机化学,Bioorganic Chemistry,专业核心课,海洋化学,60/4.0,"史大永,鞠建华",海洋研究所
+1118,321M4007H,海洋生物学,Marine Biology,专业核心课,海洋生物学,40/3.0,"谭烨辉,李新正",海洋研究所
+1119,321M4008H,海洋生态学,Marine Ecology,专业核心课,海洋生物学,60/4.0,"李超伦,黄良民",南海海洋研究所
+1120,321M4010H,海洋地质学,Marine Geology,专业核心课,海洋地质,60/4.0,"李铁刚,詹文欢",海洋研究所
+1121,321M4011H,海洋地球物理探测,Marine Geophysics,专业核心课,海洋地质,78/5.0,"吴时国,张健",深海科学与工程研究所
+1122,321M5003H,海洋化学检测/监测与研究方法,Marine Chemical Detection/Monitoring and Research Methods,专业普及课,海洋化学,30/2.0,"潘大为,李学刚",海洋研究所
+1123,321M5008H,卫星海洋遥感与应用,Satellite Ocean Remote Sensing and Application,专业普及课,物理海洋学,36/2.0,"徐永生,张祥光",海洋研究所
+1124,321M5009H,海洋腐蚀与防护技术,Marine Corrosion and Protection,专业普及课,海洋腐蚀与防护◆,40/2.5,"张盾,王秀通",海洋研究所
+1125,321M6002H,海洋碳化学与全球变化,Ocean Carbon Chemistry and Global Change,专业研讨课,海洋化学,20/1.0,高学鲁,烟台海岸带研究所
+1126,TYMGX001H-01,太极拳（男女混班）,TJQ,公共选修课,,32/0.5,陈功凡,人文学院
+1127,TYMGX001H-02,太极拳（男女混班）,TJQ,公共选修课,,32/0.5,陈功凡,人文学院
+1128,TYMGX002H-01,软式排球普修（男女混班）,PQ,公共选修课,,32/0.5,陈功凡,人文学院
+1129,TYMGX002H-03,软式排球普修（男女混班）,PQ,公共选修课,,32/0.5,陈功凡,人文学院
+1130,TYMGX003H,北欧行走与拓展（男女混班）,BT,公共选修课,,32/0.5,李广峰,人文学院
+1131,TYMGX004H-01,男子篮球普修,LQ,公共选修课,,32/0.5,朱天宇,人文学院
+1132,TYMGX004H-02,男子篮球普修,LQ,公共选修课,,32/0.5,朱天宇,人文学院
+1133,TYMGX005H-01,男子健身,JS,公共选修课,,32/0.5,刘立勇,人文学院
+1134,TYMGX005H-03,男子健身,JS,公共选修课,,32/0.5,刘立勇,人文学院
+1135,TYMGX005H-04,男子健身,JS,公共选修课,,32/0.5,刘立勇,人文学院
+1136,TYMGX006H-02,男子健身健美,JSJM,公共选修课,,30/0.5,唐晓义,人文学院
+1137,TYMGX006H-04,男子健身健美,jsjm,公共选修课,,30/0.5,唐晓义,人文学院
+1138,TYMGX007H-02,健身气功《八段锦、易筋经》（男女混班）,qg,公共选修课,,30/0.5,唐晓义,人文学院
+1139,TYMGX008H,网球,WQ,公共选修课,,32/0.5,刘铁军,人文学院
+1140,TYMGX009H,足球普修,ZQ,公共选修课,,32/0.5,刘铁军,人文学院
+1141,TYMGX010H-01,羽毛球（男女混班）,YMQ,公共选修课,,32/0.5,黄淳甲,人文学院
+1142,TYMGX010H-02,羽毛球（男女混班）,YMQ,公共选修课,,32/0.5,黄淳甲,人文学院
+1143,TYMGX010H-03,羽毛球（男女混班）,YMQ,公共选修课,,32/0.5,黄淳甲,人文学院
+1144,TYMGX010H-04,羽毛球（男女混班）,YMQ,公共选修课,,32/0.5,黄淳甲,人文学院
+1145,TYMGX010H-05,羽毛球（男女混班）,YMQ,公共选修课,,32/0.5,于泽,其它
+1146,TYMGX010H-06,羽毛球（男女混班）,YMQ,公共选修课,,32/0.5,于泽,其它
+1147,TYMGX010H-07,羽毛球（男女混班）,YMQ,公共选修课,,32/0.5,于泽,其它
+1148,TYMGX011H-01,乒乓球（男女混班）,PPQ,公共选修课,,32/0.5,杜雪玲,其它
+1149,TYMGX011H-02,乒乓球（男女混班）,PPQ,公共选修课,,32/0.5,杜雪玲,其它
+1150,TYMGX011H-03,乒乓球（男女混班）,PPQ,公共选修课,,32/0.5,杜雪玲,其它
+1151,TYMGX011H-04,乒乓球（男女混班）,PPQ,公共选修课,,32/0.5,杜雪玲,其它
+1152,TYMGX011H-05,乒乓球（男女混班）,PPQ,公共选修课,,32/0.5,杜雪玲,其它
+1153,TYMGX011H-06,乒乓球（男女混班）,PPQ,公共选修课,,32/0.5,杜雪玲,其它
+1154,TYMGX013H-01,瑜伽（男女混班）,YJ,公共选修课,,32/0.5,万梨,其它
+1155,TYMGX013H-02,瑜伽（男女混班）,YJ,公共选修课,,32/0.5,万梨,其它
+1156,TYMGX013H-03,瑜伽（男女混班）,YJ,公共选修课,,32/0.5,万梨,其它
+1157,TYMGX013H-04,瑜伽（男女混班）,YJ,公共选修课,,32/0.5,万梨,其它
+1158,TYMGX013H-05,瑜伽（男女混班）,YJ,公共选修课,,32/0.5,陈新歌,其它
+1159,TYMGX015H,女子自由泳,YY,公共选修课,,32/0.5,李广峰,人文学院
+1160,TYMGX016H-01,男子自由泳,NZYY,公共选修课,,32/0.5,李广峰,人文学院
+1161,TYMGX016H-02,男子自由泳,NZYY,公共选修课,,32/0.5,李广峰,人文学院
+1162,TYMGX017H-01,女子蛙泳,WY,公共选修课,,32/0.5,樊菁,人文学院
+1163,TYMGX017H-02,男子蛙泳,WY,公共选修课,,32/0.5,樊菁,人文学院
+1164,TYMGX017H-03,女子蛙泳,WY,公共选修课,,32/0.5,樊菁,人文学院
+1165,TYMGX017H-04,男子蛙泳,WY,公共选修课,,32/0.5,樊菁,人文学院

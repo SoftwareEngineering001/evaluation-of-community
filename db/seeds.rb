@@ -9,8 +9,8 @@
 #  name  = Faker::Name.name
 #  email = "test-#{n+1}@ucas.ac.cn"
 #  password = "123456"
-#  User.create!(name:  name,
-#               email: email,
-#               password:              password,
-#               password_confirmation: password)
-end
+  User.create!(name:  'Kikyou',
+               email: 'test@mails.ucas.ac.cn',
+               password:              '123456',
+               password_confirmation:  '123456',
+               admin: true)

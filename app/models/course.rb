@@ -1,7 +1,8 @@
+# -*- coding: UTF-8 -*-
 class Course < ActiveRecord::Base
     has_many :comments, dependent: :destroy
-    has_many :interest_users, class_name: "InterestCourse",foreign_key: "course_id",dependent: :destroy
-    has_many :users, through: :interest_users, source: :user
+   # has_many :interest_users, class_name: "InterestCourse",foreign_key: "course_id",dependent: :destroy
+   # has_many :users, through: :interest_users, source: :user
     has_many :instructions
     has_many :teachers, through: :instructions
     has_many :sim_relations, class_name: "Similar", foreign_key: "maincourse_id", dependent: :destroy
@@ -13,7 +14,20 @@ class Course < ActiveRecord::Base
     def Course.readCSV(file)
         csv = CSV.parse(file.read, :headers => true)
         csv.each do |row|
-            Course.create(title: row['title'],teacher: row['teacher'])
+            cur_course = Course.create(
+                code: row[1]?row[1].force_encoding("UTF-8"):nil,  #课程编码
+                title: row[2]?row[2].force_encoding("UTF-8"):nil,  #课程名称
+                title_en: row[3]?row[3].force_encoding("UTF-8"):nil, #英文名称
+                course_major: row[4]?row[4].force_encoding("UTF-8"):nil,#课程属性
+                dept: row[8]?row[8].force_encoding("UTF-8"):nil,#教师所属单位
+                subject: row[5]?row[5].force_encoding("UTF-8"):nil,#所属学科/专业
+                period_credit: row[6]?row[6].force_encoding("UTF-8"):nil #课时/学分
+                )
+            teachers=row[7]?row[7].force_encoding("UTF-8").split(','):[]
+            teachers.each do |t_name|
+                t = Teacher.create(name: t_name, dept: row[8]?row[8].force_encoding("UTF-8"):nil)
+                t.instruct(cur_course)
+            end
         end
     end
     

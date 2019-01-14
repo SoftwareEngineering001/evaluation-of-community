@@ -5,13 +5,14 @@
       <div class="col-md-9 inline-h3">
         <span class="blue h3"><%= @course.title %></span>
         <% if @course.teachers.first and @course.teachers.first.name != ''%>
-          <span class="h3 blue mobile"><%= @course.teachers.first.name %></span>
+          <span class="h4 blue mobile">(<%= @course.teachers.map{|t| t.name}.join(',') %>)</span>
         <%else%>
-          <span class="h3 blue mobile">暂无老师</span>
+          <span class="h4 blue mobile">暂无老师</span>
         <% end %>
         <% if current_user %>
           <%=link_to "编辑课程信息", editcourse_course_path(:course_id => @course.id)%>
         <% end %>
+        <div><span class="h5"><%= @course.title_en %></span></div>
         
         <%= render 'courses/show_subview/course_detail' %>
 
