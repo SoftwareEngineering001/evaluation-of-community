@@ -5,29 +5,24 @@
   <%= render 'layouts/error_messages', object: f.object %>
   
   <div class="field">
-    <!--<= f.select :term, [['2018秋',"2018-2"],['2019春',"2019-1"]] %>-->
     <div class="ud-pd-sm">
-          <span class="right-pd-sm weight-heavy">课程难度</span>
-          <div class="btn-group btn-group-inv" data-toggle="buttons">
-
-            <label class="btn btn-default">
-                <%= f.radio_button(:difficulty, "1") %>
-                简单
-            </label>
-
-            <label class="btn btn-default">
-                <%= f.radio_button(:difficulty, "2") %>
-                中等
-            </label>
-
-            <label class="btn btn-default">
-                <%= f.radio_button(:difficulty, "3") %>
-                困难
-            </label>
-
-          </div>
-        </div>        
-    <div class="ud-pd-sm">
+      <span class="right-pd-sm weight-heavy">课程难度</span>
+      <div class="btn-group btn-group-inv" data-toggle="buttons">
+        <label class="btn btn-default">
+            <%= f.radio_button(:difficulty, "1") %>
+            简单
+        </label>
+        <label class="btn btn-default">
+            <%= f.radio_button(:difficulty, "2") %>
+            中等
+        </label>
+        <label class="btn btn-default">
+            <%= f.radio_button(:difficulty, "3") %>
+            困难
+        </label>
+      </div>
+    </div>        
+        <div class="ud-pd-sm">
           <span class="right-pd-sm weight-heavy">作业多少</span>
           <div class="btn-group btn-group-inv" data-toggle="buttons">
 
@@ -48,7 +43,7 @@
 
           </div>
         </div>    
-    <div class="ud-pd-sm">
+        <div class="ud-pd-sm">
           <span class="right-pd-sm weight-heavy">给分好坏</span>
           <div class="btn-group btn-group-inv" data-toggle="buttons">
 
@@ -69,7 +64,7 @@
 
           </div>
         </div>   
-    <div class="ud-pd-sm">
+        <div class="ud-pd-sm">
           <span class="right-pd-sm weight-heavy">收获多少</span>
           <div class="btn-group btn-group-inv" data-toggle="buttons">
 
@@ -90,15 +85,15 @@
 
           </div>
         </div>
-    <!--<div class="ud-pd-sm">-->
-    <!--  <span class="weight-heavy pull-left">评个分吧？</span>-->
-    <!--  <input id="rate-star" name="rate" value="{{ review.rate / 2.0 if review.rate else 0 }}">-->
-    <!--  <span class="clearfix"></span>-->
-    <!--</div>-->
     <span class="right-pd-sm weight-heavy">评个分吧？</span>
     <%= f.text_field :ratescore %>
-    <%= f.text_area :content, placeholder: "输入评论..." %>
+    <%= f.text_area :content %>
     <%= hidden_field_tag(:course_id, @curcourse.id) %>
   </div>
   <%= f.submit "发表", class: "btn btn-primary" %>
 <% end %>
+<script type="text/javascript">
+    var editor = new Simditor({
+          textarea: $('#comment_content'),
+    });
+</script>

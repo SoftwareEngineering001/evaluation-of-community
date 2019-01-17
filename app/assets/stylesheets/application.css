@@ -12,7 +12,9 @@
  *
  *= require_tree .
  *= require_self
+  *= require simditor
  */
+
 #flexbox {
   background-color: #ffffff;
   border: 1px solid #5555ff;

@@ -26,9 +26,7 @@
   </div>
     
   <div>
-    <!--<span class="content">-->
-    <%= comment.content %>
-    <!--</span>-->
+    <%= comment.content.html_safe %>
   </div>
   <div class="bm-pd-md grey" id="comment-attitudes-<%=comment.id%>">
     <span class="small"><%=comment.created_at %></span>

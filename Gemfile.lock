@@ -131,6 +131,7 @@ GEM
     sdoc (0.4.2)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    simditor (2.3.6)
     spring (2.0.2)
       activesupport (>= 4.2)
     sprockets (3.7.2)
@@ -174,6 +175,7 @@ DEPENDENCIES
   rails_or
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+  simditor
   spring
   sqlite3
   turbolinks
