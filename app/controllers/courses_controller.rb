@@ -15,7 +15,7 @@ class CoursesController < ApplicationController
         begin
             Course.readCSV(uploaded_io)
         rescue
-            flash[:danger] = 'csv文件格式不正确'
+            flash[:danger] = 'csv文件格式不正确，或者课程有重复'
         end
         redirect_to courses_path
     end

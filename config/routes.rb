@@ -35,7 +35,7 @@ Rails.application.routes.draw do
   post 'save_course_info_courses' => 'courses#save_course_info'
   post 'save_teacher_info_teachers' => 'teachers#save_teacher_info'
   get   'notify' => 'users#notify'
-  resources :comments, only: [:new, :create, :index, :destroy]
+  resources :comments
   resources :users 
   # resources :static_pages 
   resources :courses

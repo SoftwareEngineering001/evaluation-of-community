@@ -25,7 +25,10 @@ class Course < ActiveRecord::Base
                 )
             teachers=row[7]?row[7].force_encoding("UTF-8").split(','):[]
             teachers.each do |t_name|
-                t = Teacher.create(name: t_name, dept: row[8]?row[8].force_encoding("UTF-8"):nil)
+                t = Teacher.find_by(name: t_name)
+                if !t
+                    t = Teacher.create(name: t_name, dept: row[8]?row[8].force_encoding("UTF-8"):nil)
+                end
                 t.instruct(cur_course)
             end
         end
