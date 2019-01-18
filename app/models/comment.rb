@@ -8,7 +8,7 @@ class Comment < ActiveRecord::Base
   validates :homework, presence: true
   validates :gain, presence: true
   validates :grading, presence: true
-  validates :ratescore, presence: true
+  validates :ratescore, presence: true, numericality: { greater_than: 0 }
   default_scope -> { order(created_at: :desc) }
   has_many :attitude_to_comments, dependent: :destroy
     

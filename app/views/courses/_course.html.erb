@@ -1,9 +1,9 @@
 <div id="course-<%= course.id %>" class="ud-pd-md dashed">
   <%=link_to course do%>
       <% if course.teachers.first and course.teachers.first.name != ''%>
-          <span><%= course.title%>(<%= course.teachers.map{|t| t.name}.join(',') %>)</span>
+          <span><%= course.code%> - <%= course.title%>(<%= course.teachers.map{|t| t.name}.join(',') %>)</span>
       <% else %>
-          <span><%= course.title%>
+          <span><%= course.code%> - <%= course.title%></span>
       <% end %>
   <% end %>
   <% if (current_user && current_user.admin?) %>

@@ -2,7 +2,7 @@ class CoursesController < ApplicationController
     before_action :auth_check, only: [:destroy]
     
     def index
-        @courses = Course.paginate(page:params[:page],per_page:10)
+        @courses = Course.paginate(page:params[:page],per_page:15)
     end
     def show
         @course=Course.find(params[:id])
