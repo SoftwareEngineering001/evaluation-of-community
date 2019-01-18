@@ -1,7 +1,7 @@
 <% for teacher in @course.teachers %>
     <div class="ud-pd-md dashed">
       <% if current_user %>
-        <btn class="btn btn-link float-right"><%=link_to '编辑教师信息', edit_profile_teacher_path %></btn>
+        <btn class="btn btn-link float-right"><%=link_to '编辑教师信息', edit_profile_teacher_path(teacher) %></btn>
       <% end %>
       <h3 class="blue"><%=link_to teacher.name, teacher%></h3>
       <p><%=teacher.dept %></p>
