@@ -1,7 +1,12 @@
-<li id="course-<%= course.id %>">
-  <span><%= link_to course.title, course %></span>
-  <span><%= course.teacher %>  </span>
+<div id="course-<%= course.id %>" class="ud-pd-md dashed">
+  <%=link_to course do%>
+      <% if course.teachers.first and course.teachers.first.name != ''%>
+          <span><%= course.title%>(<%= course.teachers.map{|t| t.name}.join(',') %>)</span>
+      <% else %>
+          <span><%= course.title%>
+      <% end %>
+  <% end %>
   <% if (current_user && current_user.admin?) %>
     | <%= link_to "删除", course, method: :delete, data: { confirm: "确定删除吗?课程下的评论也会一起删除" } %>
   <% end %>
-</li>
+</div>

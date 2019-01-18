@@ -7,8 +7,6 @@
         <%= submit_tag("上传") %>
     <% end %>
 <% end %>
-<ul class="course">
-    <%= render @courses %>
-</ul>
+<%= render @courses %>
 
 <%= will_paginate @courses , :previous_label =>"上一页",:next_label=>"下一页"%>

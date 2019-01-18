@@ -2,22 +2,17 @@
 <div class="row">
   <aside class="col-md-3">
       <%= link_to image_tag("normal_icon.jpeg", :size => "180x180",:class => "img-responsive img-thumbnail center-block")%>
-      <h2><%= @user.name %></h2>
+      <h3 class="blue na_center"><%= @user.name %></h3>
       <% if current_user?(@user) || (current_user && current_user.admin?) %>
-        <h2><%= @user.email %></h2>
+        <div class="ud-pd-sm"><%= @user.email %></div>
       <% end %>
       <div id="follow_form_container"><%= render 'follow_form' if logged_in? %></div>
-      <ul>
+      <ul class="nav">
         <li><%= link_to "点评（#{@user.comments.count}）", user_path(:opt=>0) %></li>
         <% if current_user?(@user) || (current_user && current_user.admin?) %>
-          <li>
-            关注
-            <ul>
-              <li><%= link_to "用户（#{@user.followings.count}）", user_path(:opt=>1) %></li>
-              <li><%= link_to "课程（#{@user.courses.count}）", user_path(:opt=>3) %></li>
-              <li><%= link_to "关注我的（#{@user.followers.count}）", user_path(:opt=>2) %></li>
-            </ul>
-          </li>
+            <li><%= link_to "关注的用户（#{@user.followings.count}）", user_path(:opt=>1) %></li>
+            <li><%= link_to "关注的课程（#{@user.courses.count}）", user_path(:opt=>3) %></li>
+            <li><%= link_to "关注我的（#{@user.followers.count}）", user_path(:opt=>2) %></li>
         <% end %>
       </ul>
     </ul>

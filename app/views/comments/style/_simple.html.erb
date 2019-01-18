@@ -13,6 +13,8 @@
                 <%=link_to comment.course do%>
                     <% if comment.course.teachers.first and comment.course.teachers.first.name != ''%>
                         <span><%= comment.course.title%>(<%= comment.course.teachers.map{|t| t.name}.join(',') %>)</span>
+                    <% else %>
+                        <span><%= comment.course.title%>
                     <% end %>
                 <% end %>
                 <span class="float-right"><%=comment.created_at %></span>

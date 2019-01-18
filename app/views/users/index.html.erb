@@ -1,8 +1,6 @@
 <% provide(:title, '全部用户') %>
 <h3>全部用户(<%= @users.count %>)</h3>
 
-<ul>
-    <%= render @users %>
-</ul>
+<%= render @users %>
 
 <%= will_paginate @users ,:previous_label =>"上一页",:next_label=>"下一页"%>

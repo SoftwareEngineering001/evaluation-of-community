@@ -6,18 +6,18 @@
     <%= form_for(@user) do |f| %>
       <%= render 'layouts/error_messages', object: f.object %>
       <%= f.label :name, "昵称" %>
-      <%= f.text_field :name %>
+      <%= f.text_field :name, :class=>"form-control"%>
 
       <%= f.label :email, "Email(需要ucas.ac.cn结尾的邮箱)" %>
-      <%= f.email_field :email %>
+      <%= f.email_field :email, :class=>"form-control" %>
 
       <%= f.label :password, "密码" %>
-      <%= f.password_field :password %>
+      <%= f.password_field :password, :class=>"form-control" %>
 
       <%= f.label :password_confirmation, "确认密码" %>
-      <%= f.password_field :password_confirmation %>
+      <%= f.password_field :password_confirmation, :class=>"form-control" %>
 
-      <%= f.submit "创建用户", class: "btn btn-primary" %>
+      <%= f.submit "创建用户", class: "btn btn-primary mg_tp" %>
     <% end %>
   </div>
 </div>
