@@ -1,8 +1,6 @@
 <% provide(:title, '全部评论') %>
 <h3 style="color: #9955ff !important">全部评论(<%= @comments.count %>)</h3>
 
-<ul class="comment">
-    <%= render @comments %>
-</ul>
+<%= render @comments %>
 
 <%= will_paginate @comments, :previous_label =>"上一页",:next_label=>"下一页" %>

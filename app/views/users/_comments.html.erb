@@ -1,8 +1,6 @@
 <% if @user.comments.any? %>
   <h3>评论 (<%= @user.comments.count %>)</h3>
-  <ol class="comment">
-    <%= render @ucomments %>
-  </ol>
+  <%= render @ucomments %>
   <%= will_paginate @ucomments , :previous_label =>"上一页",:next_label=>"下一页"%>
 <% else %>
   <h3>还没有评论哦</h3>

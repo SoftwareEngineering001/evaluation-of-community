@@ -20,6 +20,7 @@ class UsersController < ApplicationController
 		@curpage=1;
 		if opt==0
 			@ucomments = @user.comments.paginate(page: params[:page],per_page: 10)
+			@user_page=true
 		elsif opt==1
 			@followings = @user.followings.paginate(page: params[:page],per_page:10)
 		elsif opt==2

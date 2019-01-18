@@ -1,0 +1,32 @@
+<div class="ud-pd-md dashed" id="comment-<%= comment.id %>">
+    <div class="row">
+        <% if !@user_page %>
+          <div class="col-sm-1 col-xs-2 right-pd-no">
+            <%= link_to image_tag("normal_icon.jpeg", :size => "60x60",:class => "cicle")%>
+          </div>
+        <% end %>
+        <div class="col-sm-11 col-xs-10">
+            <div class="grey bm-pd-md">
+                <% if !@user_page %>
+                    <%= link_to comment.user.name, comment.user %> 点评了
+                <% end %>
+                <%=link_to comment.course do%>
+                    <% if comment.course.teachers.first and comment.course.teachers.first.name != ''%>
+                        <span><%= comment.course.title%>(<%= comment.course.teachers.map{|t| t.name}.join(',') %>)</span>
+                    <% end %>
+                <% end %>
+                <span class="float-right"><%=comment.created_at %></span>
+            </div>
+                    
+            <p class="text-muted">
+                <% comment_text = strip_tags(comment.content).squish %>
+                <% if comment_text.length>128 %>
+                    <%= comment_text[0,127] %>
+                     <%=link_to "更多", courses_path+"/#{comment.course.id}#comment-#{comment.id}" %>
+                <% else %>
+                    <%= comment_text%>
+                <% end %>
+            </p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="ud-pd-md dashed" id="comment-<%= comment.id %>">
+  <div class="blue ud-pd-sm">
+    <span class="right-pd-sm px16 user">
+        <%= link_to comment.user.name, comment.user %>
+    </span>
+    
+    <% for star in 0..4 %>
+      <% if comment.ratescore >= 1.5 + star * 2 %>
+      <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+      <% elsif comment.ratescore >= 0.5 + star * 2 %>
+      <span class="glyphicon glyphicon-star-half" aria-hidden="true"></span>
+      <% else %>
+      <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+      <% end %>
+    <% end %>
+    <span class="left-pd-md"><%=comment.term%> </span>
+  </div>
+    
+  <div>
+    <%= comment.content.html_safe %>
+  </div>
+  <div class="bm-pd-md grey" id="comment-attitudes-<%=comment.id%>">
+    <span class="small"><%=comment.created_at %></span>
+    <span id= "approve-form-<%=comment.id%>"><%= render partial: "comments/approve_form", locals: { comment: comment } %></span>
+    <span id="comment-upvote-count-<%= comment.id %>"><%=comment.attitude_to_comments.count%></span>
+ 
+    <% if current_user?(comment.user) %>
+      <%= link_to new_comment_path(:course_id=>comment.course.id,:user_id=>current_user.id), class: "left-pd-md" do%>
+        <span class="glyphicon glyphicon-pencil" aria-hidden="true" > </span>
+      <%end%>
+    <%end%>
+    <%if current_user != nil%>
+      <% if !@disable_delete && ((current_user && current_user.admin?) || (current_user?(comment.user))) %>
+        <%= link_to comment_path(comment, :page=>@curpage), method: :delete, data: {confirm: "确定删除吗?"}, class: "left-pd-md" do %>
+          <span class="glyphicon glyphicon-trash"></span>
+        <% end %>
+      <% end %>
+    <%end%>
+   
+  </div>
+</div>

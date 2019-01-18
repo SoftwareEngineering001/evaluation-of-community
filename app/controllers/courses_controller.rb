@@ -8,10 +8,15 @@ class CoursesController < ApplicationController
         @course=Course.find(params[:id])
         @ccomments = @course.comments.paginate(page:params[:page],per_page:10)
         @curpage=2;
+        @comment_detail_view=true;
     end
     def upload
         uploaded_io = params[:course_csv]
-        Course.readCSV(uploaded_io)
+        begin
+            Course.readCSV(uploaded_io)
+        rescue
+            flash[:danger] = 'csv文件格式不正确'
+        end
         redirect_to courses_path
     end
     def destroy

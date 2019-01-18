@@ -4,11 +4,7 @@
       <!-- 左边栏 -->
       <div class="col-md-9 inline-h3">
         <span class="blue h3"><%= @course.title %></span>
-        <% if @course.teachers.first and @course.teachers.first.name != ''%>
-          <span class="h4 blue mobile">(<%= @course.teachers.map{|t| t.name}.join(',') %>)</span>
-        <%else%>
-          <span class="h4 blue mobile">暂无老师</span>
-        <% end %>
+        <span class="h5 blue mobile"><%= @course.code %></span>
         <% if current_user %>
           <%=link_to "编辑课程信息", editcourse_course_path(:course_id => @course.id)%>
         <% end %>
@@ -31,14 +27,16 @@
           </div>
         </div>
 
-      	<div class="solid ud-pd-md inline-h3">
+      	<div class="solid ud-pd-md">
           <span class="blue h3">点评</span>
           <% if logged_in? %>
-            <%= link_to new_comment_path(:course_id=>@course.id,:user_id=>current_user.id) do%>
-              <span class="glyphicon glyphicon-pencil glyphicon-sm right-pd-sm" aria-hidden="true" >写点评</span>
+            <%= link_to new_comment_path(:course_id=>@course.id,:user_id=>current_user.id), 
+                        class: "btn btn-white float-right blue", type:"button"  do%>
+              <span class="glyphicon glyphicon-pencil glyphicon-sm right-pd-sm" aria-hidden="true" ></span>写点评
             <%end%>
           <% else %>
-            <%= link_to new_comment_path(:course_id=>@course.id) do%>
+            <%= link_to new_comment_path(:course_id=>@course.id), 
+                        class: "btn btn-white float-right blue", type:"button"  do%>
               <span class="glyphicon glyphicon-pencil glyphicon-sm right-pd-sm" aria-hidden="true">写点评</span>
             <%end%>
           <% end %>
@@ -48,9 +46,7 @@
             <p>还没有评论耶！放着我来！</p>
           </div>
         <% else %>
-          <ul class="comment">
-            <%= render @ccomments %>
-          </ul>
+          <%= render @ccomments %>
           <%= will_paginate @ccomments %>
         <%end%>
       </div>
