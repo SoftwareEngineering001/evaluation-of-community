@@ -21,11 +21,11 @@
 <% end %>
 
 <div class="ud-pd-md dashed">
-  <h4 class="blue">其他老师的[<%= @course.title %>]课</h4>
+  <h4 class="blue">其他的[<%= @course.title %>]课</h4>
   <% for rel_course in @course.simcourses %>
       <div class="ud-pd-sm">
         <%if rel_course.teachers.first%>
-          <%=link_to rel_course.teachers.first.name, rel_course.teachers.first%>
+          <%=link_to rel_course.title+" "+rel_course.teachers.first.name, rel_course%>
         
           <% if rel_course.comments.count > 0%>
             <span><%= rel_course.rate.average_rate %></span>
@@ -42,11 +42,15 @@
     <h4 class="blue"><%= teacher.name %>老师的其他课</h5>
     <% for rel_course in @course.same_teacher_courses(teacher) %>
       <%if rel_course != @course%>
+      <!--<= debug rel_course.title%>-->
         <div class="ud-pd-sm">
           <%=link_to rel_course.title, rel_course%>
-          <% if rel_course.comments.count %>
+          <% if rel_course.comments.count >0%>
             <span><%= rel_course.rate.average_rate %></span>
             <span class="grey">(<%=rel_course.comments.count %>)</span>
+          <% else %>
+            <span><%= 0 %></span>
+            <span class="grey">(0)</span>
           <% end %>
           <span class="small grey align-bottom  float-right"><%= rel_course.term%></span>
         </div>

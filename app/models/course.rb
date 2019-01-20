@@ -31,6 +31,24 @@ class Course < ActiveRecord::Base
                 end
                 t.instruct(cur_course)
             end
+            #查找绑定相似课程
+            # Client.where(first_name: 'Lifo').take
+            sim_courses = Course.where(title: cur_course.title).take(40)
+            if sim_courses != nil and sim_courses != cur_course
+                if sim_courses.instance_of? Course
+                    if sim_courses != cur_course
+                        cur_course.sim(sim_courses)
+                        sim_courses.sim(cur_course)
+                    end
+                else
+                    sim_courses.each do |sim_course|
+                        if sim_course != cur_course
+                            cur_course.sim(sim_course)
+                            sim_course.sim(cur_course)
+                        end
+                    end
+                end
+            end
         end
     end
     
@@ -43,8 +61,13 @@ class Course < ActiveRecord::Base
         sim_relations.find_by(simcourse_id: other_course.id).destroy
     end
     
+    
+    
     def same_teacher_courses(teacher)
-        @sameteacher_courses = teacher.courses
+        if teacher.eql?("0")
+        else
+            @sameteacher_courses = teacher.courses
+        end
     end
     
     def follow_count

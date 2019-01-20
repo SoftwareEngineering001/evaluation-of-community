@@ -9,8 +9,22 @@
 #  name  = Faker::Name.name
 #  email = "test-#{n+1}@ucas.ac.cn"
 #  password = "123456"
-  User.create!(name:  'Kikyou',
-               email: 'test@mails.ucas.ac.cn',
-               password:              '123456',
-               password_confirmation:  '123456',
-               admin: true)
+
+
+#   User.create!(name:  'Kikyou',
+#               email: 'test@mails.ucas.ac.cn',
+#               password:              '123456',
+#               password_confirmation:  '123456',
+#               admin: true)
+
+while Course.first
+    Course.last.destroy
+end
+
+while Teacher.first
+    Teacher.last.destroy
+end
+
+while Instruction.first
+    Instruction.last.destroy
+end
