@@ -68,7 +68,7 @@
           <span class="right-pd-sm weight-heavy">收获多少</span>
           <div class="btn-group btn-group-inv" data-toggle="buttons">
 
-            <label class="btn btn-default"
+            <label class="btn btn-default">
                 <%= f.radio_button(:gain, "1") %>
                 很多
             </label>
@@ -85,8 +85,15 @@
 
           </div>
         </div>
+    
+    
     <span class="right-pd-sm weight-heavy">评个分吧？</span>
-    <%= f.text_field :ratescore %>
+    <%= f.select(:ratescore) do %>
+      <% [['下拉请选择评分，默认为0分', 0], ['1分', 1], ['2分', 2], ['3分', 3], ['4分', 4], ['5分', 5], ['6分', 6], ['7分', 7], ['8分', 8], ['9分', 9], ['10分', 10]].each do |c| -%>
+      <%= content_tag(:option, c.first, value: c.last) %>
+      <% end %>
+    <% end %>
+    
     <%= f.text_area :content %>
     <%= hidden_field_tag(:course_id, @curcourse.id) %>
   </div>
