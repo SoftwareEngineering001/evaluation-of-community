@@ -86,15 +86,17 @@
           </div>
         </div>
     
-    
-    <span class="right-pd-sm weight-heavy">评个分吧？</span>
-    <%= f.select(:ratescore) do %>
-      <% [['下拉请选择评分，默认为0分', 0], ['1分', 1], ['2分', 2], ['3分', 3], ['4分', 4], ['5分', 5], ['6分', 6], ['7分', 7], ['8分', 8], ['9分', 9], ['10分', 10]].each do |c| -%>
-      <%= content_tag(:option, c.first, value: c.last) %>
+    <div class="ud-pd-sm">
+      <span class="right-pd-sm weight-heavy">评个分吧？</span>
+      <%= f.select :ratescore  do %>
+        <% [['下拉请选择评分，默认为0分', 0], ['1分', 1], ['2分', 2], ['3分', 3], ['4分', 4], ['5分', 5], ['6分', 6], ['7分', 7], ['8分', 8], ['9分', 9], ['10分', 10]].each do |c| -%>
+        <%= content_tag(:option, c.first, value: c.last) %>
+        <% end %>
       <% end %>
-    <% end %>
-    
-    <%= f.text_area :content %>
+    </div>
+    <div class="ud-pd-sm">
+      <%= f.text_area :content %>
+    </div>
     <%= hidden_field_tag(:course_id, @curcourse.id) %>
   </div>
   <%= f.submit "发表", class: "btn btn-primary" %>

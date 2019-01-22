@@ -7,6 +7,7 @@
       <!--<p><=link_to '查看编辑历史（共 {{ teacher.info_history_count }} 次）', profile_history_teacher_path%></p>-->
       <%=form_tag({action: :save_teacher_info}, class:"form-horizontal")%>
         <%=hidden_field_tag :teacher_id, @teacher.id%>
+        <!--
         <div class="form-group">
           <label class="col-sm-2 control-label">上传照片</label>
           <div class="col-sm-5">
@@ -18,7 +19,7 @@
             <button id="avatar-upload-msg" type="submit" class="btn btn-blue" style="display:none">上传</button>
           </div>
         </div>
-
+      -->
         <div class="form-group">
           <label class="col-sm-2 control-label">教师姓名</label>
           <div class="col-sm-5">
