@@ -19,9 +19,7 @@ class TeachersController < ApplicationController
     teacher = Teacher.find(params[:teacher_id])
     research = params[:research]
     homepage = params[:homepage]
-    if(research != ''&& homepage != '')
-        teacher.update(research: research, homepage: homepage)
-        redirect_to teacher
-    end
+    teacher.update(research: research, homepage: homepage)
+    redirect_to teacher
   end
 end

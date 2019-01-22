@@ -6,7 +6,6 @@
       <% if current_user?(@teacher) || (current_user && current_user.admin?) %>
         <h2><%= @teacher.email %></h2>
       <% end %>
-      <!--<div id="follow_form_container">%= render 'follow_form' if logged_in? %</div>-->
     </ul>
   </aside>
   <div class="col-md-9">

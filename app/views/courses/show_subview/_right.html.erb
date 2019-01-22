@@ -6,12 +6,18 @@
       <h3 class="blue"><%=link_to teacher.name, teacher%></h3>
       <p><%=teacher.dept %></p>
       <p>教师主页：
-        <% if teacher.homepage and teacher.homepage != 'http://' %>
-          <a href="{{ teacher.homepage }}" target="_blank"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> 戳这里</a>
+        <% if !teacher.homepage.blank? %>
+          <a href=<%= "http://"+teacher.homepage %> >
+            <span class="glyphicon glyphicon-link" aria-hidden="true"></span> 戳这里
+          </a>
         <% else %>暂无
         <% end %>
       </p>
-      <div class="ud-pd-md" style="display: none"><a>教师排行榜：23</a></div>
+      <p>研究方向：
+        <% if !teacher.research.blank? %>
+          <%= teacher.research %> 
+        <% end %>
+      </p>
     </div>
 <% end %>
 <% if @course.teachers.count == 0 %>

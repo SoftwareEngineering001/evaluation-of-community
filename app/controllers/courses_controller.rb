@@ -5,10 +5,15 @@ class CoursesController < ApplicationController
         @courses = Course.paginate(page:params[:page],per_page:15)
     end
     def show
-        @course=Course.find(params[:id])
-        @ccomments = @course.comments.paginate(page:params[:page],per_page:10)
-        @curpage=2;
-        @comment_detail_view=true;
+        begin
+            @course=Course.find(params[:id])
+            @ccomments = @course.comments.paginate(page:params[:page],per_page:10)
+            @curpage=2;
+            @comment_detail_view=true;
+        rescue
+             flash[:danger] = '获取课程信息时出现错误'
+             redirect_to courses_path
+        end
     end
     def upload
         uploaded_io = params[:course_csv]
@@ -34,10 +39,8 @@ class CoursesController < ApplicationController
         course = Course.find(params[:course_id])
         introduction = params[:introduction]
         homepage = params[:homepage]
-        if(introduction != ''&& homepage != '')
-            course.update(introduction: introduction, homepage: homepage)
-            redirect_to course
-        end
+        course.update(introduction: introduction, homepage: homepage)
+        redirect_to course
     end
         
     private
