@@ -1,28 +1,7 @@
-== README
+== 社区介绍
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+国科大评课社区的宗旨是解决同学们选课过程中，对课程了解缺乏的问题，提供一个同学们交流课程体会，相互学习共同进步的平台。在社区里，您可以对课程进行评价、与同学们交流课程体会与心得、发布自己的学习经验和考试总结。目前处于开发初期，更多的功能尽情期待...
 
-Things you may want to cover:
+=项目团队
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+谭伟(Tovi)、董昕州(Kikod)、全威(LegendQW)、翟诗岚(shilan1996)、刘晴(gwyneth6767)
