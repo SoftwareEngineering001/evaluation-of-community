@@ -1,9 +1,9 @@
 <%if @ccomments.count > 0%>
   <div class="ud-pd-sm blue">
     <% for star in 0..4 %>
-      <% if @course.rate.average_rate >= 1.5 + star * 2 %>
+      <% if @course.rate.average_rate >= 1 + star %>
         <span class="glyphicon glyphicon-star glyphicon-lg" aria-hidden="true"></span>
-      <% elsif @course.rate.average_rate >= 0.5 + star * 2 %>
+      <% elsif @course.rate.average_rate >= 0.5 + star  %>
         <span class="glyphicon glyphicon-star-half glyphicon-lg" aria-hidden="true"></span>
       <% else %>
         <span class="glyphicon glyphicon-star-empty glyphicon-lg" aria-hidden="true"></span>
