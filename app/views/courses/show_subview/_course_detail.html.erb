@@ -21,10 +21,58 @@
 <% end%>
 
 <ul class="text-muted list-inline list-unstyled ud-pd-sm">
-  <li class="right-mg-md">课程难度：<%if @course.rate%><%=@course.rate.difficulty%><%else%><%='你猜'%><%end%></li>
-  <li class="right-mg-md">作业多少：<%if @course.rate%><%=@course.rate.homework%><%else%><%='你猜'%><%end%></li>
-  <li class="right-mg-md">给分好坏：<%if @course.rate%><%=@course.rate.grading%><%else%><%='你猜'%><%end%></li>
-  <li class="right-mg-md">收获大小：<%if @course.rate%><%=@course.rate.gain%><%else%><%='你猜'%><%end%></li>
+  <li class="right-mg-md">课程难度：
+  <%if @course.rate%>
+    <%if @course.rate.difficulty == '1'%>
+      <%='简单'%>
+    <%elsif @course.rate.difficulty == '2'%>
+      <%='中等'%>
+    <%elsif @course.rate.difficulty == '3'%>
+      <%='困难'%>
+    <%else%>  
+      <%='你猜'%>
+    <%end%>
+  <%end%>
+  </li>
+  <li class="right-mg-md">作业多少：
+  <%if @course.rate%>
+    <%if @course.rate.homework == '1'%>
+      <%='不多'%>
+    <%elsif @course.rate.homework == '2'%>
+      <%='中等'%>
+    <%elsif @course.rate.homework == '3'%>
+      <%='超多'%>
+    <%else%>  
+      <%='你猜'%>
+    <%end%>
+  <%end%>
+  </li>
+  <li class="right-mg-md">给分好坏：
+  <%if @course.rate%>
+    <%if @course.rate.grading == '1'%>
+      <%='超好'%>
+    <%elsif @course.rate.grading == '2'%>
+      <%='一般'%>
+    <%elsif @course.rate.grading == '3'%>
+      <%='杀手'%>
+    <%else%>  
+      <%='你猜'%>
+    <%end%>
+  <%end%>
+  </li>
+  <li class="right-mg-md">收获大小：
+  <%if @course.rate%>
+    <%if @course.rate.gain == '1'%>
+      <%='很多'%>
+    <%elsif @course.rate.gain == '2'%>
+      <%='一般'%>
+    <%elsif @course.rate.gain == '3'%>
+      <%='没有'%>
+    <%else%>  
+      <%='你猜'%>
+    <%end%>
+  <%end%>
+  </li>
 </ul>
 
 <table class="table table-condensed no-border">
