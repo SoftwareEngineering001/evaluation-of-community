@@ -10,8 +10,8 @@
 #  email = "test-#{n+1}@ucas.ac.cn"
 #  password = "123456"
 
-
-   User.create!(name:  'admin',
+    
+    User.create!(name:  'admin',
                email: 'admin@mails.ucas.ac.cn',
                password:              '123456',
                password_confirmation:  '123456',
